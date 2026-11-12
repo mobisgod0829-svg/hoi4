@@ -1,0 +1,31 @@
+technologies = {
+
+    # Operative Slot Technologies
+
+    operative_slot_production_research = {
+        enable_equipments = {
+            operative_slot_in_warehouse
+            operative_slot_in_warehouse_product
+        }
+        research_cost = -1
+        ai_will_do = { factor = 0 }
+    }
+
+    operative_slot_production_2_research = {
+        enable_equipments = {
+            operative_slot_in_warehouse_product_2
+        }
+        research_cost = -1
+        ai_will_do = { factor = 0 }
+    }
+
+    operative_slot_production_3_research = {
+        enable_equipments = {
+            operative_slot_in_warehouse_product_3
+        }
+        research_cost = -1
+        ai_will_do = { factor = 0 }
+    }
+
+
+}

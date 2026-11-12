@@ -1,0 +1,237 @@
+equipments = {
+    # civilian factory production
+	civilian_factory_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_civilian_factory
+		is_buildable = no
+
+		type = infantry  # = suicide # it is just the little used type ...
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+#		can_be_lend_leased = 
+		lend_lease_cost = 2 # Yes, pp can be supplied with Lend-Lease ;D
+		
+		build_cost_ic = 4800
+		resources = {
+
+		}
+	}
+
+	civilian_factory_in_warehouse_product = {
+		year = 1936
+		archetype = civilian_factory_in_warehouse
+		priority = 10	
+	}
+
+	civilian_factory_in_warehouse_product_2 = {
+		year = 1938
+		archetype = civilian_factory_in_warehouse
+		parent = civilian_factory_in_warehouse_product
+		build_cost_ic = 3200
+		priority = 20
+	}
+
+	civilian_factory_in_warehouse_product_3 = {
+		year = 1941
+		archetype = civilian_factory_in_warehouse
+		parent = civilian_factory_in_warehouse_product_2
+		build_cost_ic = 2000
+		priority = 30
+	}
+
+	# military facctory production 
+
+	military_factory_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_military_factory
+		is_buildable = no
+
+		type = infantry  # = suicide # it is just the little used type ...
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+#		can_be_lend_leased = 
+		lend_lease_cost = 2 # Yes, pp can be supplied with Lend-Lease ;D
+		
+		build_cost_ic = 4200
+		resources = {
+
+		}
+	}
+
+	military_factory_in_warehouse_product = {
+		year = 1936
+		archetype = military_factory_in_warehouse
+		priority = 10	
+	}
+
+	military_factory_in_warehouse_product_2 = {
+		year = 1938
+		archetype = military_factory_in_warehouse
+		parent = military_factory_in_warehouse_product
+		build_cost_ic = 3000
+		priority = 20
+	}
+
+	military_factory_in_warehouse_product_3 = {
+		year = 1941
+		archetype = military_factory_in_warehouse
+		parent = military_factory_in_warehouse_product_2
+		build_cost_ic = 1500
+		priority = 30
+	}
+
+	# naval dockyard production 
+
+	naval_dockyard_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_naval_dockyard
+		is_buildable = no
+
+		type = infantry  # = suicide # it is just the little used type ...
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+#		can_be_lend_leased = 
+		lend_lease_cost = 2 # Yes, pp can be supplied with Lend-Lease ;D
+		
+		build_cost_ic = 2700
+		resources = {
+
+		}
+	}
+
+	naval_dockyard_in_warehouse_product = {
+		year = 1936
+		archetype = naval_dockyard_in_warehouse
+		priority = 10	
+	}
+
+	naval_dockyard_in_warehouse_product_2 = {
+		year = 1938
+		archetype = naval_dockyard_in_warehouse
+		parent = naval_dockyard_in_warehouse_product
+		build_cost_ic = 2000
+		priority = 20
+	}
+
+	naval_dockyard_in_warehouse_product_3 = {
+		year = 1941
+		archetype = naval_dockyard_in_warehouse
+		parent = naval_dockyard_in_warehouse_product_2
+		build_cost_ic = 1200
+		priority = 30
+	}
+
+	# Factory Output Equipment Definition
+
+	factory_output_in_warehouse = {
+		year = 1936
+
+		is_archetype = yes
+		
+		picture = archetype_factory_output
+		is_buildable = no
+
+		type = infantry  # Using infantry type as a placeholder
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+		lend_lease_cost = 2
+		
+		build_cost_ic = 1000
+		resources = {
+		
+		}
+	}
+
+	factory_output_in_warehouse_product = {
+		year = 1936
+		archetype = factory_output_in_warehouse
+		priority = 10	
+	}
+
+	factory_output_in_warehouse_product_2 = {
+		year = 1938
+		archetype = factory_output_in_warehouse
+		parent = factory_output_in_warehouse_product
+		build_cost_ic = 500
+		priority = 20
+	}
+
+	factory_output_in_warehouse_product_3 = {
+		year = 1941
+		archetype = factory_output_in_warehouse
+		parent = factory_output_in_warehouse_product_2
+		build_cost_ic = 100
+		priority = 30
+	}
+
+	construction_speed_in_warehouse = {
+		year = 1936
+
+		is_archetype = yes
+		
+		picture = archetype_construction_speed
+		is_buildable = no
+
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+		lend_lease_cost = 2
+		
+		build_cost_ic = 1000
+		resources = {
+		
+		}
+	}
+
+	construction_speed_in_warehouse_product = {
+		year = 1936
+		archetype = construction_speed_in_warehouse
+		priority = 10	
+	}
+
+	construction_speed_in_warehouse_product_2 = {
+		year = 1938
+		archetype = construction_speed_in_warehouse
+		parent = construction_speed_in_warehouse_product
+		build_cost_ic = 500
+		priority = 20
+	}
+
+	construction_speed_in_warehouse_product_3 = {
+		year = 1941
+		archetype = construction_speed_in_warehouse
+		parent = construction_speed_in_warehouse_product_2
+		build_cost_ic = 100
+		priority = 30
+	}
+
+}

@@ -1,0 +1,234 @@
+﻿l_russian:
+  # Технологии производства людских ресурсов
+  manpower_production_research: "Синтетическая рабочая сила I"
+  manpower_production_research_desc: "Разблокирует производство синтетической рабочей силы."
+  manpower_production_2_research: "Синтетическая рабочая сила II"
+  manpower_production_2_research_desc: "Разблокирует более дешевое производство синтетической рабочей силы."
+  manpower_production_3_research: "Синтетическая рабочая сила III"
+  manpower_production_3_research_desc: "Разблокирует самое дешевое производство синтетической рабочей силы."
+
+  # Технологии производства политической власти
+  political_power_production_research: "Политическая власть I"
+  political_power_production_research_desc: "Разблокирует производство политической власти I."
+  political_power_production_2_research: "Политическая власть II"
+  political_power_production_2_research_desc: "Разблокирует производство политической власти II."
+  political_power_production_3_research: "Политическая власть III"
+  political_power_production_3_research_desc: "Разблокирует производство политической власти III."
+
+  # Технологии производства стабильности
+  stability_production_research: "Стабильность I"
+  stability_production_research_desc: "Разблокирует производство стабильности I."
+  stability_production_2_research: "Стабильность II"
+  stability_production_2_research_desc: "Разблокирует производство стабильности II."
+  stability_production_3_research: "Стабильность III"
+  stability_production_3_research_desc: "Разблокирует производство стабильности III."
+
+  # Технологии производства поддержки войны
+  warsupport_production_research: "Поддержка войны I"
+  warsupport_production_research_desc: "Разблокирует производство поддержки войны I."
+  warsupport_production_2_research: "Поддержка войны II"
+  warsupport_production_2_research_desc: "Разблокирует производство поддержки войны II."
+  warsupport_production_3_research: "Поддержка войны III"
+  warsupport_production_3_research_desc: "Разблокирует производство поддержки войны III."
+
+  # Технологии производства идеологической поддержки
+  democracy_production_research: "Производство поддержки демократии"
+  democracy_production_research_desc: "Разблокирует производство поддержки демократии."
+  communism_production_research: "Производство поддержки коммунизма"
+  communism_production_research_desc: "Разблокирует производство поддержки коммунизма."
+  neutrality_production_research: "Производство поддержки нейтралитета"
+  neutrality_production_research_desc: "Разблокирует производство поддержки нейтралитета."
+  fascism_production_research: "Производство поддержки фашизма"
+  fascism_production_research_desc: "Разблокирует производство поддержки фашизма."
+
+  # Технологии производства опыта армии
+  armyxp_production_research: "Опыт армии I"
+  armyxp_production_research_desc: "Разблокирует производство опыта армии I."
+  armyxp_production_2_research: "Опыт армии II"
+  armyxp_production_2_research_desc: "Разблокирует производство опыта армии II."
+  armyxp_production_3_research: "Опыт армии III"
+  armyxp_production_3_research_desc: "Разблокирует производство опыта армии III."
+
+  # Технологии производства опыта флота
+  navyxp_production_research: "Опыт флота I"
+  navyxp_production_research_desc: "Разблокирует производство опыта флота I."
+  navyxp_production_2_research: "Опыт флота II"
+  navyxp_production_2_research_desc: "Разблокирует производство опыта флота II."
+  navyxp_production_3_research: "Опыт флота III"
+  navyxp_production_3_research_desc: "Разблокирует производство опыта флота III."
+
+  # Технологии производства опыта авиации
+  airxp_production_research: "Опыт авиации I"
+  airxp_production_research_desc: "Разблокирует производство опыта авиации I."
+  airxp_production_2_research: "Опыт авиации II"
+  airxp_production_2_research_desc: "Разблокирует производство опыта авиации II."
+  airxp_production_3_research: "Опыт авиации III"
+  airxp_production_3_research_desc: "Разблокирует производство опыта авиации III."
+
+  # Технологии производства командных очков
+  command_power_production_research: "Командные очки I"
+  command_power_production_research_desc: "Разблокирует производство командных очков I."
+  command_power_production_2_research: "Командные очки II"
+  command_power_production_2_research_desc: "Разблокирует производство командных очков II."
+  command_power_production_3_research: "Командные очки III"
+  command_power_production_3_research_desc: "Разблокирует производство командных очков III."
+
+  # Технологии производства исследовательских очков
+  research_point_production_research: "Исследовательские очки I"
+  research_point_production_research_desc: "Разблокирует производство исследовательских очков I."
+  research_point_production_2_research: "Исследовательские очки II"
+  research_point_production_2_research_desc: "Разблокирует производство исследовательских очков II."
+  research_point_production_3_research: "Исследовательские очки III"
+  research_point_production_3_research_desc: "Разблокирует производство исследовательских очков III."
+
+  # Технологии производства фабрик
+  civilian_factory_production_research: "Гражданский завод I"
+  civilian_factory_production_research_desc: "Разблокирует производство гражданских заводов I."
+  civilian_factory_production_2_research: "Гражданский завод II"
+  civilian_factory_production_2_research_desc: "Разблокирует производство гражданских заводов II."
+  civilian_factory_production_3_research: "Гражданский завод III"
+  civilian_factory_production_3_research_desc: "Разблокирует производство гражданских заводов III."
+
+  military_factory_production_research: "Военный завод I"
+  military_factory_production_research_desc: "Разблокирует производство военных заводов I."
+  military_factory_production_2_research: "Военный завод II"
+  military_factory_production_2_research_desc: "Разблокирует производство военных заводов II."
+  military_factory_production_3_research: "Военный завод III"
+  military_factory_production_3_research_desc: "Разблокирует производство военных заводов III."
+
+  naval_dockyard_production_research: "Верфь I"
+  naval_dockyard_production_research_desc: "Разблокирует производство верфей I."
+  naval_dockyard_production_2_research: "Верфь II"
+  naval_dockyard_production_2_research_desc: "Разблокирует производство верфей II."
+  naval_dockyard_production_3_research: "Верфь III"
+  naval_dockyard_production_3_research_desc: "Разблокирует производство верфей III."
+
+  # Технологии добычи ресурсов
+  oil_production_research: "Добыча нефти I"
+  oil_production_research_desc: "Разблокирует базовую добычу нефти."
+  oil_production_2_research: "Добыча нефти II"
+  oil_production_2_research_desc: "Разблокирует среднюю добычу нефти."
+  oil_production_3_research: "Добыча нефти III"
+  oil_production_3_research_desc: "Разблокирует передовую добычу нефти."
+
+  aluminium_production_research: "Добыча алюминия I"
+  aluminium_production_research_desc: "Разблокирует базовую добычу алюминия."
+  aluminium_production_2_research: "Добыча алюминия II"
+  aluminium_production_2_research_desc: "Разблокирует среднюю добычу алюминия."
+  aluminium_production_3_research: "Добыча алюминия III"
+  aluminium_production_3_research_desc: "Разблокирует передовую добычу алюминия."
+
+  rubber_production_research: "Добыча резины I"
+  rubber_production_research_desc: "Разблокирует базовую добычу резины."
+  rubber_production_2_research: "Добыча резины II"
+  rubber_production_2_research_desc: "Разблокирует среднюю добычу резины."
+  rubber_production_3_research: "Добыча резины III"
+  rubber_production_3_research_desc: "Разблокирует передовую добычу резины."
+
+  steel_production_research: "Добыча стали I"
+  steel_production_research_desc: "Разблокирует базовую добычу стали."
+  steel_production_2_research: "Добыча стали II"
+  steel_production_2_research_desc: "Разблокирует среднюю добычу стали."
+  steel_production_3_research: "Добыча стали III"
+  steel_production_3_research_desc: "Разблокирует передовую добычу стали."
+
+  tungsten_production_research: "Добыча вольфрама I"
+  tungsten_production_research_desc: "Разблокирует базовую добычу вольфрама."
+  tungsten_production_2_research: "Добыча вольфрама II"
+  tungsten_production_2_research_desc: "Разблокирует среднюю добычу вольфрама."
+  tungsten_production_3_research: "Добыча вольфрама III"
+  tungsten_production_3_research_desc: "Разблокирует передовую добычу вольфрама."
+
+  chromium_production_research: "Добыча хрома I"
+  chromium_production_research_desc: "Разблокирует базовую добычу хрома."
+  chromium_production_2_research: "Добыча хрома II"
+  chromium_production_2_research_desc: "Разблокирует среднюю добычу хрома."
+  chromium_production_3_research: "Добыча хрома III"
+  chromium_production_3_research_desc: "Разблокирует передовую добычу хрома."
+
+  # Технологии прорыва армии
+  army_breakthrough_production_research: "Прорыв армейских объектов I"
+  army_breakthrough_production_research_desc: "Разблокирует базовую технологию производства прорыва армейских объектов."
+  army_breakthrough_production_2_research: "Прорыв армейских объектов II"
+  army_breakthrough_production_2_research_desc: "Разблокирует среднюю технологию производства прорыва армейских объектов."
+  army_breakthrough_production_3_research: "Прорыв армейских объектов III"
+  army_breakthrough_production_3_research_desc: "Разблокирует передовую технологию производства прорыва армейских объектов."
+
+  # Технологии прорыва флота
+  navy_breakthrough_production_research: "Прорыв военно-морских объектов I"
+  navy_breakthrough_production_research_desc: "Разблокирует базовую технологию производства прорыва военно-морских объектов."
+  navy_breakthrough_production_2_research: "Прорыв военно-морских объектов II"
+  navy_breakthrough_production_2_research_desc: "Разблокирует среднюю технологию производства прорыва военно-морских объектов."
+  navy_breakthrough_production_3_research: "Прорыв военно-морских объектов III"
+  navy_breakthrough_production_3_research_desc: "Разблокирует передовую технологию производства прорыва военно-морских объектов."
+
+  # Технологии прорыва авиации
+  air_breakthrough_production_research: "Прорыв авиационных объектов I"
+  air_breakthrough_production_research_desc: "Разблокирует базовую технологию производства прорыва авиационных объектов."
+  air_breakthrough_production_2_research: "Прорыв авиационных объектов II"
+  air_breakthrough_production_2_research_desc: "Разблокирует среднюю технологию производства прорыва авиационных объектов."
+  air_breakthrough_production_3_research: "Прорыв авиационных объектов III"
+  air_breakthrough_production_3_research_desc: "Разблокирует передовую технологию производства прорыва авиационных объектов."
+
+  # Технологии прорыва ядерных объектов
+  nuclear_breakthrough_production_research: "Прорыв ядерных объектов I"
+  nuclear_breakthrough_production_research_desc: "Разблокирует базовую технологию производства прорыва ядерных объектов."
+  nuclear_breakthrough_production_2_research: "Прорыв ядерных объектов II"
+  nuclear_breakthrough_production_2_research_desc: "Разблокирует среднюю технологию производства прорыва ядерных объектов."
+  nuclear_breakthrough_production_3_research: "Прорыв ядерных объектов III"
+  nuclear_breakthrough_production_3_research_desc: "Разблокирует передовую технологию производства прорыва ядерных объектов."
+
+  # Технологии производства оборудования для подчинения
+  compliance_equipment_production_research: "Производство оборудования для подчинения I"
+  compliance_equipment_production_research_desc: "Разблокирует базовую технологию производства оборудования для подчинения."
+  compliance_equipment_production_2_research: "Производство оборудования для подчинения II"
+  compliance_equipment_production_2_research_desc: "Разблокирует среднюю технологию производства оборудования для подчинения."
+  compliance_equipment_production_3_research: "Производство оборудования для подчинения III"
+  compliance_equipment_production_3_research_desc: "Разблокирует передовую технологию производства оборудования для подчинения."
+
+  # Технологии подавления сопротивления
+  resistance_equipment_production_research: "Оборудование для подавления сопротивления I"
+  resistance_equipment_production_research_desc: "Разблокирует базовую технологию производства оборудования для подавления сопротивления."
+  resistance_equipment_production_2_research: "Оборудование для подавления сопротивления II"
+  resistance_equipment_production_2_research_desc: "Разблокирует среднюю технологию производства оборудования для подавления сопротивления."
+  resistance_equipment_production_3_research: "Оборудование для подавления сопротивления III"
+  resistance_equipment_production_3_research_desc: "Разблокирует передовую технологию производства оборудования для подавления сопротивления."
+
+  # Технологии создания ядра
+  coring_equipment_production_research: "Производство оборудования для создания ядра I"
+  coring_equipment_production_research_desc: "Разблокирует базовую технологию производства оборудования для создания ядра."
+  coring_equipment_production_2_research: "Производство оборудования для создания ядра II"
+  coring_equipment_production_2_research_desc: "Разблокирует среднюю технологию производства оборудования для создания ядра."
+  coring_equipment_production_3_research: "Производство оборудования для создания ядра III"
+  coring_equipment_production_3_research_desc: "Разблокирует передовую технологию производства оборудования для создания ядра."
+  # Производительность фабрик
+  factory_output_production_research: "Производительность фабрик I"
+  factory_output_production_research_desc: "Разблокирует базовое оборудование для увеличения производительности фабрик."
+  factory_output_production_2_research: "Производительность фабрик II"
+  factory_output_production_2_research_desc: "Разблокирует среднее оборудование для увеличения производительности фабрик."
+  factory_output_production_3_research: "Производительность фабрик III"
+  factory_output_production_3_research_desc: "Разблокирует передовое оборудование для увеличения производительности фабрик."
+
+  # Слоты оперативников
+  operative_slot_production_research: "Слот оперативника I"
+  operative_slot_production_research_desc: "Разблокирует базовый слот для оперативника."
+  operative_slot_production_2_research: "Слот оперативника II"
+  operative_slot_production_2_research_desc: "Разблокирует средний слот для оперативника."
+  operative_slot_production_3_research: "Слот оперативника III"
+  operative_slot_production_3_research_desc: "Разблокирует передовой слот для оперативника."
+
+  # Увеличение автономии
+  increase_autonomy_production_research: "Увеличение автономии I"
+  increase_autonomy_production_research_desc: "Разблокирует базовое оборудование для увеличения автономии."
+  increase_autonomy_production_2_research: "Увеличение автономии II"
+  increase_autonomy_production_2_research_desc: "Разблокирует среднее оборудование для увеличения автономии."
+  increase_autonomy_production_3_research: "Увеличение автономии III"
+  increase_autonomy_production_3_research_desc: "Разблокирует передовое оборудование для увеличения автономии."
+
+  # Снижение автономии
+  decrease_autonomy_production_research: "Снижение автономии I"
+  decrease_autonomy_production_research_desc: "Разблокирует базовое оборудование для снижения автономии."
+  decrease_autonomy_production_2_research: "Снижение автономии II"
+  decrease_autonomy_production_2_research_desc: "Разблокирует среднее оборудование для снижения автономии."
+  decrease_autonomy_production_3_research: "Снижение автономии III"
+  decrease_autonomy_production_3_research_desc: "Разблокирует передовое оборудование для снижения автономии."

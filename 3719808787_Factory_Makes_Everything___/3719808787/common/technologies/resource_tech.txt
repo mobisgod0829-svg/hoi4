@@ -1,0 +1,227 @@
+technologies = {
+    # oil 
+	oil_production_research = {
+		
+		enable_equipments = {
+			oil_in_warehouse
+			oil_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	oil_production_2_research = {
+
+		enable_equipments = {
+			oil_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	oil_production_3_research = {
+		
+		enable_equipments = {
+			oil_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+    # steel 
+	steel_production_research = {
+		
+		enable_equipments = {
+			steel_in_warehouse
+			steel_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	steel_production_2_research = {
+
+		enable_equipments = {
+			steel_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	steel_production_3_research = {
+		
+		enable_equipments = {
+			steel_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+
+    # tungsten 
+	tungsten_production_research = {
+		
+		enable_equipments = {
+			tungsten_in_warehouse
+			tungsten_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	tungsten_production_2_research = {
+
+		enable_equipments = {
+			tungsten_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	tungsten_production_3_research = {
+		
+		enable_equipments = {
+			tungsten_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+
+    # aluminium 
+	aluminium_production_research = {
+		
+		enable_equipments = {
+			aluminium_in_warehouse
+			aluminium_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	aluminium_production_2_research = {
+
+		enable_equipments = {
+			aluminium_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	aluminium_production_3_research = {
+		
+		enable_equipments = {
+			aluminium_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+    # rubber 
+	rubber_production_research = {
+		
+		enable_equipments = {
+			rubber_in_warehouse
+			rubber_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	rubber_production_2_research = {
+
+		enable_equipments = {
+			rubber_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	rubber_production_3_research = {
+		
+		enable_equipments = {
+			rubber_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+    # chromium 
+	chromium_production_research = {
+		
+		enable_equipments = {
+			chromium_in_warehouse
+			chromium_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	chromium_production_2_research = {
+
+		enable_equipments = {
+			chromium_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	chromium_production_3_research = {
+		
+		enable_equipments = {
+			chromium_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+    # coal 
+	coal_production_research = {
+		
+		enable_equipments = {
+			coal_in_warehouse
+			coal_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	coal_production_2_research = {
+
+		enable_equipments = {
+			coal_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	coal_production_3_research = {
+		
+		enable_equipments = {
+			coal_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+}

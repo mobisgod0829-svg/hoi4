@@ -1,0 +1,97 @@
+technologies = {
+    # Compliance Equipment
+	compliance_equipment_production_research = {
+		
+		enable_equipments = {
+			compliance_equipment_in_warehouse
+			compliance_equipment_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	compliance_equipment_production_2_research = {
+
+		enable_equipments = {
+			compliance_equipment_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	compliance_equipment_production_3_research = {
+		
+		enable_equipments = {
+			compliance_equipment_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+    # Resistance Equipment
+	resistance_equipment_production_research = {
+		
+		enable_equipments = {
+			resistance_equipment_in_warehouse
+			resistance_equipment_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	resistance_equipment_production_2_research = {
+
+		enable_equipments = {
+			resistance_equipment_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	resistance_equipment_production_3_research = {
+		
+		enable_equipments = {
+			resistance_equipment_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+    # Coring Equipment
+	coring_equipment_production_research = {
+		
+		enable_equipments = {
+			coring_equipment_in_warehouse
+			coring_equipment_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	coring_equipment_production_2_research = {
+
+		enable_equipments = {
+			coring_equipment_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	coring_equipment_production_3_research = {
+		
+		enable_equipments = {
+			coring_equipment_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+}

@@ -1,0 +1,308 @@
+more_production_decision = {
+
+    automate_occupation_decision = {
+        icon = mission_icon
+        priority = 1145141919810
+		cost = 0
+
+        visible = {
+            has_country_flag = occupation_decision_enabled
+            NOT = {has_country_flag = automate_occupation_enabled}
+        }
+        
+		complete_effect = {
+            set_country_flag = automate_occupation_enabled
+		}
+    }
+
+    cancel_automate_occupation_decision = {
+        icon = mission_icon
+        priority = 1145141919810
+		cost = 0
+
+        visible = {
+            has_country_flag = occupation_decision_enabled
+            has_country_flag = automate_occupation_enabled
+        }
+        
+		complete_effect = {
+            clr_country_flag = automate_occupation_enabled
+		}
+    }
+
+    occupation_equipment_research_decision = {
+        icon = GFX_decision_generic_form_nation
+        cost = 0
+        priority = 30
+        fire_only_once = yes
+
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = occupation_equipment_research_decision_trigger_tt
+                OR = {
+                    has_country_flag = cheat_mode
+                    check_variable = {
+                        research_point_var > 10
+                    }
+                }
+            }
+        }
+
+        complete_effect = {
+            if = {
+                limit = {
+                    has_country_flag = normal_mode
+                }
+                add_to_variable = {
+                    var = research_point_var
+                    value = -10
+                }
+            }
+            set_technology = {
+                compliance_equipment_production_research = 1
+                resistance_equipment_production_research = 1
+                coring_equipment_production_research = 1
+            }
+            set_country_flag = occupation_decision_enabled
+        }
+    }
+
+    occupation_equipment_research_2_decision = {
+        icon = GFX_decision_generic_form_nation
+        cost = 0
+        priority = 20
+        fire_only_once = yes
+
+        visible = {
+            has_tech = compliance_equipment_production_research
+            has_tech = resistance_equipment_production_research
+            has_tech = coring_equipment_production_research
+        }
+
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = occupation_equipment_research_2_decision_trigger_tt
+                OR = {
+                    has_country_flag = cheat_mode
+                    check_variable = {
+                        research_point_var > 1000
+                    }
+                }
+            }
+        }
+
+        complete_effect = {
+            if = {
+                limit = {
+                    has_country_flag = normal_mode
+                }
+                add_to_variable = {
+                    var = research_point_var
+                    value = -1000
+                }
+            }
+            set_technology = {
+                compliance_equipment_production_2_research = 1
+                resistance_equipment_production_2_research = 1
+                coring_equipment_production_2_research = 1
+            }
+        }
+    }
+
+    occupation_equipment_research_3_decision = {
+        icon = GFX_decision_generic_form_nation
+        cost = 0
+        priority = 10
+        fire_only_once = yes
+
+        visible = {
+            has_tech = compliance_equipment_production_2_research
+            has_tech = resistance_equipment_production_2_research
+            has_tech = coring_equipment_production_2_research
+        }
+
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = occupation_equipment_research_3_decision_trigger_tt
+                OR = {
+                    has_country_flag = cheat_mode
+                    check_variable = {
+                        research_point_var > 100000
+                    }
+                }
+            }
+        }
+
+        complete_effect = {
+            if = {
+                limit = {
+                    has_country_flag = normal_mode
+                }
+                add_to_variable = {
+                    var = research_point_var
+                    value = -100000
+                }
+            }
+            set_technology = {
+                compliance_equipment_production_3_research = 1
+                resistance_equipment_production_3_research = 1
+                coring_equipment_production_3_research = 1
+            }
+        }
+    }
+
+    # State Occupation Decisions
+
+    occupation_compliance_decision = {
+		icon = GFX_archetype_compliance_equipment
+
+		visible = {
+			has_country_flag = occupation_decision_enabled
+            NOT = {
+                has_country_flag = automate_occupation_enabled
+            }
+		}
+
+		available = { 
+			FROM = {
+				is_fully_controlled_by = ROOT #can't integrate what you can't control
+                compliance < 70
+			}
+            has_equipment = { compliance_equipment_in_warehouse > 0 }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+
+		state_target = yes
+
+		on_map_mode = map_only #map only to not clog the decision ui with a huge list.
+
+		target_array = global.states
+
+		target_trigger = {
+			
+			FROM = {
+				NOT = {
+					is_core_of = ROOT
+				}
+                is_controlled_by = ROOT
+                compliance < 70
+			}	
+		}
+
+		complete_effect = {
+            add_equipment_to_stockpile = {
+                type = compliance_equipment_in_warehouse
+                amount = -1
+            }
+            FROM = {
+				add_compliance = 75
+			}
+		}
+	}
+
+    occupation_remove_resistance_decision = {
+		icon = GFX_archetype_resistance_equipment
+
+		visible = {
+			has_country_flag = occupation_decision_enabled
+            NOT = {
+                has_country_flag = automate_occupation_enabled
+            }
+		}
+
+		available = { 
+			FROM = {
+				is_fully_controlled_by = ROOT #can't integrate what you can't control
+                resistance > 10
+			}
+            has_equipment = { resistance_equipment_in_warehouse > 0 }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+
+		state_target = yes
+
+		on_map_mode = map_only #map only to not clog the decision ui with a huge list.
+
+		target_array = global.states
+
+		target_trigger = {
+			
+			FROM = {
+				NOT = {
+					is_core_of = ROOT
+				}
+                resistance > 10
+                is_controlled_by = ROOT
+			}	
+		}
+
+		complete_effect = {
+            add_equipment_to_stockpile = {
+                type = resistance_equipment_in_warehouse
+                amount = -1
+            }
+            FROM = {
+				add_resistance = -100
+			}
+		}
+	}
+
+    occupation_integrating_cores_decision = {
+		icon = GFX_decision_generic_form_nation
+
+		visible = {
+		    has_country_flag = occupation_decision_enabled
+            NOT = {
+                has_country_flag = automate_occupation_enabled
+            }
+		}
+
+		available = { 
+			FROM = {
+				is_fully_controlled_by = ROOT #can't integrate what you can't control
+                compliance > 70
+                resistance < 10
+			}
+            has_equipment = { coring_equipment_in_warehouse > 0 }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+
+		state_target = yes
+
+		on_map_mode = map_only #map only to not clog the decision ui with a huge list.
+
+		target_array = global.states
+
+		target_trigger = {
+			
+			FROM = {
+				NOT = {
+					is_core_of = ROOT
+				}
+                compliance > 70
+                resistance < 10
+                is_controlled_by = ROOT
+			}	
+		}
+
+		complete_effect = {
+            add_equipment_to_stockpile = {
+                type = coring_equipment_in_warehouse
+                amount = -1
+            }
+            FROM = {
+				add_core_of = ROOT
+			}
+		}
+	}
+
+}

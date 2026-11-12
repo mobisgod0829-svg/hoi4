@@ -1,0 +1,97 @@
+technologies = {
+	# political power
+	political_power_production_research = {
+		
+		enable_equipments = {
+			pp_in_warehouse
+			pp_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	political_power_production_2_research = {
+
+		enable_equipments = {
+			pp_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	political_power_production_3_research = {
+		
+		enable_equipments = {
+			pp_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	# stability
+	stability_production_research = {
+		
+		enable_equipments = {
+			stability_in_warehouse
+			stability_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	stability_production_2_research = {
+
+		enable_equipments = {
+			stability_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	stability_production_3_research = {
+		
+		enable_equipments = {
+			stability_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	# war support
+	warsupport_production_research = {
+		
+		enable_equipments = {
+			warsupport_in_warehouse
+			warsupport_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	warsupport_production_2_research = {
+
+		enable_equipments = {
+			warsupport_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	warsupport_production_3_research = {
+		
+		enable_equipments = {
+			warsupport_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+}

@@ -1,0 +1,50 @@
+flag_decision = {
+
+    cheat_mode_decision = {
+        icon = mission_icon
+		cost = 0
+		complete_effect = {
+			hidden_effect = {
+                set_country_flag = cheat_mode
+
+                set_variable = {
+                    var = research_point_var
+                    value = 0
+                }
+
+                set_variable = {
+                    var = converted_research_speed
+                    value = 100
+                }
+                
+                add_dynamic_modifier = {
+				    modifier = research_speed_dymanic_modifier
+			    }
+            }
+		}
+    }
+
+    normal_mode_decision = {
+        icon = mission_icon
+		cost = 0
+		complete_effect = {
+            set_technology = {
+                research_point_production_research = 1
+            }
+			hidden_effect = {
+                set_country_flag = normal_mode
+
+                set_variable = {
+                    var = research_point_var
+                    value = 0
+                }
+
+                set_variable = {
+                    var = converted_research_speed
+                    value = 0
+                }
+            }
+		}
+    }
+
+}

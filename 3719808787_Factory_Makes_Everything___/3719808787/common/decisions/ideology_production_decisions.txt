@@ -1,0 +1,39 @@
+more_production_decision = {
+
+	ideology_research_decision = {
+		icon = generic_civil_support
+		cost = 0
+        priority = 25
+		fire_only_once = yes 
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = ideology_research_decision_trigger_tt
+				OR = {
+					has_country_flag = cheat_mode
+					check_variable = {
+						research_point_var > 49
+					}
+				}
+			}
+		}
+
+		complete_effect = {
+			if = {
+				limit = {
+					has_country_flag = normal_mode
+				}
+				add_to_variable = {
+					var = research_point_var
+					value = -50
+				}
+			}
+			set_technology = {
+				democracy_production_research = 1
+				communism_production_research = 1
+				neutrality_production_research = 1
+				fascism_production_research = 1
+			}
+		}
+	}
+}

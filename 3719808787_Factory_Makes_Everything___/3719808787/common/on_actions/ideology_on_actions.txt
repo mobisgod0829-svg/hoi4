@@ -1,0 +1,242 @@
+on_actions = {
+
+    # Ideology
+	on_weekly = { # Democracy tech
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@democracy_in_warehouse_product > 0
+					}
+				}
+				
+				set_variable = {
+					var = democracy_product
+					value = var:num_equipment@democracy_in_warehouse_product
+				}
+				set_variable = {
+					var = democracy_product_negative
+					value = var:num_equipment@democracy_in_warehouse_product
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@democracy_in_warehouse_product > 0
+						}
+					}
+					multiply_variable = {
+						var = democracy_product_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = democracy_in_warehouse_product
+    				amount = democracy_product_negative
+    				# producer = ROOT
+				}
+
+				divide_variable = { democracy_product = 100}
+
+				add_popularity = {
+					ideology = democratic
+					popularity = democracy_product
+				}
+
+				set_variable = {
+					var = democracy_product
+					value = 0
+				}
+				set_variable = {
+					var = democracy_product_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+
+	on_weekly = { # Communism tech
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@communism_in_warehouse_product > 0
+					}
+				}
+				
+				set_variable = {
+					var = communism_product
+					value = var:num_equipment@communism_in_warehouse_product
+				}
+				set_variable = {
+					var = communism_product_negative
+					value = var:num_equipment@communism_in_warehouse_product
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@communism_in_warehouse_product > 0
+						}
+					}
+					multiply_variable = {
+						var = communism_product_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = communism_in_warehouse_product
+    				amount = communism_product_negative
+    				# producer = ROOT
+				}
+
+				divide_variable = { communism_product = 100}
+
+				add_popularity = {
+					ideology = communism
+					popularity = communism_product
+				}
+
+				set_variable = {
+					var = communism_product
+					value = 0
+				}
+				set_variable = {
+					var = communism_product_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+		on_weekly = { # fascism tech
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@fascism_in_warehouse_product > 0
+					}
+				}
+				
+				set_variable = {
+					var = fascism_product
+					value = var:num_equipment@fascism_in_warehouse_product
+				}
+				set_variable = {
+					var = fascism_product_negative
+					value = var:num_equipment@fascism_in_warehouse_product
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@fascism_in_warehouse_product > 0
+						}
+					}
+					multiply_variable = {
+						var = fascism_product_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = fascism_in_warehouse_product
+    				amount = fascism_product_negative
+    				# producer = ROOT
+				}
+
+				divide_variable = { fascism_product = 100}
+
+				add_popularity = {
+					ideology = fascism
+					popularity = fascism_product
+				}
+
+				set_variable = {
+					var = fascism_product
+					value = 0
+				}
+				set_variable = {
+					var = fascism_product_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+
+	on_weekly = { # neutrality tech
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@neutrality_in_warehouse_product > 0
+					}
+				}
+				
+				set_variable = {
+					var = neutrality_product
+					value = var:num_equipment@neutrality_in_warehouse_product
+				}
+				set_variable = {
+					var = neutrality_product_negative
+					value = var:num_equipment@neutrality_in_warehouse_product
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@neutrality_in_warehouse_product > 0
+						}
+					}
+					multiply_variable = {
+						var = neutrality_product_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = neutrality_in_warehouse_product
+    				amount = neutrality_product_negative
+    				# producer = ROOT
+				}
+
+				divide_variable = { neutrality_product = 100}
+
+				add_popularity = {
+					ideology = neutrality
+					popularity = neutrality_product
+				}
+
+				set_variable = {
+					var = neutrality_product
+					value = 0
+				}
+				set_variable = {
+					var = neutrality_product_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+}

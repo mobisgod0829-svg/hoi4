@@ -1,0 +1,78 @@
+man_generic_production = {
+	enable = {
+		has_manpower < 100000
+		NOT = {
+			has_tech = manpower_production_2_research
+			has_tech = manpower_production_3_research
+		}
+	}
+	
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = man_in_warehouse_product
+		value = 30
+	}
+	
+}
+
+man_generic_production_mid = {
+	enable = {
+		has_manpower < 100000
+		NOT = {
+			has_tech = manpower_production_3_research
+		}
+	}
+	
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = man_in_warehouse_product_2
+		value = 40
+	}
+	
+}
+
+man_generic_production_max = {
+	enable = {
+		has_manpower < 100000
+		has_tech = manpower_production_3_research
+	}
+	
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = man_in_warehouse_product_3
+		value = 50
+	}
+	
+}
+
+man_generic_production_minor = {
+	enable = {
+		has_manpower < 200000
+		is_major = no
+	}
+	
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = man_in_warehouse_product
+		value = 50
+	}
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = man_in_warehouse_product_2
+		value = 55
+	}
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = man_in_warehouse_product_3
+		value = 60
+	}
+	
+}

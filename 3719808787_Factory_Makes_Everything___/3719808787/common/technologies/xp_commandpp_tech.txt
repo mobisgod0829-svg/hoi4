@@ -1,0 +1,132 @@
+technologies = {
+    # army xp
+	armyxp_production_research = {
+		
+		enable_equipments = {
+			armyxp_in_warehouse
+			armyxp_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	armyxp_production_2_research = {
+
+		enable_equipments = {
+			armyxp_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	armyxp_production_3_research = {
+		
+		enable_equipments = {
+			armyxp_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+
+    # navy xp
+	navyxp_production_research = {
+		
+		enable_equipments = {
+			navyxp_in_warehouse
+			navyxp_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	navyxp_production_2_research = {
+
+		enable_equipments = {
+			navyxp_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	navyxp_production_3_research = {
+		
+		enable_equipments = {
+			navyxp_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+
+    # air xp
+	airxp_production_research = {
+		
+		enable_equipments = {
+			airxp_in_warehouse
+			airxp_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	airxp_production_2_research = {
+
+		enable_equipments = {
+			airxp_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	airxp_production_3_research = {
+		
+		enable_equipments = {
+			airxp_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+    
+    # command power
+	command_power_production_research = {
+		
+		enable_equipments = {
+			command_power_in_warehouse
+			command_power_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	command_power_production_2_research = {
+
+		enable_equipments = {
+			command_power_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	command_power_production_3_research = {
+		
+		enable_equipments = {
+			command_power_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+}

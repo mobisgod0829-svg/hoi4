@@ -1,0 +1,155 @@
+﻿l_english:
+  more_production_decision: "Military Factory Produces Everything!" 
+  more_production_decision_desc: "God created humanity, and humanity created factories. If humans can do anything, why can't factories?\n\n Current research points: [?research_point_var]"
+
+  flag_decision: "Mode Selection"
+  cheat_mode_decision: "Unlock Any Technology at Will"
+  cheat_mode_decision_desc: "§RWarning: The player may become overly powerful§!"
+  normal_mode_decision: "Normal Mode"
+
+  cheat_mode: "Cheat Mode"
+  normal_mode: "Normal Mode"
+
+  manpower_research_decision: "Basic Synthetic Man Research  |  §G10 research points§!"
+  manpower_research_decision_trigger_tt: "Requires §G10 research points§! Currently: §Y[?research_point_var]§!"
+
+  manpower_research_2_decision: "Intermediate Synthetic Man Research  |  §Y1,000 research points§!"
+  manpower_research_2_decision_trigger_tt: "Requires §Y1,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  manpower_research_3_decision: "Advanced Synthetic Man Research  |  §R100,000 research points§!"
+  manpower_research_3_decision_trigger_tt: "Requires §R100,000 research points§! Currently: §Y[?research_point_var]§!  \n §GThe actual manpower added to your manpower pool will be multiplied by 100!§!"
+
+  political_research_decision: "Basic Government Efficiency Research  |  §G10 research points§!"
+  political_research_decision_trigger_tt: "Requires §G10 research points§! Currently: §Y[?research_point_var]§!"
+
+  political_research_2_decision: "Intermediate Government Efficiency Research  |  §Y1,000 research points§!"
+  political_research_2_decision_trigger_tt: "Requires §Y1,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  political_research_3_decision: "Advanced Government Efficiency Research  |  §R100,000 research points§!"
+  political_research_3_decision_trigger_tt: "Requires §R100,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  research_point_2_decision: "Intermediate Research Point Production  |  §Y100 research points§!"
+  research_point_2_decision_trigger_tt: "Requires §Y100 research points§! Currently: §Y[?research_point_var]§!"
+  research_point_3_decision: "Advanced Research Point Production  |  §R10,000 research points§!"
+  research_point_3_decision_trigger_tt: "Requires §R10,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  ideology_research_decision: "Ideology Support Research  |  §Y50 research points§!"
+  ideology_research_decision_trigger_tt: "Requires §Y50 research points§! Currently: §Y[?research_point_var]§! \n §RWarning: MODs with ideology systems differing from the original may cause the game to crash§!"
+
+  facility_breakthrough_research_decision: "Basic Facility Breakthrough Research  |  §G10 research points§!"
+  facility_breakthrough_research_decision_trigger_tt: "Requires §G10 research points§! Currently: §Y[?research_point_var]§!"
+
+  facility_breakthrough_research_2_decision: "Intermediate Facility Breakthrough Research  |  §Y1,000 research points§!"
+  facility_breakthrough_research_2_decision_trigger_tt: "Requires §Y1,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  facility_breakthrough_research_3_decision: "Advanced Facility Breakthrough Research  |  §R100,000 research points§!"
+  facility_breakthrough_research_3_decision_trigger_tt: "Requires §R100,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  # XP Decisions
+  xp_production_decision: "Basic Military Experience Production Research  |  §G10 research points§!"
+  xp_production_decision_trigger_tt: "Requires §G10 research points§! Currently: §Y[?research_point_var]§!"
+
+  xp_production_2_decision: "Intermediate Military Experience Production Research  |  §Y1,000 research points§!"
+  xp_production_2_decision_trigger_tt: "Requires §Y1,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  xp_production_3_decision: "Advanced Military Experience Production Research  |  §R100,000 research points§!"
+  xp_production_3_decision_trigger_tt: "Requires §R100,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  # Command Power Decisions
+  command_power_production_decision: "Basic Command Power Research  |  §G10 research points§!"
+  command_power_production_decision_trigger_tt: "Requires §G10 research points§! Currently: §Y[?research_point_var]§!"
+
+  command_power_production_2_decision: "Intermediate Command Power Research  |  §Y1,000 research points§!"
+  command_power_production_2_decision_trigger_tt: "Requires §Y1,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  command_power_production_3_decision: "Advanced Command Power Research  |  §R100,000 research points§!"
+  command_power_production_3_decision_trigger_tt: "Requires §R100,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  # World Tension Decision
+  world_tension_production_decision: "World Tension Technology Research  |  §Y50 research points§!"
+  world_tension_production_decision_trigger_tt: "Requires §Y50 research points§! Currently: §Y[?research_point_var]§!"
+
+  # World Tension Technologies
+  world_tension_increase_production_research: "World Tension Increase Technology"
+  world_tension_increase_production_research_desc: "Unlocks industrial production capabilities that increase world tension."
+
+  world_tension_decrease_production_research: "World Tension Decrease Technology"
+  world_tension_decrease_production_research_desc: "Unlocks industrial production capabilities that decrease world tension."
+
+  factory_research_decision: "Basic Industrial Efficiency Research  |  §G10 research points§!"
+  factory_research_decision_trigger_tt: "Requires §G10 research points§! Currently: §Y[?research_point_var]§!"
+
+  factory_research_2_decision: "Intermediate Industrial Efficiency Research  |  §Y1,000 research points§!"
+  factory_research_2_decision_trigger_tt: "Requires §Y1,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  factory_research_3_decision: "Advanced Industrial Efficiency Research  |  §R100,000 research points§!"
+  factory_research_3_decision_trigger_tt: "Requires §R100,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  resource_research_decision: "Basic Resource Production Research  |  §G10 research points§!"
+  resource_research_decision_trigger_tt: "Requires §G10 research points§! Currently: §Y[?research_point_var]§!\n §GResources will be generated in your controlled capital§!"
+
+  resource_research_2_decision: "Intermediate Resource Production Research  |  §Y1,000 research points§!"
+  resource_research_2_decision_trigger_tt: "Requires §Y1,000 research points§! Currently: §Y[?research_point_var]§!\n §GResources will be generated in your controlled capital§!"
+
+  resource_research_3_decision: "Advanced Resource Production Research  |  §R100,000 research points§!"
+  resource_research_3_decision_trigger_tt: "Requires §R100,000 research points§! Currently: §Y[?research_point_var]§!\n §GResources will be generated in your controlled capital§!"
+
+  occupation_equipment_research_decision: "Basic Occupation Equipment Research  |  §G10 research points§!"
+  occupation_equipment_research_decision_trigger_tt: "Requires §G10 research points§! Currently: §Y[?research_point_var]§!"
+  # occupation_equipment_research_decision_desc: "\nCompliance and resistance equipment will activate randomly in your non-core territories\n\nTo produce core equipment, non-core provinces must have at least 50 Compliance"
+
+  occupation_equipment_research_2_decision: "Intermediate Occupation Equipment Research  |  §Y1,000 research points§!"
+  occupation_equipment_research_2_decision_trigger_tt: "Requires §Y1,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  occupation_equipment_research_3_decision: "Advanced Occupation Equipment Research  |  §R100,000 research points§!"
+  occupation_equipment_research_3_decision_trigger_tt: "Requires §R100,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  # Factory Output Decisions
+  factory_output_research_decision: "Basic Industrial Output Research  |  §G10 research points§!"
+  factory_output_research_decision_trigger_tt: "Requires §G10 research points§! Currently: §Y[?research_point_var]§!"
+
+  factory_output_research_2_decision: "Intermediate Industrial Output Research  |  §Y1,000 research points§!"
+  factory_output_research_2_decision_trigger_tt: "Requires §Y1,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  factory_output_research_3_decision: "Advanced Industrial Output Research  |  §R100,000 research points§!"
+  factory_output_research_3_decision_trigger_tt: "Requires §R100,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  # Operative Slot Decisions
+  operative_slot_research_decision: "Basic Operative Slot Research  |  §G10 research points§!"
+  operative_slot_research_decision_trigger_tt: "Requires §G10 research points§! Currently: §Y[?research_point_var]§!"
+
+  operative_slot_research_2_decision: "Intermediate Operative Slot Research  |  §Y1,000 research points§!"
+  operative_slot_research_2_decision_trigger_tt: "Requires §Y1,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  operative_slot_research_3_decision: "Advanced Operative Slot Research  |  §R100,000 research points§!"
+  operative_slot_research_3_decision_trigger_tt: "Requires §R100,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  # Increase Autonomy Decisions
+  autonomy_research_decision: "Basic Autonomy Research  |  §G10 research points§!"
+  autonomy_research_decision_trigger_tt: "Requires §G10 research points§! Currently: §Y[?research_point_var]§!"
+
+  autonomy_research_2_decision: "Intermediate Autonomy Research  |  §Y1,000 research points§!"
+  autonomy_research_2_decision_trigger_tt: "Requires §Y1,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  autonomy_research_3_decision: "Advanced Autonomy Research  |  §R100,000 research points§!"
+  autonomy_research_3_decision_trigger_tt: "Requires §R100,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  # Research Slot Decisions
+  research_slot_decision: "Research Slot Production  |  §R100,000 research points§!"
+  research_slot_decision_trigger_tt: "Requires §R100,000 research points§! Currently: §Y[?research_point_var]§!"
+
+  # Research Speed Decisions
+  research_speed_decision: "Convert §Gresearch points§! into §Yresearch speed§!"
+  research_speed_decision_trigger_tt: "\nCurrent research points: §Y[?research_point_var]§! \nConvertible research speed: §G[?converted_research_speed|.0%%]§!"
+
+  # Special Research Speed Decisions
+  special_research_speed_decision: "Convert §Gresearch points§! into §Yspecial project speed§!"
+  special_research_speed_decision_trigger_tt: "\nCurrent research points: §Y[?research_point_var]§! \nConvertible special project speed: §G[?converted_research_speed|.0%%]§!"
+
+  # Automate Occupation Equipment
+  automate_occupation_decision: "Automatically Use Occupation Equipment"
+  automate_occupation_decision_desc: "\n§GCompliance, resistance, and core-creation equipment will activate randomly in your non-core territories§!\n\n§RTo produce core equipment, non-core provinces must have at least 70 Compliance and less than 10 resistance§!"
+
+  # Cancel Automate Occupation Equipment
+  cancel_automate_occupation_decision: "Cancel Automatic Use of Occupation Equipment"
+  cancel_automate_occupation_decision_desc: "§GYou will be able to use occupation equipment manually on the map§!" 

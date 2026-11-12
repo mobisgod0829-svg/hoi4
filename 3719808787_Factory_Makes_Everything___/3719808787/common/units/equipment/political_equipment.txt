@@ -1,0 +1,158 @@
+equipments = {
+    # political power equipment
+
+	pp_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_politcal_power
+		is_buildable = no
+
+		type = infantry  # = suicide # it is just the little used type ...
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+#		can_be_lend_leased = 
+		lend_lease_cost = 2 # Yes, pp can be supplied with Lend-Lease ;D
+		
+		build_cost_ic = 30
+		resources = {
+			steel = 2
+		}
+	}
+
+	pp_in_warehouse_product = {
+		year = 1936
+		archetype = pp_in_warehouse
+		priority = 10	
+	}
+
+	pp_in_warehouse_product_2 = {
+		year = 1938
+		archetype = pp_in_warehouse
+		parent = pp_in_warehouse_product
+
+		build_cost_ic = 15
+
+		priority = 20	
+	}
+
+	pp_in_warehouse_product_3 = {
+		year = 1940
+		archetype = pp_in_warehouse
+		parent = pp_in_warehouse_product_2
+
+		build_cost_ic = 5
+
+		priority = 30
+	}
+
+
+    # Stability and War Support
+
+    stability_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_stability
+		is_buildable = no
+
+		type = infantry  # = suicide # it is just the little used type ...
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+#		can_be_lend_leased = 
+		lend_lease_cost = 2 # Yes, pp can be supplied with Lend-Lease ;D
+		
+		build_cost_ic = 100
+		resources = {
+			steel = 2
+		}
+	}
+
+	stability_in_warehouse_product = {
+		year = 1936
+		archetype = stability_in_warehouse
+		priority = 10	
+	}
+
+	stability_in_warehouse_product_2 = {
+		year = 1938
+		archetype = stability_in_warehouse
+		parent = stability_in_warehouse_product
+
+		build_cost_ic = 50
+
+		priority = 20	
+	}
+
+	stability_in_warehouse_product_3 = {
+		year = 1940
+		archetype = stability_in_warehouse
+		parent = stability_in_warehouse_product_2
+
+		build_cost_ic = 10
+
+		priority = 30
+	}
+
+
+	warsupport_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_warsupport
+		is_buildable = no
+
+		type = infantry  # = suicide # it is just the little used type ...
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+#		can_be_lend_leased = 
+		lend_lease_cost = 2 # Yes, pp can be supplied with Lend-Lease ;D
+		
+		build_cost_ic = 100
+		resources = {
+			steel = 2
+		}
+	}
+
+	warsupport_in_warehouse_product = {
+		year = 1936
+		archetype = warsupport_in_warehouse
+		priority = 10	
+	}
+
+	warsupport_in_warehouse_product_2 = {
+		year = 1938
+		archetype = warsupport_in_warehouse
+		parent = warsupport_in_warehouse_product
+
+		build_cost_ic = 50
+
+		priority = 20	
+	}
+
+	warsupport_in_warehouse_product_3 = {
+		year = 1940
+		archetype = warsupport_in_warehouse
+		parent = warsupport_in_warehouse_product_2
+
+		build_cost_ic = 10
+
+		priority = 30
+	}
+
+}

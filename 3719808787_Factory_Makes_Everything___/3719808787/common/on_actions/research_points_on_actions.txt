@@ -1,0 +1,189 @@
+on_actions = {
+    # update weeekly for research_point_var
+
+	on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@research_point_in_warehouse_product > 0
+					}
+				}
+				
+				set_variable = {
+					var = research_point_product
+					value = var:num_equipment@research_point_in_warehouse_product
+				}
+				set_variable = {
+					var = research_point_product_negative
+					value = var:num_equipment@research_point_in_warehouse_product
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@research_point_in_warehouse_product > 0
+						}
+					}
+					multiply_variable = {
+						var = research_point_product_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = research_point_in_warehouse_product
+    				amount = research_point_product_negative
+    				# producer = ROOT
+				}
+				add_to_variable = {
+                    var = research_point_var
+                    value = research_point_product
+                }
+				set_variable = {
+					var = research_point_product
+					value = 0
+				}
+				set_variable = {
+					var = research_point_product_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+	on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@research_point_in_warehouse_product_2 > 0
+					}
+				}
+				
+				set_variable = {
+					var = research_point_product_2
+					value = var:num_equipment@research_point_in_warehouse_product_2
+				}
+				set_variable = {
+					var = research_point_product_2_negative
+					value = var:num_equipment@research_point_in_warehouse_product_2
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@research_point_in_warehouse_product_2 > 0
+						}
+					}
+					multiply_variable = {
+						var = research_point_product_2_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = research_point_in_warehouse_product_2
+    				amount = research_point_product_2_negative
+    				# producer = ROOT
+				}
+				add_to_variable = {
+                    var = research_point_var
+                    value = research_point_product_2
+                }
+				set_variable = {
+					var = research_point_product_2
+					value = 0
+				}
+				set_variable = {
+					var = research_point_product_2_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+
+	on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@research_point_in_warehouse_product_3 > 0
+					}
+				}
+				
+				set_variable = {
+					var = research_point_product_3
+					value = var:num_equipment@research_point_in_warehouse_product_3
+				}
+				set_variable = {
+					var = research_point_product_3_negative
+					value = var:num_equipment@research_point_in_warehouse_product_3
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@research_point_in_warehouse_product_3 > 0
+						}
+					}
+					multiply_variable = {
+						var = research_point_product_3_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = research_point_in_warehouse_product_3
+    				amount = research_point_product_3_negative
+    				# producer = ROOT
+				}
+				add_to_variable = {
+                    var = research_point_var
+                    value = research_point_product_3
+                }
+				set_variable = {
+					var = research_point_product_3
+					value = 0
+				}
+				set_variable = {
+					var = research_point_product_3_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+	# research speed update 
+
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					has_country_flag = normal_mode
+				}
+				set_variable = {
+					var = converted_research_speed
+					value = research_point_var
+				}
+				divide_variable = {
+					var = converted_research_speed
+					value = 1000
+				}
+			}
+		}
+	}
+}

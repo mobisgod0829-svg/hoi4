@@ -1,0 +1,213 @@
+equipments = {
+    # army xp technology
+	armyxp_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_armyxp
+		is_buildable = no
+
+		type = infantry  # = suicide # it is just the little used type ...
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+#		can_be_lend_leased = 
+		lend_lease_cost = 2 # Yes, pp can be supplied with Lend-Lease ;D
+		
+		build_cost_ic = 20
+		resources = {
+			steel = 2
+		}
+	}
+
+	armyxp_in_warehouse_product = {
+		year = 1936
+		archetype = armyxp_in_warehouse
+		priority = 10	
+	}
+
+	armyxp_in_warehouse_product_2 = {
+		year = 1938
+		archetype = armyxp_in_warehouse
+		parent = armyxp_in_warehouse_product
+
+		build_cost_ic = 10
+
+		priority = 20	
+	}
+
+	armyxp_in_warehouse_product_3 = {
+		year = 1941
+		archetype = armyxp_in_warehouse
+		parent = armyxp_in_warehouse_product_2
+
+		build_cost_ic = 4
+
+		priority = 30
+	}
+
+
+	# naval xp technology
+
+	navyxp_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_navyxp
+		is_buildable = no
+
+		type = infantry  # = suicide # it is just the little used type ...
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+#		can_be_lend_leased = 
+		lend_lease_cost = 2 # Yes, pp can be supplied with Lend-Lease ;D
+		
+		build_cost_ic = 20
+		resources = {
+			steel = 1
+			oil = 1
+		}
+	}
+
+	navyxp_in_warehouse_product = {
+		year = 1936
+		archetype = navyxp_in_warehouse
+		priority = 10	
+	}
+
+	navyxp_in_warehouse_product_2 = {
+		year = 1938
+		archetype = navyxp_in_warehouse
+		parent = navyxp_in_warehouse_product
+
+		build_cost_ic = 10
+
+		priority = 20	
+	}
+
+	navyxp_in_warehouse_product_3 = {
+		year = 1941
+		archetype = navyxp_in_warehouse
+		parent = navyxp_in_warehouse_product_2
+
+		build_cost_ic = 4
+
+		priority = 30
+	}
+
+
+	# air xp technology
+
+	airxp_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_airxp
+		is_buildable = no
+
+		type = infantry  # = suicide # it is just the little used type ...
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+#		can_be_lend_leased = 
+		lend_lease_cost = 2 # Yes, pp can be supplied with Lend-Lease ;D
+		
+		build_cost_ic = 20
+		resources = {
+			aluminium = 2
+		}
+	}
+
+	airxp_in_warehouse_product = {
+		year = 1936
+		archetype = airxp_in_warehouse
+		priority = 10	
+	}
+
+	airxp_in_warehouse_product_2 = {
+		year = 1938
+		archetype = airxp_in_warehouse
+		parent = airxp_in_warehouse_product
+
+		build_cost_ic = 10
+
+		priority = 20	
+	}
+
+	airxp_in_warehouse_product_3 = {
+		year = 1938
+		archetype = airxp_in_warehouse
+		parent = airxp_in_warehouse_product_2
+
+		build_cost_ic = 4
+
+		priority = 30
+	}
+
+
+	# command power technology
+
+	command_power_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_command_power
+		is_buildable = no
+
+		type = infantry  # = suicide # it is just the little used type ...
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+#		can_be_lend_leased = 
+		lend_lease_cost = 2 # Yes, pp can be supplied with Lend-Lease ;D
+		
+		build_cost_ic = 15
+		resources = {
+			steel = 1
+			aluminium = 1
+		}
+	}
+
+	command_power_in_warehouse_product = {
+		year = 1936
+		archetype = command_power_in_warehouse
+		priority = 10	
+	}
+
+	command_power_in_warehouse_product_2 = {
+		year = 1938
+		archetype = command_power_in_warehouse
+		parent = command_power_in_warehouse_product
+
+		build_cost_ic = 8
+
+		priority = 20	
+	}
+
+	command_power_in_warehouse_product_3 = {
+		year = 1938
+		archetype = command_power_in_warehouse
+		parent = command_power_in_warehouse_product_2
+
+		build_cost_ic = 2
+
+		priority = 30
+	}
+}

@@ -1,0 +1,144 @@
+on_actions = {
+
+    on_weekly = { # Operative Slot I Tech
+
+        effect = {
+            if = {
+                limit = {
+                    check_variable = {
+                        var:num_equipment@operative_slot_in_warehouse_product > 0
+                    }
+                }
+
+                set_variable = {
+                    var = operative_slot_product
+                    value = var:num_equipment@operative_slot_in_warehouse_product
+                }
+                set_variable = {
+                    var = operative_slot_product_negative
+                    value = var:num_equipment@operative_slot_in_warehouse_product
+                }
+                multiply_variable = {
+                    var = operative_slot_product_negative
+                    value = -1
+                }
+
+                ########################################################
+
+                add_equipment_to_stockpile = {
+                    type = operative_slot_in_warehouse_product
+                    amount = operative_slot_product_negative
+                }
+
+                add_to_variable = {
+                    var = more_production_operative_slot
+                    value = operative_slot_product
+                }
+
+                set_variable = {
+                    var = operative_slot_product
+                    value = 0
+                }
+                set_variable = {
+                    var = operative_slot_product_negative
+                    value = 0
+                }
+            }
+        }
+    }
+
+    on_weekly = { # Operative Slot II Tech
+
+        effect = {
+            if = {
+                limit = {
+                    check_variable = {
+                        var:num_equipment@operative_slot_in_warehouse_product_2 > 0
+                    }
+                }
+
+                set_variable = {
+                    var = operative_slot_product_2
+                    value = var:num_equipment@operative_slot_in_warehouse_product_2
+                }
+                set_variable = {
+                    var = operative_slot_product_2_negative
+                    value = var:num_equipment@operative_slot_in_warehouse_product_2
+                }
+                multiply_variable = {
+                    var = operative_slot_product_2_negative
+                    value = -1
+                }
+
+                ########################################################
+
+                add_equipment_to_stockpile = {
+                    type = operative_slot_in_warehouse_product_2
+                    amount = operative_slot_product_2_negative
+                }
+
+                add_to_variable = {
+                    var = more_production_operative_slot
+                    value = operative_slot_product_2
+                }
+
+                set_variable = {
+                    var = operative_slot_product_2
+                    value = 0
+                }
+                set_variable = {
+                    var = operative_slot_product_2_negative
+                    value = 0
+                }
+            }
+        }
+    }
+
+    on_weekly = { # Operative Slot III Tech
+
+        effect = {
+            if = {
+                limit = {
+                    check_variable = {
+                        var:num_equipment@operative_slot_in_warehouse_product_3 > 0
+                    }
+                }
+
+                set_variable = {
+                    var = operative_slot_product_3
+                    value = var:num_equipment@operative_slot_in_warehouse_product_3
+                }
+                set_variable = {
+                    var = operative_slot_product_3_negative
+                    value = var:num_equipment@operative_slot_in_warehouse_product_3
+                }
+                multiply_variable = {
+                    var = operative_slot_product_3_negative
+                    value = -1
+                }
+
+                ########################################################
+
+                add_equipment_to_stockpile = {
+                    type = operative_slot_in_warehouse_product_3
+                    amount = operative_slot_product_3_negative
+                }
+
+                add_to_variable = {
+                    var = more_production_operative_slot
+                    value = operative_slot_product_3
+                }
+
+                set_variable = {
+                    var = operative_slot_product_3
+                    value = 0
+                }
+                set_variable = {
+                    var = operative_slot_product_3_negative
+                    value = 0
+                }
+            }
+        }
+    }
+
+}

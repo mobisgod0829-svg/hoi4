@@ -1,0 +1,645 @@
+on_actions = {
+
+    # army xp production
+    on_weekly = { # army xp I tech
+            
+            effect = {
+                if = {
+                    limit = {
+                        
+                        check_variable = {
+                            var:num_equipment@armyxp_in_warehouse_product > 0
+                        }
+                    }
+                    
+                    set_variable = {
+                        var = armyxp_product
+                        value = var:num_equipment@armyxp_in_warehouse_product
+                    }
+                    set_variable = {
+                        var = armyxp_product_negative
+                        value = var:num_equipment@armyxp_in_warehouse_product
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var:num_equipment@armyxp_in_warehouse_product > 0
+                            }
+                        }
+                        multiply_variable = {
+                            var = armyxp_product_negative
+                            value = -1
+                        }
+                    }
+                    
+                    
+                    ########################################################
+
+                    add_equipment_to_stockpile = {
+                        type = armyxp_in_warehouse_product
+                        amount = armyxp_product_negative
+                        # producer = ROOT
+                    }
+
+                    army_experience = armyxp_product
+                    
+                    set_variable = {
+                        var = armyxp_product
+                        value = 0
+                    }
+                    set_variable = {
+                        var = armyxp_product_negative
+                        value = 0
+                    }
+                }
+            }
+        }
+
+    on_weekly = { # army xp II tech
+            
+            effect = {
+                if = {
+                    limit = {
+                        
+                        check_variable = {
+                            var:num_equipment@armyxp_in_warehouse_product_2 > 0
+                        }
+                    }
+                    
+                    set_variable = {
+                        var = armyxp_product_2
+                        value = var:num_equipment@armyxp_in_warehouse_product_2
+                    }
+                    set_variable = {
+                        var = armyxp_product_2_negative
+                        value = var:num_equipment@armyxp_in_warehouse_product_2
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var:num_equipment@armyxp_in_warehouse_product_2 > 0
+                            }
+                        }
+                        multiply_variable = {
+                            var = armyxp_product_2_negative
+                            value = -1
+                        }
+                    }
+                    
+                    
+                    ########################################################
+
+                    add_equipment_to_stockpile = {
+                        type = armyxp_in_warehouse_product_2
+                        amount = armyxp_product_2_negative
+                        # producer = ROOT
+                    }
+                    army_experience = armyxp_product_2
+                    set_variable = {
+                        var = armyxp_product_2
+                        value = 0
+                    }
+                    set_variable = {
+                        var = armyxp_product_2_negative
+                        value = 0
+                    }
+                }
+            }
+        }
+
+        on_weekly = { # army xp III tech
+            
+            effect = {
+                if = {
+                    limit = {
+                        
+                        check_variable = {
+                            var:num_equipment@armyxp_in_warehouse_product_3 > 0
+                        }
+                    }
+                    
+                    set_variable = {
+                        var = armyxp_product_3
+                        value = var:num_equipment@armyxp_in_warehouse_product_3
+                    }
+                    set_variable = {
+                        var = armyxp_product_3_negative
+                        value = var:num_equipment@armyxp_in_warehouse_product_3
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var:num_equipment@armyxp_in_warehouse_product_3 > 0
+                            }
+                        }
+                        multiply_variable = {
+                            var = armyxp_product_3_negative
+                            value = -1
+                        }
+                    }
+                    
+                    
+                    ########################################################
+
+                    add_equipment_to_stockpile = {
+                        type = armyxp_in_warehouse_product_3
+                        amount = armyxp_product_3_negative
+                        # producer = ROOT
+                    }
+                    army_experience = armyxp_product_3
+                    set_variable = {
+                        var = armyxp_product_3
+                        value = 0
+                    }
+                    set_variable = {
+                        var = armyxp_product_3_negative
+                        value = 0
+                    }
+                }
+            }
+        }
+
+
+    # navy xp production
+
+    on_weekly = { # navy xp I tech
+            
+            effect = {
+                if = {
+                    limit = {
+                        
+                        check_variable = {
+                            var:num_equipment@navyxp_in_warehouse_product > 0
+                        }
+                    }
+                    
+                    set_variable = {
+                        var = navyxp_product
+                        value = var:num_equipment@navyxp_in_warehouse_product
+                    }
+                    set_variable = {
+                        var = navyxp_product_negative
+                        value = var:num_equipment@navyxp_in_warehouse_product
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var:num_equipment@navyxp_in_warehouse_product > 0
+                            }
+                        }
+                        multiply_variable = {
+                            var = navyxp_product_negative
+                            value = -1
+                        }
+                    }
+                    
+                    
+                    ########################################################
+
+                    add_equipment_to_stockpile = {
+                        type = navyxp_in_warehouse_product
+                        amount = navyxp_product_negative
+                        # producer = ROOT
+                    }
+
+                    navy_experience = navyxp_product
+                    
+                    set_variable = {
+                        var = navyxp_product
+                        value = 0
+                    }
+                    set_variable = {
+                        var = navyxp_product_negative
+                        value = 0
+                    }
+                }
+            }
+        }
+
+    on_weekly = { # navy xp II tech
+            
+            effect = {
+                if = {
+                    limit = {
+                        
+                        check_variable = {
+                            var:num_equipment@navyxp_in_warehouse_product_2 > 0
+                        }
+                    }
+                    
+                    set_variable = {
+                        var = navyxp_product_2
+                        value = var:num_equipment@navyxp_in_warehouse_product_2
+                    }
+                    set_variable = {
+                        var = navyxp_product_2_negative
+                        value = var:num_equipment@navyxp_in_warehouse_product_2
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var:num_equipment@navyxp_in_warehouse_product_2 > 0
+                            }
+                        }
+                        multiply_variable = {
+                            var = navyxp_product_2_negative
+                            value = -1
+                        }
+                    }
+                    
+                    
+                    ########################################################
+
+                    add_equipment_to_stockpile = {
+                        type = navyxp_in_warehouse_product_2
+                        amount = navyxp_product_2_negative
+                        # producer = ROOT
+                    }
+                    navy_experience = navyxp_product_2
+                    set_variable = {
+                        var = navyxp_product_2
+                        value = 0
+                    }
+                    set_variable = {
+                        var = navyxp_product_2_negative
+                        value = 0
+                    }
+                }
+            }
+        }
+
+        on_weekly = { # navy xp III tech
+            
+            effect = {
+                if = {
+                    limit = {
+                        
+                        check_variable = {
+                            var:num_equipment@navyxp_in_warehouse_product_3 > 0
+                        }
+                    }
+                    
+                    set_variable = {
+                        var = navyxp_product_3
+                        value = var:num_equipment@navyxp_in_warehouse_product_3
+                    }
+                    set_variable = {
+                        var = navyxp_product_3_negative
+                        value = var:num_equipment@navyxp_in_warehouse_product_3
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var:num_equipment@navyxp_in_warehouse_product_3 > 0
+                            }
+                        }
+                        multiply_variable = {
+                            var = navyxp_product_3_negative
+                            value = -1
+                        }
+                    }
+                    
+                    
+                    ########################################################
+
+                    add_equipment_to_stockpile = {
+                        type = navyxp_in_warehouse_product_3
+                        amount = navyxp_product_3_negative
+                        # producer = ROOT
+                    }
+                    navy_experience = navyxp_product_3
+                    set_variable = {
+                        var = navyxp_product_3
+                        value = 0
+                    }
+                    set_variable = {
+                        var = navyxp_product_3_negative
+                        value = 0
+                    }
+                }
+            }
+        }
+
+
+    # air xp production
+
+    on_weekly = { # air xp I tech
+            
+            effect = {
+                if = {
+                    limit = {
+                        
+                        check_variable = {
+                            var:num_equipment@airxp_in_warehouse_product > 0
+                        }
+                    }
+                    
+                    set_variable = {
+                        var = airxp_product
+                        value = var:num_equipment@airxp_in_warehouse_product
+                    }
+                    set_variable = {
+                        var = airxp_product_negative
+                        value = var:num_equipment@airxp_in_warehouse_product
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var:num_equipment@airxp_in_warehouse_product > 0
+                            }
+                        }
+                        multiply_variable = {
+                            var = airxp_product_negative
+                            value = -1
+                        }
+                    }
+                    
+                    
+                    ########################################################
+
+                    add_equipment_to_stockpile = {
+                        type = airxp_in_warehouse_product
+                        amount = airxp_product_negative
+                        # producer = ROOT
+                    }
+
+                    air_experience = airxp_product
+                    
+                    set_variable = {
+                        var = airxp_product
+                        value = 0
+                    }
+                    set_variable = {
+                        var = airxp_product_negative
+                        value = 0
+                    }
+                }
+            }
+        }
+
+    on_weekly = { # air xp II tech
+            
+            effect = {
+                if = {
+                    limit = {
+                        
+                        check_variable = {
+                            var:num_equipment@airxp_in_warehouse_product_2 > 0
+                        }
+                    }
+                    
+                    set_variable = {
+                        var = airxp_product_2
+                        value = var:num_equipment@airxp_in_warehouse_product_2
+                    }
+                    set_variable = {
+                        var = airxp_product_2_negative
+                        value = var:num_equipment@airxp_in_warehouse_product_2
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var:num_equipment@airxp_in_warehouse_product_2 > 0
+                            }
+                        }
+                        multiply_variable = {
+                            var = airxp_product_2_negative
+                            value = -1
+                        }
+                    }
+                    
+                    
+                    ########################################################
+
+                    add_equipment_to_stockpile = {
+                        type = airxp_in_warehouse_product_2
+                        amount = airxp_product_2_negative
+                        # producer = ROOT
+                    }
+                    air_experience = airxp_product_2
+                    set_variable = {
+                        var = airxp_product_2
+                        value = 0
+                    }
+                    set_variable = {
+                        var = airxp_product_2_negative
+                        value = 0
+                    }
+                }
+            }
+        }
+
+    on_weekly = { # air xp III tech
+            
+            effect = {
+                if = {
+                    limit = {
+                        
+                        check_variable = {
+                            var:num_equipment@airxp_in_warehouse_product_3 > 0
+                        }
+                    }
+                    
+                    set_variable = {
+                        var = airxp_product_3
+                        value = var:num_equipment@airxp_in_warehouse_product_3
+                    }
+                    set_variable = {
+                        var = airxp_product_3_negative
+                        value = var:num_equipment@airxp_in_warehouse_product_3
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var:num_equipment@airxp_in_warehouse_product_3 > 0
+                            }
+                        }
+                        multiply_variable = {
+                            var = airxp_product_3_negative
+                            value = -1
+                        }
+                    }
+                    
+                    
+                    ########################################################
+
+                    add_equipment_to_stockpile = {
+                        type = airxp_in_warehouse_product_3
+                        amount = airxp_product_3_negative
+                        # producer = ROOT
+                    }
+                    air_experience = airxp_product_3
+                    set_variable = {
+                        var = airxp_product_3
+                        value = 0
+                    }
+                    set_variable = {
+                        var = airxp_product_3_negative
+                        value = 0
+                    }
+                }
+            }
+        }
+
+
+    # command power xp production
+
+    on_weekly = { # command power I tech
+            
+        effect = {
+                if = {
+                    limit = {
+                        
+                        check_variable = {
+                            var:num_equipment@command_power_in_warehouse_product > 0
+                        }
+                    }
+                    
+                    set_variable = {
+                        var = command_power_product
+                        value = var:num_equipment@command_power_in_warehouse_product
+                    }
+                    set_variable = {
+                        var = command_power_product_negative
+                        value = var:num_equipment@command_power_in_warehouse_product
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var:num_equipment@command_power_in_warehouse_product > 0
+                            }
+                        }
+                        multiply_variable = {
+                            var = command_power_product_negative
+                            value = -1
+                        }
+                    }
+                    
+                    
+                    ########################################################
+
+                    add_equipment_to_stockpile = {
+                        type = command_power_in_warehouse_product
+                        amount = command_power_product_negative
+                        # producer = ROOT
+                    }
+
+                    add_command_power = command_power_product
+                    
+                    set_variable = {
+                        var = command_power_product
+                        value = 0
+                    }
+                    set_variable = {
+                        var = command_power_product_negative
+                        value = 0
+                    }
+                }
+            }
+    }
+
+    on_weekly = { # command power II tech
+            
+            effect = {
+                if = {
+                    limit = {
+                        
+                        check_variable = {
+                            var:num_equipment@command_power_in_warehouse_product_2 > 0
+                        }
+                    }
+                    
+                    set_variable = {
+                        var = command_power_product_2
+                        value = var:num_equipment@command_power_in_warehouse_product_2
+                    }
+                    set_variable = {
+                        var = command_power_product_2_negative
+                        value = var:num_equipment@command_power_in_warehouse_product_2
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var:num_equipment@command_power_in_warehouse_product_2 > 0
+                            }
+                        }
+                        multiply_variable = {
+                            var = command_power_product_2_negative
+                            value = -1
+                        }
+                    }
+                    
+                    
+                    ########################################################
+
+                    add_equipment_to_stockpile = {
+                        type = command_power_in_warehouse_product_2
+                        amount = command_power_product_2_negative
+                        # producer = ROOT
+                    }
+                    add_command_power = command_power_product_2
+                    set_variable = {
+                        var = command_power_product_2
+                        value = 0
+                    }
+                    set_variable = {
+                        var = command_power_product_2_negative
+                        value = 0
+                    }
+                }
+            }
+    }
+
+
+    on_weekly = { # command power III tech
+            
+            effect = {
+                if = {
+                    limit = {
+                        
+                        check_variable = {
+                            var:num_equipment@command_power_in_warehouse_product_3 > 0
+                        }
+                    }
+                    
+                    set_variable = {
+                        var = command_power_product_3
+                        value = var:num_equipment@command_power_in_warehouse_product_3
+                    }
+                    set_variable = {
+                        var = command_power_product_3_negative
+                        value = var:num_equipment@command_power_in_warehouse_product_3
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var:num_equipment@command_power_in_warehouse_product_3 > 0
+                            }
+                        }
+                        multiply_variable = {
+                            var = command_power_product_3_negative
+                            value = -1
+                        }
+                    }
+                    
+                    
+                    ########################################################
+
+                    add_equipment_to_stockpile = {
+                        type = command_power_in_warehouse_product_3
+                        amount = command_power_product_3_negative
+                        # producer = ROOT
+                    }
+                    add_command_power = command_power_product_3
+                    set_variable = {
+                        var = command_power_product_3
+                        value = 0
+                    }
+                    set_variable = {
+                        var = command_power_product_3_negative
+                        value = 0
+                    }
+                }
+            }
+    }
+}

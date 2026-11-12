@@ -1,0 +1,162 @@
+on_actions = {
+
+	# Increase Autonomy I
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var:num_equipment@increase_autonomy_in_warehouse_product > 0
+					}
+                    is_subject = yes
+				}
+
+				add_equipment_to_stockpile = {
+					type = increase_autonomy_in_warehouse_product
+					amount = -1
+				}
+
+                add_autonomy_score = { 
+					value = 100
+				}
+			}
+		}
+	}
+
+	# Increase Autonomy II
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var:num_equipment@increase_autonomy_in_warehouse_product_2 > 0
+					}
+                    is_subject = yes
+				}
+				
+				add_equipment_to_stockpile = {
+					type = increase_autonomy_in_warehouse_product_2
+					amount = -1
+				}
+
+				add_autonomy_score = { 
+					value = 100
+				}
+			}
+		}
+	}
+
+	# Increase Autonomy III
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var:num_equipment@increase_autonomy_in_warehouse_product_3 > 0
+					}
+                    is_subject = yes
+				}
+				
+				add_equipment_to_stockpile = {
+					type = increase_autonomy_in_warehouse_product_3
+					amount = -1
+				}
+
+				add_autonomy_score = { 
+					value = 100
+				}
+			}
+		}
+	}
+
+	# Decrease Autonomy I
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var:num_equipment@decrease_autonomy_in_warehouse_product > 1
+					}
+                    any_country = {
+                        is_subject_of = ROOT
+                    }
+				}
+				
+				add_equipment_to_stockpile = {
+					type = decrease_autonomy_in_warehouse_product
+					amount = -1
+				}
+
+                every_country = {
+                    limit = { 
+                        is_subject_of = ROOT
+                    }
+                    add_autonomy_score = { 
+                        value = -100
+                    }
+			    }
+			}
+		}
+	}
+
+	# Decrease Autonomy II
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var:num_equipment@decrease_autonomy_in_warehouse_product_2 > 1
+					}
+                    any_country = {
+                        is_subject_of = ROOT
+                    }
+				}
+
+				add_equipment_to_stockpile = {
+					type = decrease_autonomy_in_warehouse_product_2
+					amount = -1
+				}
+
+                every_country = {
+                    limit = { 
+                        is_subject_of = ROOT
+                    }
+                    add_autonomy_score = { 
+                        value = -100
+                    }
+			    }
+			}
+		}
+	}
+
+	# Decrease Autonomy III
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var:num_equipment@decrease_autonomy_in_warehouse_product_3 > 1
+					}
+                    any_country = {
+                        is_subject_of = ROOT
+                    }
+				}
+
+				add_equipment_to_stockpile = {
+					type = decrease_autonomy_in_warehouse_product_3
+					amount = -1
+				}
+
+                every_country = {
+                    limit = { 
+                        is_subject_of = ROOT
+                    }
+                    add_autonomy_score = { 
+                        value = -100
+                    }
+			    }
+			}
+		}
+	}
+
+}

@@ -1,0 +1,162 @@
+technologies = {
+    # civs
+	civilian_factory_production_research = {
+		
+		enable_equipments = {
+			civilian_factory_in_warehouse
+			civilian_factory_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	civilian_factory_production_2_research = {
+
+		enable_equipments = {
+			civilian_factory_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	civilian_factory_production_3_research = {
+		
+		enable_equipments = {
+			civilian_factory_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+    # mils
+	military_factory_production_research = {
+		
+		enable_equipments = {
+			military_factory_in_warehouse
+			military_factory_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	military_factory_production_2_research = {
+
+		enable_equipments = {
+			military_factory_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	military_factory_production_3_research = {
+		
+		enable_equipments = {
+			military_factory_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+    # dockyards
+	naval_dockyard_production_research = {
+		
+		enable_equipments = {
+			naval_dockyard_in_warehouse
+			naval_dockyard_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	naval_dockyard_production_2_research = {
+
+		enable_equipments = {
+			naval_dockyard_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	naval_dockyard_production_3_research = {
+		
+		enable_equipments = {
+			naval_dockyard_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	# Factory Output Technologies
+
+	factory_output_production_research = {
+		
+		enable_equipments = {
+			factory_output_in_warehouse
+			factory_output_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	factory_output_production_2_research = {
+
+		enable_equipments = {
+			factory_output_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	factory_output_production_3_research = {
+		
+		enable_equipments = {
+			factory_output_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	construction_speed_production_research = {
+		
+		enable_equipments = {
+			construction_speed_in_warehouse
+			construction_speed_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	construction_speed_production_2_research = {
+
+		enable_equipments = {
+			construction_speed_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	construction_speed_production_3_research = {
+		
+		enable_equipments = {
+			construction_speed_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+}

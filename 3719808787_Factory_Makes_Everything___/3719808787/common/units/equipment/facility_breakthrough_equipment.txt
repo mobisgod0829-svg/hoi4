@@ -1,0 +1,209 @@
+equipments = {
+
+    # breakthrough
+	army_breakthrough_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_army_breakthrough
+		is_buildable = no
+
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		lend_lease_cost = 2 # Yes, pp can be supplied with Lend-Lease ;D
+		
+		build_cost_ic = 25
+		resources = {
+			steel = 2
+		}
+	}
+
+	army_breakthrough_in_warehouse_product = {
+		year = 1936
+		archetype = army_breakthrough_in_warehouse
+		priority = 10	
+	}
+
+	army_breakthrough_in_warehouse_product_2 = {
+		year = 1938
+		archetype = army_breakthrough_in_warehouse
+		parent = army_breakthrough_in_warehouse_product
+
+		build_cost_ic = 18
+
+		priority = 20	
+	}
+
+	army_breakthrough_in_warehouse_product_3 = {
+		year = 1940
+		archetype = army_breakthrough_in_warehouse
+		parent = army_breakthrough_in_warehouse_product_2
+
+		build_cost_ic = 10
+
+		priority = 30
+	}
+
+
+	navy_breakthrough_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_navy_breakthrough
+		is_buildable = no
+
+		type = infantry  # = suicide # it is just the little used type ...
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+#		can_be_lend_leased = 
+		lend_lease_cost = 2 # Yes, pp can be supplied with Lend-Lease ;D
+		
+		build_cost_ic = 25
+		resources = {
+			steel = 1
+			oil = 1
+		}
+	}
+
+	navy_breakthrough_in_warehouse_product = {
+		year = 1936
+		archetype = navy_breakthrough_in_warehouse
+		priority = 10	
+	}
+
+	navy_breakthrough_in_warehouse_product_2 = {
+		year = 1938
+		archetype = navy_breakthrough_in_warehouse
+		parent = navy_breakthrough_in_warehouse_product
+
+		build_cost_ic = 18
+
+		priority = 20	
+	}
+
+	navy_breakthrough_in_warehouse_product_3 = {
+		year = 1940
+		archetype = navy_breakthrough_in_warehouse
+		parent = navy_breakthrough_in_warehouse_product_2
+
+		build_cost_ic = 10
+
+		priority = 30
+	}
+
+
+
+	air_breakthrough_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_air_breakthrough
+		is_buildable = no
+
+		type = infantry  # = suicide # it is just the little used type ...
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+#		can_be_lend_leased = 
+		lend_lease_cost = 2 # Yes, pp can be supplied with Lend-Lease ;D
+		
+		build_cost_ic = 25
+		resources = {
+			aluminium = 2
+			rubber = 1
+		}
+	}
+
+	air_breakthrough_in_warehouse_product = {
+		year = 1936
+		archetype = air_breakthrough_in_warehouse
+		priority = 10	
+	}
+
+	air_breakthrough_in_warehouse_product_2 = {
+		year = 1938
+		archetype = air_breakthrough_in_warehouse
+		parent = air_breakthrough_in_warehouse_product
+
+		build_cost_ic = 18
+
+		priority = 20	
+	}
+
+	air_breakthrough_in_warehouse_product_3 = {
+		year = 1940
+		archetype = air_breakthrough_in_warehouse
+		parent = air_breakthrough_in_warehouse_product_2
+
+		build_cost_ic = 10
+
+		priority = 30
+	}
+
+
+
+	nuclear_breakthrough_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_nuclear_breakthrough
+		is_buildable = no
+
+		type = infantry  # = suicide # it is just the little used type ...
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+#		can_be_lend_leased = 
+		lend_lease_cost = 2 # Yes, pp can be supplied with Lend-Lease ;D
+		
+		build_cost_ic = 25
+		resources = {
+			chromium = 2
+			tungsten = 1
+		}
+	}
+
+	nuclear_breakthrough_in_warehouse_product = {
+		year = 1936
+		archetype = nuclear_breakthrough_in_warehouse
+		priority = 10	
+	}
+
+	nuclear_breakthrough_in_warehouse_product_2 = {
+		year = 1938
+		archetype = nuclear_breakthrough_in_warehouse
+		parent = nuclear_breakthrough_in_warehouse_product
+
+		build_cost_ic = 18
+
+		priority = 20	
+	}
+
+	nuclear_breakthrough_in_warehouse_product_3 = {
+		year = 1940
+		archetype = nuclear_breakthrough_in_warehouse
+		parent = nuclear_breakthrough_in_warehouse_product_2
+
+		build_cost_ic = 10
+
+		priority = 30
+	}
+}

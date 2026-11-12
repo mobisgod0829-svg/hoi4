@@ -1,0 +1,53 @@
+technologies = {
+	# democracy
+	democracy_production_research = {
+		
+		enable_equipments = {
+			democracy_in_warehouse
+			democracy_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+
+	# communism
+	communism_production_research = {
+		
+		enable_equipments = {
+			communism_in_warehouse
+			communism_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+
+	# facism
+	fascism_production_research = {
+		
+		enable_equipments = {
+			fascism_in_warehouse
+			fascism_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+
+	# Neutrality
+	neutrality_production_research = {
+		
+		enable_equipments = {
+			neutrality_in_warehouse
+			neutrality_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+}

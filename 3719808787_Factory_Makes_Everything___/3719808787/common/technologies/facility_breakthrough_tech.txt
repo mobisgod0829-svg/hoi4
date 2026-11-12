@@ -1,0 +1,129 @@
+technologies = {
+    # Army 
+	army_breakthrough_production_research = {
+		
+		enable_equipments = {
+			army_breakthrough_in_warehouse
+			army_breakthrough_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	army_breakthrough_production_2_research = {
+
+		enable_equipments = {
+			army_breakthrough_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	army_breakthrough_production_3_research = {
+		
+		enable_equipments = {
+			army_breakthrough_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+    # Navy
+	navy_breakthrough_production_research = {
+		
+		enable_equipments = {
+			navy_breakthrough_in_warehouse
+			navy_breakthrough_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	navy_breakthrough_production_2_research = {
+
+		enable_equipments = {
+			navy_breakthrough_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	navy_breakthrough_production_3_research = {
+		
+		enable_equipments = {
+			navy_breakthrough_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+    # Air 
+	air_breakthrough_production_research = {
+		
+		enable_equipments = {
+			air_breakthrough_in_warehouse
+			air_breakthrough_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	air_breakthrough_production_2_research = {
+
+		enable_equipments = {
+			air_breakthrough_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	air_breakthrough_production_3_research = {
+		
+		enable_equipments = {
+			air_breakthrough_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+    # Nuclear 
+	nuclear_breakthrough_production_research = {
+		
+		enable_equipments = {
+			nuclear_breakthrough_in_warehouse
+			nuclear_breakthrough_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	nuclear_breakthrough_production_2_research = {
+
+		enable_equipments = {
+			nuclear_breakthrough_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	nuclear_breakthrough_production_3_research = {
+		
+		enable_equipments = {
+			nuclear_breakthrough_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+}

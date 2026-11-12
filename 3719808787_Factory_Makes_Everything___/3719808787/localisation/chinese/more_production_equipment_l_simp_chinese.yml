@@ -1,0 +1,349 @@
+﻿l_simp_chinese:
+  # Manpower Equipment
+  man_in_warehouse_product: "合成人 I"
+  man_in_warehouse_product_desc: "合成人力！"
+  man_in_warehouse_product_2: "合成人 II"
+  man_in_warehouse_product_2_desc: "更有效率的合成人力！"
+  man_in_warehouse_product_3: "合成人 III"
+  man_in_warehouse_product_3_desc: "§G加入人力池的实际人力将会乘以100倍！§!"
+
+  # Political Power Equipment
+  pp_in_warehouse_product: "政治点数 I"
+  pp_in_warehouse_product_desc: "人造政治点数！"
+  pp_in_warehouse_product_2: "政治点数 II"
+  pp_in_warehouse_product_2_desc: "更有效率的人造政治点数！"
+  pp_in_warehouse_product_3: "政治点数 III"
+  pp_in_warehouse_product_3_desc: "最有效率的人造政治点数！"
+
+  # Stability Equipment
+  stability_in_warehouse_product: "稳定度 I"
+  stability_in_warehouse_product_desc: "人造稳定度！"
+  stability_in_warehouse_product_2: "稳定度 II"
+  stability_in_warehouse_product_2_desc: "更有效率的人造稳定度！"
+  stability_in_warehouse_product_3: "稳定度 III"
+  stability_in_warehouse_product_3_desc: "最有效率的人造稳定度！"
+
+  # War Support Equipment
+  warsupport_in_warehouse_product: "战争支持度 I"
+  warsupport_in_warehouse_product_desc: "人造战争支持度！"
+  warsupport_in_warehouse_product_2: "战争支持度 II"
+  warsupport_in_warehouse_product_2_desc: "更有效率的人造战争支持度！"
+  warsupport_in_warehouse_product_3: "战争支持度 III"
+  warsupport_in_warehouse_product_3_desc: "最有效率的人造战争支持度！"
+
+  # Ideology Equipment (Single-level)
+  democracy_in_warehouse_product: "民主支持率"
+  democracy_in_warehouse_product_desc: "人造民主支持率！"
+  communism_in_warehouse_product: "共产支持率"
+  communism_in_warehouse_product_desc: "人造共产支持率！"
+  neutrality_in_warehouse_product: "中立支持率"
+  neutrality_in_warehouse_product_desc: "人造中立支持率！"
+  fascism_in_warehouse_product: "法西斯支持率"
+  fascism_in_warehouse_product_desc: "人造法西斯支持率！"
+
+  # Military Breakthrough Equipment
+  army_breakthrough_in_warehouse_product: "陆军设施突破 I"
+  army_breakthrough_in_warehouse_product_desc: "人造陆军设施突破！"
+  army_breakthrough_in_warehouse_product_2: "陆军设施突破 II"
+  army_breakthrough_in_warehouse_product_2_desc: "更有效率的人造陆军设施突破！"
+  army_breakthrough_in_warehouse_product_3: "陆军设施突破 III"
+  army_breakthrough_in_warehouse_product_3_desc: "最有效率的人造陆军设施突破！"
+
+  navy_breakthrough_in_warehouse_product: "海军设施突破 I"
+  navy_breakthrough_in_warehouse_product_desc: "人造海军设施突破！"
+  navy_breakthrough_in_warehouse_product_2: "海军设施突破 II"
+  navy_breakthrough_in_warehouse_product_2_desc: "更有效率的人造海军设施突破！"
+  navy_breakthrough_in_warehouse_product_3: "海军设施突破 III"
+  navy_breakthrough_in_warehouse_product_3_desc: "最有效率的人造海军设施突破！"
+
+  air_breakthrough_in_warehouse_product: "空军设施突破 I"
+  air_breakthrough_in_warehouse_product_desc: "人造空军设施突破！"
+  air_breakthrough_in_warehouse_product_2: "空军设施突破 II"
+  air_breakthrough_in_warehouse_product_2_desc: "更有效率的人造空军设施突破！"
+  air_breakthrough_in_warehouse_product_3: "空军设施突破 III"
+  air_breakthrough_in_warehouse_product_3_desc: "最有效率的人造空军设施突破！"
+
+  nuclear_breakthrough_in_warehouse_product: "核能设施突破 I"
+  nuclear_breakthrough_in_warehouse_product_desc: "人造核能设施突破！"
+  nuclear_breakthrough_in_warehouse_product_2: "核能设施突破 II"
+  nuclear_breakthrough_in_warehouse_product_2_desc: "更有效率的人造核能设施突破！"
+  nuclear_breakthrough_in_warehouse_product_3: "核能设施突破 III"
+  nuclear_breakthrough_in_warehouse_product_3_desc: "最有效率的人造核能设施突破！"
+
+  # Experience Equipment
+  armyxp_in_warehouse_product: "陆军经验 I"
+  armyxp_in_warehouse_product_desc: "人造陆军经验！"
+  armyxp_in_warehouse_product_2: "陆军经验 II"
+  armyxp_in_warehouse_product_2_desc: "更有效率的人造陆军经验！"
+  armyxp_in_warehouse_product_3: "陆军经验 III"
+  armyxp_in_warehouse_product_3_desc: "最有效率的人造陆军经验！"
+
+  navyxp_in_warehouse_product: "海军经验 I"
+  navyxp_in_warehouse_product_desc: "人造海军经验！"
+  navyxp_in_warehouse_product_2: "海军经验 II"
+  navyxp_in_warehouse_product_2_desc: "更有效率的人造海军经验！"
+  navyxp_in_warehouse_product_3: "海军经验 III"
+  navyxp_in_warehouse_product_3_desc: "最有效率的人造海军经验！"
+
+  airxp_in_warehouse_product: "空军经验 I"
+  airxp_in_warehouse_product_desc: "人造空军经验！"
+  airxp_in_warehouse_product_2: "空军经验 II"
+  airxp_in_warehouse_product_2_desc: "更有效率的人造空军经验！"
+  airxp_in_warehouse_product_3: "空军经验 III"
+  airxp_in_warehouse_product_3_desc: "最有效率的人造空军经验！"
+
+  # Command Power Equipment
+  command_power_in_warehouse_product: "指挥点数 I"
+  command_power_in_warehouse_product_desc: "人造指挥点数！"
+  command_power_in_warehouse_product_2: "指挥点数 II"
+  command_power_in_warehouse_product_2_desc: "更有效率的人造指挥点数！"
+  command_power_in_warehouse_product_3: "指挥点数 III"
+  command_power_in_warehouse_product_3_desc: "最有效率的人造指挥点数！"
+
+  # World Tension Equipment
+  world_tension_increase_in_warehouse_product: "世界紧张度增加"
+  world_tension_increase_in_warehouse_product_desc: "这个世界好紧张啊！但是谁也不知道在紧张什么！"
+  world_tension_decrease_in_warehouse_product: "世界紧张度减少"
+  world_tension_decrease_in_warehouse_product_desc: "谁也无法解释，为什么全球都在打仗但紧张度是负数"
+
+  # Factory Equipment
+  civilian_factory_in_warehouse_product: "民用工厂 I"
+  civilian_factory_in_warehouse_product_desc: "谁说人类不能把工厂建在火星上啦？——埃隆马斯克"
+  civilian_factory_in_warehouse_product_2: "民用工厂 II"
+  civilian_factory_in_warehouse_product_2_desc: "谁说人类不能把工厂建在火星上啦？——埃隆马斯克"
+  civilian_factory_in_warehouse_product_3: "民用工厂 III"
+  civilian_factory_in_warehouse_product_3_desc: "谁说人类不能把工厂建在火星上啦？——埃隆马斯克"
+
+  military_factory_in_warehouse_product: "军用工厂 I"
+  military_factory_in_warehouse_product_desc: "谁说人类不能把工厂建在火星上啦？——埃隆马斯克"
+  military_factory_in_warehouse_product_2: "军用工厂 II"
+  military_factory_in_warehouse_product_2_desc: "谁说人类不能把工厂建在火星上啦？——埃隆马斯克"
+  military_factory_in_warehouse_product_3: "军用工厂 III"
+  military_factory_in_warehouse_product_3_desc: "谁说人类不能把工厂建在火星上啦？——埃隆马斯克"
+
+  naval_dockyard_in_warehouse_product: "海军船坞 I"
+  naval_dockyard_in_warehouse_product_desc: "谁说人类不能把船坞建在火星上啦？——埃隆马斯克"
+  naval_dockyard_in_warehouse_product_2: "海军船坞 II"
+  naval_dockyard_in_warehouse_product_2_desc: "谁说人类不能把船坞建在火星上啦？——埃隆马斯克"
+  naval_dockyard_in_warehouse_product_3: "海军船坞 III"
+  naval_dockyard_in_warehouse_product_3_desc: "谁说人类不能把船坞建在火星上啦？——埃隆马斯克
+
+
+   # Resources
+  oil_in_warehouse_product: "石油 I"
+  oil_in_warehouse_product_desc: "我们发明了一种徒手搓资源的办法！"
+  oil_in_warehouse_product_2: "石油 II"
+  oil_in_warehouse_product_2_desc: "更高效率的徒手搓资源办法！"
+  oil_in_warehouse_product_3: "石油 III"
+  oil_in_warehouse_product_3_desc: "最高效率的徒手搓资源办法！"
+
+  aluminium_in_warehouse_product: "铝 I"
+  aluminium_in_warehouse_product_desc: "我们发明了一种徒手搓资源的办法！"
+  aluminium_in_warehouse_product_2: "铝 II"
+  aluminium_in_warehouse_product_2_desc: "更高效率的徒手搓资源办法！"
+  aluminium_in_warehouse_product_3: "铝 III"
+  aluminium_in_warehouse_product_3_desc: "最高效率的徒手搓资源办法！"
+
+  rubber_in_warehouse_product: "橡胶 I"
+  rubber_in_warehouse_product_desc: "徒手搓橡胶的办法！"
+  rubber_in_warehouse_product_2: "橡胶 II"
+  rubber_in_warehouse_product_2_desc: "更高效率的徒手搓橡胶办法！"
+  rubber_in_warehouse_product_3: "橡胶 III"
+  rubber_in_warehouse_product_3_desc: "最高效率的徒手搓橡胶办法！"
+
+  steel_in_warehouse_product: "钢铁 I"
+  steel_in_warehouse_product_desc: "徒手搓钢铁的办法！"
+  steel_in_warehouse_product_2: "钢铁 II"
+  steel_in_warehouse_product_2_desc: "更高效率的徒手搓钢铁办法！"
+  steel_in_warehouse_product_3: "钢铁 III"
+  steel_in_warehouse_product_3_desc: "最高效率的徒手搓钢铁办法！"
+
+  tungsten_in_warehouse_product: "钨 I"
+  tungsten_in_warehouse_product_desc: "徒手搓钨的办法！"
+  tungsten_in_warehouse_product_2: "钨 II"
+  tungsten_in_warehouse_product_2_desc: "更高效率的徒手搓钨办法！"
+  tungsten_in_warehouse_product_3: "钨 III"
+  tungsten_in_warehouse_product_3_desc: "最高效率的徒手搓钨办法！"
+
+  chromium_in_warehouse_product: "铬 I"
+  chromium_in_warehouse_product_desc: "徒手搓铬的办法！"
+  chromium_in_warehouse_product_2: "铬 II"
+  chromium_in_warehouse_product_2_desc: "更高效率的徒手搓铬办法！"
+  chromium_in_warehouse_product_3: "铬 III"
+  chromium_in_warehouse_product_3_desc: "最高效率的徒手搓铬办法！"
+
+  # Research Points
+  research_point_in_warehouse_product: "科研点 I"
+  research_point_in_warehouse_product_desc: "科学是第一生产力！"
+  research_point_in_warehouse_product_2: "科研点 II"
+  research_point_in_warehouse_product_2_desc: "更有效率的人造科研点！"
+  research_point_in_warehouse_product_3: "科研点 III"
+  research_point_in_warehouse_product_3_desc: "最有效率的人造科研点！"
+
+  # Compliance Equipment
+  compliance_equipment_in_warehouse_product: "顺从度设备 I"
+  compliance_equipment_in_warehouse_product_desc: "人造的顺从度设备！"
+  compliance_equipment_in_warehouse_product_2: "顺从度设备 II"
+  compliance_equipment_in_warehouse_product_2_desc: "更有效率的人造顺从设备！"
+  compliance_equipment_in_warehouse_product_3: "顺从度设备 III"
+  compliance_equipment_in_warehouse_product_3_desc: "最有效率的人造顺从设备！"
+
+  # Resistance Equipment
+  resistance_equipment_in_warehouse_product: "移除抵抗设备 I"
+  resistance_equipment_in_warehouse_product_desc: "人造降低抵抗设备！"
+  resistance_equipment_in_warehouse_product_2: "移除抵抗设备 II"
+  resistance_equipment_in_warehouse_product_2_desc: "更有效率的人造降低抵抗设备！"
+  resistance_equipment_in_warehouse_product_3: "移除抵抗设备 III"
+  resistance_equipment_in_warehouse_product_3_desc: "最有效率的人造降低抵抗设备！"
+
+  # Coring Equipment
+  coring_equipment_in_warehouse_product: "造核心设备 I"
+  coring_equipment_in_warehouse_product_desc: "我们终于可以在钢四造核心啦！"
+  coring_equipment_in_warehouse_product_2: "造核心设备 II"
+  coring_equipment_in_warehouse_product_2_desc: "更有效率的造核心设备！"
+  coring_equipment_in_warehouse_product_3: "造核心设备 III"
+  coring_equipment_in_warehouse_product_3_desc: "最有效率的人造核心设备！"
+
+  # Factory Output Equipment
+  factory_output_in_warehouse_product: "工厂产出 I"
+  factory_output_in_warehouse_product_desc: "初级工厂产出设备！"
+  factory_output_in_warehouse_product_2: "工厂产出 II"
+  factory_output_in_warehouse_product_2_desc: "更高效的工厂产出设备！"
+  factory_output_in_warehouse_product_3: "工厂产出 III"
+  factory_output_in_warehouse_product_3_desc: "最有效率的工厂产出设备！"
+
+  # Operative Slot Equipment
+  operative_slot_in_warehouse_product: "特工位 I"
+  operative_slot_in_warehouse_product_desc: "人造特工位！"
+  operative_slot_in_warehouse_product_2: "特工位 II"
+  operative_slot_in_warehouse_product_2_desc: "更有效率的特工位设备！"
+  operative_slot_in_warehouse_product_3: "特工位 III"
+  operative_slot_in_warehouse_product_3_desc: "最有效率的特工位设备！"
+
+  # Increase Autonomy Equipment
+  increase_autonomy_in_warehouse_product: "提高自治度 I"
+  increase_autonomy_in_warehouse_product_desc: "人造提高自治度设备！"
+  increase_autonomy_in_warehouse_product_2: "提高自治度 II"
+  increase_autonomy_in_warehouse_product_2_desc: "更有效率的人造提高自治度设备！"
+  increase_autonomy_in_warehouse_product_3: "提高自治度 III"
+  increase_autonomy_in_warehouse_product_3_desc: "最有效率的人造提高自治度设备！"
+
+  # Decrease Autonomy Equipment
+  decrease_autonomy_in_warehouse_product: "降低自治度 I"
+  decrease_autonomy_in_warehouse_product_desc: "人造降低自治度设备！"
+  decrease_autonomy_in_warehouse_product_2: "降低自治度 II"
+  decrease_autonomy_in_warehouse_product_2_desc: "更有效率的人造降低自治度设备！"
+  decrease_autonomy_in_warehouse_product_3: "降低自治度 III"
+  decrease_autonomy_in_warehouse_product_3_desc: "最有效率的人造降低自治度设备！"
+
+
+
+  ## Warehouse Localization (Fixed and Completed)
+
+  # Manpower
+  man_in_warehouse: "合成人"
+  man_in_warehouse_desc: "合成人"
+
+  # Political Power
+  pp_in_warehouse: "政治点数"
+  pp_in_warehouse_desc: "政治点数"
+
+  # Stability
+  stability_in_warehouse: "稳定度"
+  stability_in_warehouse_desc: "稳定度"
+
+  # War Support
+  warsupport_in_warehouse: "战争支持度"
+  warsupport_in_warehouse_desc: "战争支持度"
+
+  # Ideology
+  democracy_in_warehouse: "民主支持率"
+  democracy_in_warehouse_desc: "民主支持率"
+  communism_in_warehouse: "共产支持率"
+  communism_in_warehouse_desc: "共产支持率"
+  neutrality_in_warehouse: "中立支持率"
+  neutrality_in_warehouse_desc: "中立支持率"
+  fascism_in_warehouse: "法西斯支持率"
+  fascism_in_warehouse_desc: "法西斯支持率"
+
+  # Military Breakthrough
+  army_breakthrough_in_warehouse: "陆军设施突破"
+  army_breakthrough_in_warehouse_desc: "陆军设施突破-达到50%时生效"
+  navy_breakthrough_in_warehouse: "海军设施突破"
+  navy_breakthrough_in_warehouse_desc: "海军设施突破-达到50%时生效"
+  air_breakthrough_in_warehouse: "空军设施突破"
+  air_breakthrough_in_warehouse_desc: "空军设施突破-达到50%时生效"
+  nuclear_breakthrough_in_warehouse: "核能设施突破"
+  nuclear_breakthrough_in_warehouse_desc: "核能设施突破-达到50%时生效"
+
+  # Experience
+  armyxp_in_warehouse: "陆军经验"
+  armyxp_in_warehouse_desc: "陆军经验"
+  navyxp_in_warehouse: "海军经验"
+  navyxp_in_warehouse_desc: "海军经验"
+  airxp_in_warehouse: "空军经验"
+  airxp_in_warehouse_desc: "空军经验"
+
+  # Command Power
+  command_power_in_warehouse: "指挥点数"
+  command_power_in_warehouse_desc: "指挥点数"
+
+  # World Tension
+  world_tension_increase_in_warehouse: "世界紧张度增加"
+  world_tension_increase_in_warehouse_desc: "世界紧张度增加"
+  world_tension_decrease_in_warehouse: "世界紧张度减少"
+  world_tension_decrease_in_warehouse_desc: "世界紧张度减少"
+
+  # Factory Equipment
+  civilian_factory_in_warehouse: "民用工厂"
+  civilian_factory_in_warehouse_desc: "民用工厂"
+  military_factory_in_warehouse: "军用工厂"
+  military_factory_in_warehouse_desc: "军用工厂"
+  naval_dockyard_in_warehouse: "海军船坞"
+  naval_dockyard_in_warehouse_desc: "海军船坞"
+
+  # Resources
+  oil_in_warehouse: "石油"
+  oil_in_warehouse_desc: "会在首都地块生成"
+  aluminium_in_warehouse: "铝"
+  aluminium_in_warehouse_desc: "会在首都地块生成"
+  rubber_in_warehouse: "橡胶"
+  rubber_in_warehouse_desc: "会在首都地块生成"
+  steel_in_warehouse: "钢铁"
+  steel_in_warehouse_desc: "会在首都地块生成"
+  tungsten_in_warehouse: "钨"
+  tungsten_in_warehouse_desc: "会在首都地块生成"
+  chromium_in_warehouse: "铬"
+  chromium_in_warehouse_desc: "会在首都地块生成"
+
+  # Research Points
+  research_point_in_warehouse: "科研点"
+  research_point_in_warehouse_desc: "科研点"
+
+  # Compliance Equipment
+  compliance_equipment_in_warehouse: "顺从度设备"
+  compliance_equipment_in_warehouse_desc: "会在非核心地块生效"
+
+  # Resistance Equipment
+  resistance_equipment_in_warehouse: "移除抵抗设备"
+  resistance_equipment_in_warehouse_desc: "会在抵抗度超过10%的地块生效"
+
+  # Coring Equipment
+  coring_equipment_in_warehouse: "造核心设备"
+  coring_equipment_in_warehouse_desc: "会在核心大于70%和抵抗低于10%的地块生效"
+
+  # Operative Slot
+  operative_slot_in_warehouse: "特工位"
+  operative_slot_in_warehouse_desc: "特工位"
+
+  # Autonomy Equipment
+  increase_autonomy_in_warehouse: "提高自治度-自身"
+  increase_autonomy_in_warehouse_desc: "提高自治度"
+  decrease_autonomy_in_warehouse: "降低自治度-所有傀儡"
+  decrease_autonomy_in_warehouse_desc: "降低自治度-所有傀儡"
+
+  # Factory Output
+  factory_output_in_warehouse: "工厂产出"
+  factory_output_in_warehouse_desc: "工厂产出"
+
+

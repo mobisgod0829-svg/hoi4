@@ -1,0 +1,62 @@
+equipments = {
+    # world tension production 
+	world_tension_increase_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_world_tension_increase
+		is_buildable = no
+
+		type = infantry  # = suicide # it is just the little used type ...
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+#		can_be_lend_leased = 
+		lend_lease_cost = 2 # Yes, pp can be supplied with Lend-Lease ;D
+		
+		build_cost_ic = 20
+		resources = {
+			oil = 2
+		}
+	}
+
+	world_tension_increase_in_warehouse_product = {
+		year = 1936
+		archetype = world_tension_increase_in_warehouse
+		priority = 10	
+	}
+
+	world_tension_decrease_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_world_tension_decrease
+		is_buildable = no
+
+		type = infantry  # = suicide # it is just the little used type ...
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+#		can_be_lend_leased = 
+		lend_lease_cost = 2 # Yes, pp can be supplied with Lend-Lease ;D
+		
+		build_cost_ic = 20
+		resources = {
+			oil = 2
+		}
+	}
+
+	world_tension_decrease_in_warehouse_product = {
+		year = 1936
+		archetype = world_tension_decrease_in_warehouse
+		priority = 10	
+	}
+}

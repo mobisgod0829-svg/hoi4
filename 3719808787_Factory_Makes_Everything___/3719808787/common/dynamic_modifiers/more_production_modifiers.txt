@@ -1,0 +1,26 @@
+research_speed_dymanic_modifier = {
+    enable = { always = yes}
+
+    icon = GFX_idea_generic_research_bonus
+
+    research_speed_factor = more_production_research_speed_factor
+    special_project_speed_factor = more_production_special_project_speed_factor
+}
+
+production_dymanic_modifier = { 
+    enable = {always = yes} 
+
+    icon = GFX_idea_generic_production_bonus
+
+    industrial_capacity_factory = more_production_industrial_capacity_factory
+    industrial_capacity_dockyard = more_production_industrial_capacity_dockyard
+    production_speed_buildings_factor = more_production_building_construction_speed_factor
+}
+
+operative_dymanic_modifier = { 
+    enable = {always = yes} 
+
+    icon = GFX_idea_generic_spy_intel
+
+    operative_slot = more_production_operative_slot
+}

@@ -1,0 +1,159 @@
+﻿l_russian:
+  more_production_decision: "Универсальная военная фабрика" 
+  more_production_decision_desc: "Бог создал человечество, а человечество создало фабрики. Если люди могут делать всё, почему не могут фабрики?\n\n Текущие исследовательские очки: [?research_point_var]"
+
+  flag_decision: "Универсальный военный завод: Выбор режима"
+  cheat_mode_decision: "Разблокировать любую технологию по желанию"
+  cheat_mode_decision_desc: "§RПредупреждение: Игрок может стать чрезмерно могущественным§!"
+  normal_mode_decision: "Обычный режим"
+
+  cheat_mode: "Режим полного разблокирования"
+  normal_mode: "Обычный режим"
+
+  manpower_research_decision: "Исследование базового синтетического человека  |  §G10 очков исследований§!"
+  manpower_research_decision_trigger_tt: "Требуется §G10 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  manpower_research_2_decision: "Исследование среднего уровня синтетического человека  |  §Y1,000 очков исследований§!"
+  manpower_research_2_decision_trigger_tt: "Требуется §Y1,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  manpower_research_3_decision: "Исследование продвинутого синтетического человека  |  §R100,000 очков исследований§!"
+  manpower_research_3_decision_trigger_tt: "Требуется §R100,000 очков исследований§! В наличии: §Y[?research_point_var]§!  \n §GФактическое количество людских ресурсов, добавленных в ваш резерв, будет умножено на 100!§!"
+
+  political_research_decision: "Исследование базовой эффективности правительства  |  §G10 очков исследований§!"
+  political_research_decision_trigger_tt: "Требуется §G10 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  political_research_2_decision: "Исследование средней эффективности правительства  |  §Y1,000 очков исследований§!"
+  political_research_2_decision_trigger_tt: "Требуется §Y1,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  political_research_3_decision: "Исследование продвинутой эффективности правительства  |  §R100,000 очков исследований§!"
+  political_research_3_decision_trigger_tt: "Требуется §R100,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  research_point_2_decision: "Среднее производство очков исследований  |  §Y100 очков исследований§!"
+  research_point_2_decision_trigger_tt: "Требуется §Y100 очков исследований§! В наличии: §Y[?research_point_var]§!"
+  
+  research_point_3_decision: "Продвинутое производство очков исследований  |  §R10,000 очков исследований§!"
+  research_point_3_decision_trigger_tt: "Требуется §R10,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  ideology_research_decision: "Исследование поддержки идеологии  |  §Y50 очков исследований§!"
+  ideology_research_decision_trigger_tt: "Требуется §Y50 очков исследований§! В наличии: §Y[?research_point_var]§! \n §RПредупреждение: МОДы с системой идеологий, отличающейся от оригинальной, могут вызвать сбой игры§!"
+
+  facility_breakthrough_research_decision: "Исследование базового прорыва в технологиях объектов  |  §G10 очков исследований§!"
+  facility_breakthrough_research_decision_trigger_tt: "Требуется §G10 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  facility_breakthrough_research_2_decision: "Исследование среднего прорыва в технологиях объектов  |  §Y1,000 очков исследований§!"
+  facility_breakthrough_research_2_decision_trigger_tt: "Требуется §Y1,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  facility_breakthrough_research_3_decision: "Исследование продвинутого прорыва в технологиях объектов  |  §R100,000 очков исследований§!"
+  facility_breakthrough_research_3_decision_trigger_tt: "Требуется §R100,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  # Решения по военному опыту
+  xp_production_decision: "Исследование базового производства военного опыта  |  §G10 очков исследований§!"
+  xp_production_decision_trigger_tt: "Требуется §G10 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  xp_production_2_decision: "Исследование среднего производства военного опыта  |  §Y1,000 очков исследований§!"
+  xp_production_2_decision_trigger_tt: "Требуется §Y1,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  xp_production_3_decision: "Исследование продвинутого производства военного опыта  |  §R100,000 очков исследований§!"
+  xp_production_3_decision_trigger_tt: "Требуется §R100,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  # Решения по командной мощи
+  command_power_production_decision: "Исследование базовой командной мощи  |  §G10 очков исследований§!"
+  command_power_production_decision_trigger_tt: "Требуется §G10 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  command_power_production_2_decision: "Исследование средней командной мощи  |  §Y1,000 очков исследований§!"
+  command_power_production_2_decision_trigger_tt: "Требуется §Y1,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  command_power_production_3_decision: "Исследование продвинутой командной мощи  |  §R100,000 очков исследований§!"
+  command_power_production_3_decision_trigger_tt: "Требуется §R100,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  # Решения по напряженности в мире
+  world_tension_production_decision: "Исследование технологий напряженности в мире  |  §Y50 очков исследований§!"
+  world_tension_production_decision_trigger_tt: "Требуется §Y50 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  # Технологии напряженности в мире
+  world_tension_increase_production_research: "Технология увеличения напряженности в мире"
+  world_tension_increase_production_research_desc: "Разблокирует производственные возможности, увеличивающие напряженность в мире."
+
+  world_tension_decrease_production_research: "Технология снижения напряженности в мире"
+  world_tension_decrease_production_research_desc: "Разблокирует производственные возможности, снижающие напряженность в мире."
+
+  # Исследования промышленности
+  factory_research_decision: "Исследование базовой эффективности промышленности  |  §G10 очков исследований§!"
+  factory_research_decision_trigger_tt: "Требуется §G10 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  factory_research_2_decision: "Исследование средней эффективности промышленности  |  §Y1,000 очков исследований§!"
+  factory_research_2_decision_trigger_tt: "Требуется §Y1,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  factory_research_3_decision: "Исследование продвинутой эффективности промышленности  |  §R100,000 очков исследований§!"
+  factory_research_3_decision_trigger_tt: "Требуется §R100,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  # Исследования ресурсов
+  resource_research_decision: "Исследование базового производства ресурсов  |  §G10 очков исследований§!"
+  resource_research_decision_trigger_tt: "Требуется §G10 очков исследований§! В наличии: §Y[?research_point_var]§!\n §GРесурсы будут производиться в вашей контролируемой столице§!"
+
+  resource_research_2_decision: "Исследование среднего производства ресурсов  |  §Y1,000 очков исследований§!"
+  resource_research_2_decision_trigger_tt: "Требуется §Y1,000 очков исследований§! В наличии: §Y[?research_point_var]§!\n §GРесурсы будут производиться в вашей контролируемой столице§!"
+
+  resource_research_3_decision: "Исследование продвинутого производства ресурсов  |  §R100,000 очков исследований§!"
+  resource_research_3_decision_trigger_tt: "Требуется §R100,000 очков исследований§! В наличии: §Y[?research_point_var]§!\n §GРесурсы будут производиться в вашей контролируемой столице§!"
+
+  # Исследования оккупационного оборудования
+  occupation_equipment_research_decision: "Исследование базового оккупационного оборудования  |  §G10 очков исследований§!"
+  occupation_equipment_research_decision_trigger_tt: "Требуется §G10 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  # Исследования оккупационного оборудования
+  occupation_equipment_research_2_decision: "Исследование среднего уровня оккупационного оборудования  |  §Y1,000 очков исследований§!"
+  occupation_equipment_research_2_decision_trigger_tt: "Требуется §Y1,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  occupation_equipment_research_3_decision: "Исследование продвинутого оккупационного оборудования  |  §R100,000 очков исследований§!"
+  occupation_equipment_research_3_decision_trigger_tt: "Требуется §R100,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  # Исследования производительности фабрик
+  factory_output_research_decision: "Исследование базовой производительности промышленности  |  §G10 очков исследований§!"
+  factory_output_research_decision_trigger_tt: "Требуется §G10 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  factory_output_research_2_decision: "Исследование средней производительности промышленности  |  §Y1,000 очков исследований§!"
+  factory_output_research_2_decision_trigger_tt: "Требуется §Y1,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  factory_output_research_3_decision: "Исследование продвинутой производительности промышленности  |  §R100,000 очков исследований§!"
+  factory_output_research_3_decision_trigger_tt: "Требуется §R100,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  # Исследования слотов агентов
+  operative_slot_research_decision: "Исследование базового слота оперативника  |  §G10 очков исследований§!"
+  operative_slot_research_decision_trigger_tt: "Требуется §G10 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  operative_slot_research_2_decision: "Исследование среднего слота оперативника  |  §Y1,000 очков исследований§!"
+  operative_slot_research_2_decision_trigger_tt: "Требуется §Y1,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  operative_slot_research_3_decision: "Исследование продвинутого слота оперативника  |  §R100,000 очков исследований§!"
+  operative_slot_research_3_decision_trigger_tt: "Требуется §R100,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  # Исследования автономии
+  autonomy_research_decision: "Исследование базовой автономии  |  §G10 очков исследований§!"
+  autonomy_research_decision_trigger_tt: "Требуется §G10 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  autonomy_research_2_decision: "Исследование средней автономии  |  §Y1,000 очков исследований§!"
+  autonomy_research_2_decision_trigger_tt: "Требуется §Y1,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  autonomy_research_3_decision: "Исследование продвинутой автономии  |  §R100,000 очков исследований§!"
+  autonomy_research_3_decision_trigger_tt: "Требуется §R100,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  # Исследование дополнительных слотов
+  research_slot_decision: "Производство дополнительных слотов исследований  |  §R100,000 очков исследований§!"
+  research_slot_decision_trigger_tt: "Требуется §R100,000 очков исследований§! В наличии: §Y[?research_point_var]§!"
+
+  # Решения по скорости исследований
+  research_speed_decision: "Преобразовать §Gисследовательские очки§! в §Yскорость исследований§!"
+  research_speed_decision_trigger_tt: "\nТекущие очки исследований: §Y[?research_point_var]§! \nПреобразуемая скорость исследований: §G[?converted_research_speed|.0%%]§!"
+
+  # Решения по скорости специальных исследований
+  special_research_speed_decision: "Преобразовать §Gисследовательские очки§! в §Yскорость специальных проектов§!"
+  special_research_speed_decision_trigger_tt: "\nТекущие очки исследований: §Y[?research_point_var]§! \nПреобразуемая скорость специальных проектов: §G[?converted_research_speed|.0%%]§!"
+
+  # Автоматизация оккупационного оборудования
+  automate_occupation_decision: "Автоматически использовать оккупационное оборудование"
+  automate_occupation_decision_desc: "\n§GОборудование для соответствия, сопротивления и создания ядра будет активироваться случайным образом в ваших неосновных территориях§!\n\n§RЧтобы производить основное оборудование, неосновные провинции должны иметь как минимум 70 соответствия и менее 10 сопротивления§!"
+
+  # Отмена автоматического использования оккупационного оборудования
+  cancel_automate_occupation_decision: "Отменить автоматическое использование оккупационного оборудования"
+  cancel_automate_occupation_decision_desc: "§GВы сможете вручную использовать оккупационное оборудование на карте§!"

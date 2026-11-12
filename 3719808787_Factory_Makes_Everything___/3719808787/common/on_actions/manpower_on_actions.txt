@@ -1,0 +1,160 @@
+on_actions = {
+	on_weekly = { # Manpower I tech
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@man_in_warehouse_product > 0
+					}
+				}
+				
+				set_variable = {
+					var = manpower_product
+					value = var:num_equipment@man_in_warehouse_product
+				}
+				set_variable = {
+					var = manpower_product_negative
+					value = var:num_equipment@man_in_warehouse_product
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@man_in_warehouse_product > 0
+						}
+					}
+					multiply_variable = {
+						var = manpower_product_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = man_in_warehouse_product
+    				amount = manpower_product_negative
+    				# producer = ROOT
+				}
+				add_manpower = manpower_product
+				set_variable = {
+					var = manpower_product
+					value = 0
+				}
+				set_variable = {
+					var = manpower_product_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+	on_weekly = { # Manpower II tech
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@man_in_warehouse_product_2 > 0
+					}
+				}
+				
+				set_variable = {
+					var = manpower_2_product
+					value = var:num_equipment@man_in_warehouse_product_2
+				}
+				set_variable = {
+					var = manpower_2_product_negative
+					value = var:num_equipment@man_in_warehouse_product_2
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@man_in_warehouse_product_2 > 0
+						}
+					}
+					multiply_variable = {
+						var = manpower_2_product_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = man_in_warehouse_product_2
+    				amount = manpower_2_product_negative
+    				# producer = ROOT
+				}
+				add_manpower = manpower_2_product
+				set_variable = {
+					var = manpower_2_product
+					value = 0
+				}
+				set_variable = {
+					var = manpower_2_product_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+	on_weekly = { # Manpower III tech
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@man_in_warehouse_product_3 > 0
+					}
+				}
+				
+				set_variable = {
+					var = manpower_3_product
+					value = var:num_equipment@man_in_warehouse_product_3
+				}
+				set_variable = {
+					var = manpower_3_product_negative
+					value = var:num_equipment@man_in_warehouse_product_3
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@man_in_warehouse_product_3 > 0
+						}
+					}
+					multiply_variable = {
+						var = manpower_3_product_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = man_in_warehouse_product_3
+    				amount = manpower_3_product_negative
+    				# producer = ROOT
+				}
+				multiply_variable = {
+					manpower_3_product = 100
+				}
+				add_manpower = manpower_3_product
+				set_variable = {
+					var = manpower_3_product
+					value = 0
+				}
+				set_variable = {
+					var = manpower_3_product_negative
+					value = 0
+				}
+			}
+		}
+	}
+}

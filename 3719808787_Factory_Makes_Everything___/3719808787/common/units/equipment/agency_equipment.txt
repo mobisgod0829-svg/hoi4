@@ -1,0 +1,42 @@
+equipments = {
+    # Increase Operative Slot Equipment
+
+    operative_slot_in_warehouse = {
+        year = 1936
+        is_archetype = yes
+        picture = archetype_operative_slot
+        is_buildable = no
+
+        type = infantry
+        group_by = archetype
+
+        interface_category = interface_category_land
+        active = yes
+
+        lend_lease_cost = 2
+        build_cost_ic = 2500
+    }
+
+    operative_slot_in_warehouse_product = {
+        year = 1936
+        archetype = operative_slot_in_warehouse
+        priority = 30
+    }
+
+    operative_slot_in_warehouse_product_2 = {
+        year = 1938
+        archetype = operative_slot_in_warehouse
+        parent = operative_slot_in_warehouse_product
+        build_cost_ic = 900
+        priority = 20
+    }
+
+    operative_slot_in_warehouse_product_3 = {
+        year = 1941
+        archetype = operative_slot_in_warehouse
+        parent = operative_slot_in_warehouse_product_2
+        build_cost_ic = 100
+        priority = 10
+    }
+
+}

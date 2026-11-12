@@ -1,0 +1,155 @@
+﻿l_korean:
+  more_production_decision: "군공은 신이야" 
+  more_production_decision_desc: "인간은 신이 만들었고, 인간은 공장을 만들었다. 인간은 무엇이든 할 수 있는데, 왜 공장은 할 수 없는 걸까?\n\n 현재 연구 포인트: [?research_point_var]"
+
+  flag_decision: "모드 선택"
+  cheat_mode_decision: "모든 기술 해금"
+  cheat_mode_decision_desc: "§R경고: 플레이어가 너무 강해질 수 있습니다§!"
+  normal_mode_decision: "상남자 모드"
+
+  cheat_mode: "겁쟁이 모드"
+  normal_mode: "상남자 모드"
+
+  manpower_research_decision: "기본 신스 연구  |  §G10 연구 점수§!"
+  manpower_research_decision_trigger_tt: "§G10 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  manpower_research_2_decision: "개선된 신스 연구  |  §Y1,000 연구 점수§!"
+  manpower_research_2_decision_trigger_tt: "§Y1,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  manpower_research_3_decision: "발전된 신스 연구  |  §R100,000 연구 점수§!"
+  manpower_research_3_decision_trigger_tt: "§R100,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!  \n §G실제 인력이 추가된 인력 풀은 100배로 곱해집니다!§!"
+
+  political_research_decision: "기본 정부 효율 연구  |  §G10 연구 점수§!"
+  political_research_decision_trigger_tt: "§G10 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  political_research_2_decision: "개선된 정부 효율 연구  |  §Y1,000 연구 점수§!"
+  political_research_2_decision_trigger_tt: "§Y1,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  political_research_3_decision: "발전된 정부 효율 연구  |  §R100,000 연구 점수§!"
+  political_research_3_decision_trigger_tt: "§R100,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  research_point_2_decision: "개선된 연구 포인트 생산  |  §Y100 연구 점수§!"
+  research_point_2_decision_trigger_tt: "§Y100 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+  research_point_3_decision: "발전된 연구 포인트 생산  |  §R10,000 연구 점수§!"
+  research_point_3_decision_trigger_tt: "§R10,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  ideology_research_decision: "이념 지지 연구  |  §Y50 연구 점수§!"
+  ideology_research_decision_trigger_tt: "§Y50 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§! \n §R경고: 이념 시스템이 원본과 다른 MOD는 게임이 충돌할 수 있습니다§!"
+
+  facility_breakthrough_research_decision: "기본 시설 돌파 연구  |  §G10 연구 점수§!"
+  facility_breakthrough_research_decision_trigger_tt: "§G10 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  facility_breakthrough_research_2_decision: "개선된 시설 돌파 연구  |  §Y1,000 연구 점수§!"
+  facility_breakthrough_research_2_decision_trigger_tt: "§Y1,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  facility_breakthrough_research_3_decision: "발전된 시설 돌파 연구  |  §R100,000 연구 점수§!"
+  facility_breakthrough_research_3_decision_trigger_tt: "§R100,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  # XP Decisions
+  xp_production_decision: "기본 군대 경험치 생산 연구  |  §G10 연구 점수§!"
+  xp_production_decision_trigger_tt: "§G10 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  xp_production_2_decision: "개선된 군대 경험치 생산 연구  |  §Y1,000 연구 점수§!"
+  xp_production_2_decision_trigger_tt: "§Y1,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  xp_production_3_decision: "발전된 군대 경험치 생산 연구  |  §R100,000 연구 점수§!"
+  xp_production_3_decision_trigger_tt: "§R100,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  # Command Power Decisions
+  command_power_production_decision: "기본 지휘력 생산 연구  |  §G10 연구 점수§!"
+  command_power_production_decision_trigger_tt: "§G10 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  command_power_production_2_decision: "개선된 지휘력 생산 연구  |  §Y1,000 연구 점수§!"
+  command_power_production_2_decision_trigger_tt: "§Y1,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  command_power_production_3_decision: "발전된 지휘력 생산 연구  |  §R100,000 연구 점수§!"
+  command_power_production_3_decision_trigger_tt: "§R100,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  # World Tension Decision
+  world_tension_production_decision: "긴장도 연구 |  §Y50 연구 점수§!"
+  world_tension_production_decision_trigger_tt: "§Y50 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  # World Tension Technologies
+  world_tension_increase_production_research: "긴장도 증가 기술"
+  world_tension_increase_production_research_desc: "긴장도를 증가시키는 산업 생산 기술을 해금합니다."
+
+  world_tension_decrease_production_research: "긴장도 감소 기술"
+  world_tension_decrease_production_research_desc: "긴장도를 감소시키는 산업 생산 기술을 해금합니다."
+
+  factory_research_decision: "기본 산업 효율 연구  |  §G10 연구 점수§!"
+  factory_research_decision_trigger_tt: "§G10 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  factory_research_2_decision: "개선된 산업 효율 연구  |  §Y1,000 연구 점수§!"
+  factory_research_2_decision_trigger_tt: "§Y1,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  factory_research_3_decision: "발전된 산업 효율 연구  |  §R100,000 연구 점수§!"
+  factory_research_3_decision_trigger_tt: "§R100,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  resource_research_decision: "기본 자원 생산 연구  |  §G10 연구 점수§!"
+  resource_research_decision_trigger_tt: "§G10 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!\n §G자원이 제어 중인 수도에 생산됩니다§!"
+
+  resource_research_2_decision: "개선된 자원 생산 연구  |  §Y1,000 연구 점수§!"
+  resource_research_2_decision_trigger_tt: "§Y1,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!\n §G자원이 제어 중인 수도에 생산됩니다§!"
+
+  resource_research_3_decision: "발전된 자원 생산 연구  |  §R100,000 연구 점수§!"
+  resource_research_3_decision_trigger_tt: "§R100,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!\n §G자원이 제어 중인 수도에 생산됩니다§!"
+
+  occupation_equipment_research_decision: "기본 직업 장비 연구  |  §G10 연구 점수§!"
+  occupation_equipment_research_decision_trigger_tt: "§G10 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+  # occupation_equipment_research_decision_desc: "\nCompliance and resistance equipment will activate randomly in your non-core territories\n\nTo produce core equipment, non-core provinces must have at least 50 Compliance"
+
+  occupation_equipment_research_2_decision: "개선된 직업 장비 연구  |  §Y1,000 연구 점수§!"
+  occupation_equipment_research_2_decision_trigger_tt: "§Y1,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  occupation_equipment_research_3_decision: "발전된 직업 장비 연구  |  §R100,000 연구 점수§!"
+  occupation_equipment_research_3_decision_trigger_tt: "§R100,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  # Factory Output Decisions
+  factory_output_research_decision: "기본 공장 생산력 연구  |  §G10 연구 점수§!"
+  factory_output_research_decision_trigger_tt: "§G10 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  factory_output_research_2_decision: "개선된 공장 생산력 연구  |  §Y1,000 연구 점수§!"
+  factory_output_research_2_decision_trigger_tt: "§Y1,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  factory_output_research_3_decision: "발전된 공장 생산력 연구  |  §R100,000 연구 점수§!"
+  factory_output_research_3_decision_trigger_tt: "§R100,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  # Operative Slot Decisions
+  operative_slot_research_decision: "기본 첩보원 슬롯 연구  |  §G10 연구 점수§!"
+  operative_slot_research_decision_trigger_tt: "§G10 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  operative_slot_research_2_decision: "개선된 첩보원 슬롯 연구  |  §Y1,000 연구 점수§!"
+  operative_slot_research_2_decision_trigger_tt: "§Y1,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  operative_slot_research_3_decision: "발전된 첩보원 슬롯 연구  |  §R100,000 연구 점수§!"
+  operative_slot_research_3_decision_trigger_tt: "§R100,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  # Increase Autonomy Decisions
+  autonomy_research_decision: "기본 자율도 연구  |  §G10 연구 점수§!"
+  autonomy_research_decision_trigger_tt: "§G10 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  autonomy_research_2_decision: "개선된 자율도 연구  |  §Y1,000 연구 점수§!"
+  autonomy_research_2_decision_trigger_tt: "§Y1,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  autonomy_research_3_decision: "발전된 자율도 연구  |  §R100,000 연구 점수§!"
+  autonomy_research_3_decision_trigger_tt: "§R100,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  # Research Slot Decisions
+  research_slot_decision: "연구 슬롯 생산  |  §R100,000 연구 점수§!"
+  research_slot_decision_trigger_tt: "§R100,000 연구 점수§!가 필요합니다! 현재: §Y[?research_point_var]§!"
+
+  # Research Speed Decisions
+  research_speed_decision: "§G연구 점수§!를 §Y연구 속도§!로 변환합니다!"
+  research_speed_decision_trigger_tt: "\n현재 연구 점수: §Y[?research_point_var]§! \n변환 가능한 연구 속도: §G[?converted_research_speed|.0%%]§!"
+
+  # Special Research Speed Decisions
+  special_research_speed_decision: "§G연구 점수§!를 §Y특별 프로젝트 속도§!로 변환합니다!"
+  special_research_speed_decision_trigger_tt: "\n현재 연구 점수: §Y[?research_point_var]§! \n변환 가능한 특별 프로젝트 속도: §G[?converted_research_speed|.0%%]§!"
+
+  # Automate Occupation Equipment
+  automate_occupation_decision: "자동으로 진압 장비 사용"
+  automate_occupation_decision_desc: "\n§G순응도, 저항도, 그리고 진압 장비가 랜덤으로 활성화됩니다§!\n\n§R진압 장비를 생산하려면, 비핵심주는 최소 70% 순응도와 10% 이하의 저항도가 필요합니다§!"
+
+  # Cancel Automate Occupation Equipment
+  cancel_automate_occupation_decision: "자동으로 진압 장비 사용 취소"
+  cancel_automate_occupation_decision_desc: "§G맵에서 진압 장비를 수동으로 사용할 수 있습니다§!" 

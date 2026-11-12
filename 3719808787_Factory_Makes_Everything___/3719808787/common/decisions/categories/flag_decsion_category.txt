@@ -1,0 +1,21 @@
+################
+#### MOD_DEC ####
+################
+
+flag_decision = {
+	icon = GFX_decision_generic_construction
+	
+	priority = 114514
+
+	allowed = {
+		is_ai = no
+	}
+
+	visible = {
+		is_ai = no
+		NOT = {
+			has_country_flag = normal_mode
+			has_country_flag = cheat_mode
+		}
+	}
+}

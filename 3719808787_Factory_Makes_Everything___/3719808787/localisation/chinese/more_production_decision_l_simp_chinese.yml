@@ -1,0 +1,158 @@
+﻿l_simp_chinese:
+  more_production_decision: "万能军工厂" 
+  more_production_decision_desc: "上帝创造了人类，人类创造了工厂。人类可以做任何事，为什么工厂不行？\n\n 当前的科研点为：[?research_point_var|.0]"
+
+  flag_decision: "万能军工厂：模式选择"
+  cheat_mode_decision: "可以任意解锁任何科技"
+  cheat_mode_decision_desc: "§R警告：玩家可能会过于强大§!"
+  normal_mode_decision: "正常模式"
+
+  cheat_mode: "全解锁模式"
+  normal_mode: "正常模式"
+
+  manpower_research_decision: "初级合成人研究  |  §G10科研点§!"
+  manpower_research_decision_trigger_tt: "需要§G10科研点§!，当前为：§Y[?research_point_var]§!"
+
+  manpower_research_2_decision: "中级合成人研究  |  §Y1,000科研点§!"
+  manpower_research_2_decision_trigger_tt: "需要§Y1,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  manpower_research_3_decision: "高级合成人研究  |  §R100,000科研点§!"
+  manpower_research_3_decision_trigger_tt: "需要§R100,000科研点§!，当前为：§Y[?research_point_var]§!  \n §G加入人力池的实际人力将会乘以100倍！§!"
+
+  political_research_decision: "初级政府效率研究  |  §G10科研点§!"
+  political_research_decision_trigger_tt: "需要§G10科研点§!，当前为：§Y[?research_point_var]§!"
+
+  political_research_2_decision: "中级政府效率研究  |  §Y1,000科研点§!"
+  political_research_2_decision_trigger_tt: "需要§Y1,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  political_research_3_decision: "高级政府效率研究  |  §R100,000科研点§!"
+  political_research_3_decision_trigger_tt: "需要§R100,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  research_point_2_decision: "中级科研点生产  |  §Y100科研点§!"
+  research_point_2_decision_trigger_tt: "需要§Y100研究点§!，当前为：§Y[?research_point_var]§!"
+  research_point_3_decision: "高级科研点生产  |  §R10,000科研点§!"
+  research_point_3_decision_trigger_tt: "需要§R10,000研究点§!，当前为：§Y[?research_point_var]§!"
+
+  ideology_research_decision: "意识形态支持率研究  |  §Y50科研点§!"
+  ideology_research_decision_trigger_tt: "需要§Y50科研点§!，当前为：§Y[?research_point_var]§! \n §R警告：与原版意识形态不同的MOD可能会导致游戏崩溃§!"
+
+  facility_breakthrough_research_decision: "初级设施突破研究  |  §G10科研点§!"
+  facility_breakthrough_research_decision_trigger_tt: "需要§G10科研点§!，当前为：§Y[?research_point_var]§!"
+
+  facility_breakthrough_research_2_decision: "中级设施突破研究  |  §Y1,000科研点§!"
+  facility_breakthrough_research_2_decision_trigger_tt: "需要§Y1,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  facility_breakthrough_research_3_decision: "高级设施突破研究  |  §R100,000科研点§!"
+  facility_breakthrough_research_3_decision_trigger_tt: "需要§R100,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  # XP Decisions
+  xp_production_decision: "初级军事经验生产研究  |  §G10科研点§!"
+  xp_production_decision_trigger_tt: "需要§G10科研点§!，当前为：§Y[?research_point_var]§!"
+
+  xp_production_2_decision: "中级军事经验生产研究  |  §Y1,000科研点§!"
+  xp_production_2_decision_trigger_tt: "需要§Y1,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  xp_production_3_decision: "高级军事经验生产研究  |  §R100,000科研点§!"
+  xp_production_3_decision_trigger_tt: "需要§R100,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  # Command Power Decisions
+  command_power_production_decision: "初级指挥点数研究  |  §G10科研点§!"
+  command_power_production_decision_trigger_tt: "需要§G10科研点§!，当前为：§Y[?research_point_var]§!"
+
+  command_power_production_2_decision: "中级指挥点数研究  |  §Y1,000科研点§!"
+  command_power_production_2_decision_trigger_tt: "需要§Y1,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  command_power_production_3_decision: "高级指挥点数研究  |  §R100,000科研点§!"
+  command_power_production_3_decision_trigger_tt: "需要§R100,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  # World Tension Decision
+  world_tension_production_decision: "世界紧张度科技研究  |  §Y50科研点§!"
+  world_tension_production_decision_trigger_tt: "需要§Y50科研点§!，当前为：§Y[?research_point_var]§!"
+
+  # World Tension Technologies
+  world_tension_increase_production_research: "世界紧张度增加科技"
+  world_tension_increase_production_research_desc: "解锁增加世界紧张度的工业生产能力。"
+
+  world_tension_decrease_production_research: "世界紧张度减少科技"
+  world_tension_decrease_production_research_desc: "解锁减少世界紧张度的工业生产能力。"
+
+  factory_research_decision: "初级工业效率研究  |  §G10科研点§!"
+  factory_research_decision_trigger_tt: "需要§G10科研点§!，当前为：§Y[?research_point_var]§!"
+
+  factory_research_2_decision: "中级工业效率研究  |  §Y1,000科研点§!"
+  factory_research_2_decision_trigger_tt: "需要§Y1,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  factory_research_3_decision: "高级工业效率研究  |  §R100,000科研点§!"
+  factory_research_3_decision_trigger_tt: "需要§R100,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  resource_research_decision: "初级资源生产研究  |  §G10科研点§!"
+  resource_research_decision_trigger_tt: "需要§G10科研点§!，当前为：§Y[?research_point_var]§!\n §G资源会在你所控制的首都生成§!"
+
+  resource_research_2_decision: "中级资源生产研究  |  §Y1,000科研点§!"
+  resource_research_2_decision_trigger_tt: "需要§Y1,000科研点§!，当前为：§Y[?research_point_var]§!\n §G资源会在你所控制的首都生成§!"
+
+  resource_research_3_decision: "高级资源生产研究  |  §R100,000科研点§!"
+  resource_research_3_decision_trigger_tt: "需要§R100,000科研点§!，当前为：§Y[?research_point_var]§!\n §G资源会在你所控制的首都生成§!"
+
+  occupation_equipment_research_decision: "初级占领设备研发  |  §G10科研点§!"
+  occupation_equipment_research_decision_trigger_tt: "需要§G10科研点§!，当前为：§Y[?research_point_var]§!"
+  # occupation_equipment_research_decision_desc: "\n顺从度和抵抗度装备会在你控制的非核心地区随机生效\n\n造核心装备需要非核心省份拥有至少50点顺从度"
+
+  occupation_equipment_research_2_decision: "中级占领设备研发  |  §Y1,000科研点§!"
+  occupation_equipment_research_2_decision_trigger_tt: "需要§Y1,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  occupation_equipment_research_3_decision: "高级占领设备研发  |  §R100,000科研点§!"
+  occupation_equipment_research_3_decision_trigger_tt: "需要§R100,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  # Factory Output Decisions
+  factory_output_research_decision: "初级工业产出研究  |  §G10科研点§!"
+  factory_output_research_decision_trigger_tt: "需要§G10科研点§!，当前为：§Y[?research_point_var]§!"
+
+  factory_output_research_2_decision: "中级工业产出研究  |  §Y1,000科研点§!"
+  factory_output_research_2_decision_trigger_tt: "需要§Y1,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  factory_output_research_3_decision: "高级工业产出研究  |  §R100,000科研点§!"
+  factory_output_research_3_decision_trigger_tt: "需要§R100,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  # Operative Slot Decisions
+  operative_slot_research_decision: "初级特工位研究  |  §G10科研点§!"
+  operative_slot_research_decision_trigger_tt: "需要§G10科研点§!，当前为：§Y[?research_point_var]§!"
+
+  operative_slot_research_2_decision: "中级特工位研究  |  §Y1,000科研点§!"
+  operative_slot_research_2_decision_trigger_tt: "需要§Y1,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  operative_slot_research_3_decision: "高级特工位研究  |  §R100,000科研点§!"
+  operative_slot_research_3_decision_trigger_tt: "需要§R100,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  # Increase Autonomy Decisions
+  autonomy_research_decision: "初级自治度研究  |  §G10科研点§!"
+  autonomy_research_decision_trigger_tt: "需要§G10科研点§!，当前为：§Y[?research_point_var]§!"
+
+  autonomy_research_2_decision: "中级自治度研究  |  §Y1,000科研点§!"
+  autonomy_research_2_decision_trigger_tt: "需要§Y1,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  autonomy_research_3_decision: "高级自治度研究  |  §R100,000科研点§!"
+  autonomy_research_3_decision_trigger_tt: "需要§R100,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+
+  # research slot decisions
+  research_slot_decision: "科研槽生产  |  §R100,000科研点§!"
+  research_slot_decision_trigger_tt: "需要§R100,000科研点§!，当前为：§Y[?research_point_var]§!"
+
+  # research speed decisions
+  research_speed_decision: "将§G科研点§!转换为§Y科研速度§!"
+  research_speed_decision_trigger_tt: "\n当前科研点数：§Y[?research_point_var]§!，\n可转换的科研速度：§G[?converted_research_speed|.0%%]§!"
+
+  # speical research speed decisions
+  special_research_speed_decision: "将§G科研点§!转换为§Y特殊项目速度§!"
+  special_research_speed_decision_trigger_tt: "\n当前科研点数：§Y[?research_point_var]§!，\n可转换的特殊项目速度：§G[?converted_research_speed|.0%%]§!"
+
+  # automate occupation equipment 
+  automate_occupation_decision: "自动使用占领设备"
+  automate_occupation_decision_desc: "\n§G顺从度,抵抗度和核心化装备会在你控制的非核心地区随机生效§!\n\n§R造核心装备需要非核心省份拥有至70点顺从度和低于10的抵抗度§!"
+
+  # cancel automate occupation equipment
+  cancel_automate_occupation_decision: "取消自动使用占领设备"
+  cancel_automate_occupation_decision_desc: "§G你将可以手动在地图上使用占领设备§!"
+
+

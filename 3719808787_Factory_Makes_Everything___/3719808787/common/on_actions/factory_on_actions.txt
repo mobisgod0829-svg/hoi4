@@ -1,0 +1,868 @@
+on_actions = {
+
+    # civilian factory production 
+
+	on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@civilian_factory_in_warehouse_product > 0
+					}
+				}
+				
+				set_variable = {
+					var = civilian_factory_product
+					value = var:num_equipment@civilian_factory_in_warehouse_product
+				}
+				set_variable = {
+					var = civilian_factory_product_negative
+					value = var:num_equipment@civilian_factory_in_warehouse_product
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@civilian_factory_in_warehouse_product > 0
+						}
+					}
+					multiply_variable = {
+						var = civilian_factory_product_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = civilian_factory_in_warehouse_product
+    				amount = civilian_factory_product_negative
+    				# producer = ROOT
+				}
+				add_offsite_building = {
+                    type = industrial_complex
+                    level = civilian_factory_product
+                }
+				set_variable = {
+					var = civilian_factory_product
+					value = 0
+				}
+				set_variable = {
+					var = civilian_factory_product_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+	on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@civilian_factory_in_warehouse_product_2 > 0
+					}
+				}
+				
+				set_variable = {
+					var = civilian_factory_product_2
+					value = var:num_equipment@civilian_factory_in_warehouse_product_2
+				}
+				set_variable = {
+					var = civilian_factory_product_2_negative
+					value = var:num_equipment@civilian_factory_in_warehouse_product_2
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@civilian_factory_in_warehouse_product_2 > 0
+						}
+					}
+					multiply_variable = {
+						var = civilian_factory_product_2_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = civilian_factory_in_warehouse_product_2
+    				amount = civilian_factory_product_2_negative
+    				# producer = ROOT
+				}
+				add_offsite_building = {
+                    type = industrial_complex
+                    level = civilian_factory_product_2
+                }
+				set_variable = {
+					var = civilian_factory_product_2
+					value = 0
+				}
+				set_variable = {
+					var = civilian_factory_product_2_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+
+	on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@civilian_factory_in_warehouse_product_3 > 0
+					}
+				}
+				
+				set_variable = {
+					var = civilian_factory_product_3
+					value = var:num_equipment@civilian_factory_in_warehouse_product_3
+				}
+				set_variable = {
+					var = civilian_factory_product_3_negative
+					value = var:num_equipment@civilian_factory_in_warehouse_product_3
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@civilian_factory_in_warehouse_product_3 > 0
+						}
+					}
+					multiply_variable = {
+						var = civilian_factory_product_3_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = civilian_factory_in_warehouse_product_3
+    				amount = civilian_factory_product_3_negative
+    				# producer = ROOT
+				}
+				add_offsite_building = {
+                    type = industrial_complex
+                    level = civilian_factory_product_3
+                }
+				set_variable = {
+					var = civilian_factory_product_3
+					value = 0
+				}
+				set_variable = {
+					var = civilian_factory_product_3_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+
+	# military factory production 
+
+	on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@military_factory_in_warehouse_product > 0
+					}
+				}
+				
+				set_variable = {
+					var = military_factory_product	
+					value = var:num_equipment@military_factory_in_warehouse_product
+				}
+				set_variable = {
+					var = military_factory_product_negative
+					value = var:num_equipment@military_factory_in_warehouse_product
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@military_factory_in_warehouse_product > 0
+						}
+					}
+					multiply_variable = {
+						var = military_factory_product_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = military_factory_in_warehouse_product
+    				amount = military_factory_product_negative
+    				# producer = ROOT
+				}
+				add_offsite_building = {
+                    type = arms_factory
+                    level = military_factory_product
+                }
+				set_variable = {
+					var = military_factory_product
+					value = 0
+				}
+				set_variable = {
+					var = military_factory_product_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+
+	on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@military_factory_in_warehouse_product_2 > 0
+					}
+				}
+				
+				set_variable = {
+					var = military_factory_product_2
+					value = var:num_equipment@military_factory_in_warehouse_product_2
+				}
+				set_variable = {
+					var = military_factory_product_2_negative
+					value = var:num_equipment@military_factory_in_warehouse_product_2
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@military_factory_in_warehouse_product_2 > 0
+						}
+					}
+					multiply_variable = {
+						var = military_factory_product_2_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = military_factory_in_warehouse_product_2
+    				amount = military_factory_product_2_negative
+    				# producer = ROOT
+				}
+				add_offsite_building = {
+                    type = arms_factory
+                    level = military_factory_product_2
+                }
+				set_variable = {
+					var = military_factory_product_2
+					value = 0
+				}
+				set_variable = {
+					var = military_factory_product_2_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+
+	on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@military_factory_in_warehouse_product_3 > 0
+					}
+				}
+				
+				set_variable = {
+					var = military_factory_product_3
+					value = var:num_equipment@military_factory_in_warehouse_product_3
+				}
+				set_variable = {
+					var = military_factory_product_3_negative
+					value = var:num_equipment@military_factory_in_warehouse_product_3
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@military_factory_in_warehouse_product_3 > 0
+						}
+					}
+					multiply_variable = {
+						var = military_factory_product_3_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = military_factory_in_warehouse_product_3
+    				amount = military_factory_product_3_negative
+    				# producer = ROOT
+				}
+				add_offsite_building = {
+                    type = arms_factory
+                    level = military_factory_product_3
+                }
+				set_variable = {
+					var = military_factory_product_3
+					value = 0
+				}
+				set_variable = {
+					var = military_factory_product_3_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+	# naval dockyard production 
+
+	on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@naval_dockyard_in_warehouse_product > 0
+					}
+				}
+				
+				set_variable = {
+					var = naval_dockyard_product	
+					value = var:num_equipment@naval_dockyard_in_warehouse_product
+				}
+				set_variable = {
+					var = naval_dockyard_product_negative
+					value = var:num_equipment@naval_dockyard_in_warehouse_product
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@naval_dockyard_in_warehouse_product > 0
+						}
+					}
+					multiply_variable = {
+						var = naval_dockyard_product_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = naval_dockyard_in_warehouse_product
+    				amount = naval_dockyard_product_negative
+    				# producer = ROOT
+				}
+				add_offsite_building = {
+                    type = dockyard
+                    level = naval_dockyard_product
+                }
+				set_variable = {
+					var = naval_dockyard_product
+					value = 0
+				}
+				set_variable = {
+					var = naval_dockyard_product_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+    on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@naval_dockyard_in_warehouse_product_2 > 0
+					}
+				}
+				
+				set_variable = {
+					var = naval_dockyard_product_2
+					value = var:num_equipment@naval_dockyard_in_warehouse_product_2
+				}
+				set_variable = {
+					var = naval_dockyard_product_2_negative
+					value = var:num_equipment@naval_dockyard_in_warehouse_product_2
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@naval_dockyard_in_warehouse_product_2 > 0
+						}
+					}
+					multiply_variable = {
+						var = naval_dockyard_product_2_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = naval_dockyard_in_warehouse_product_2
+    				amount = naval_dockyard_product_2_negative
+    				# producer = ROOT
+				}
+				add_offsite_building = {
+                    type = dockyard
+                    level = naval_dockyard_product_2
+                }
+				set_variable = {
+					var = naval_dockyard_product_2
+					value = 0
+				}
+				set_variable = {
+					var = naval_dockyard_product_2_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+
+	on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@naval_dockyard_in_warehouse_product_3 > 0
+					}
+				}
+				
+				set_variable = {
+					var = naval_dockyard_product_3
+					value = var:num_equipment@naval_dockyard_in_warehouse_product_3
+				}
+				set_variable = {
+					var = naval_dockyard_product_3_negative
+					value = var:num_equipment@naval_dockyard_in_warehouse_product_3
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@naval_dockyard_in_warehouse_product_3 > 0
+						}
+					}
+					multiply_variable = {
+						var = naval_dockyard_product_3_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = naval_dockyard_in_warehouse_product_3
+    				amount = naval_dockyard_product_3_negative
+    				# producer = ROOT
+				}
+				add_offsite_building = {
+                    type = dockyard
+                    level = naval_dockyard_product_3
+                }
+				set_variable = {
+					var = naval_dockyard_product_3
+					value = 0
+				}
+				set_variable = {
+					var = naval_dockyard_product_3_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+
+	# factory and naval ouput production 
+
+	on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@factory_output_in_warehouse_product > 0
+					}
+				}
+				
+				set_variable = {
+					var = factory_output_product	
+					value = var:num_equipment@factory_output_in_warehouse_product
+				}
+				set_variable = {
+					var = factory_output_product_negative
+					value = var:num_equipment@factory_output_in_warehouse_product
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@factory_output_in_warehouse_product > 0
+						}
+					}
+					multiply_variable = {
+						var = factory_output_product_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = factory_output_in_warehouse_product
+    				amount = factory_output_product_negative
+    				# producer = ROOT
+				}
+
+				divide_variable = {
+					var = factory_output_product
+					value = 100
+				}
+
+				add_to_variable = {
+					more_production_industrial_capacity_factory = factory_output_product
+				}
+				add_to_variable = {
+					more_production_industrial_capacity_dockyard = factory_output_product
+				}
+
+				set_variable = {
+					var = factory_output_product
+					value = 0
+				}
+				set_variable = {
+					var = factory_output_product_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+    on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@factory_output_in_warehouse_product_2 > 0
+					}
+				}
+				
+				set_variable = {
+					var = factory_output_product_2
+					value = var:num_equipment@factory_output_in_warehouse_product_2
+				}
+				set_variable = {
+					var = factory_output_product_2_negative
+					value = var:num_equipment@factory_output_in_warehouse_product_2
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@factory_output_in_warehouse_product_2 > 0
+						}
+					}
+					multiply_variable = {
+						var = factory_output_product_2_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = factory_output_in_warehouse_product_2
+    				amount = factory_output_product_2_negative
+    				# producer = ROOT
+				}
+				divide_variable = {
+					var = factory_output_product_2
+					value = 100
+				}
+
+				add_to_variable = {
+					more_production_industrial_capacity_factory = factory_output_product_2
+				}
+				add_to_variable = {
+					more_production_industrial_capacity_dockyard = factory_output_product_2
+				}
+				set_variable = {
+					var = factory_output_product_2
+					value = 0
+				}
+				set_variable = {
+					var = factory_output_product_2_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+
+	on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@factory_output_in_warehouse_product_3 > 0
+					}
+				}
+				
+				set_variable = {
+					var = factory_output_product_3
+					value = var:num_equipment@factory_output_in_warehouse_product_3
+				}
+				set_variable = {
+					var = factory_output_product_3_negative
+					value = var:num_equipment@factory_output_in_warehouse_product_3
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@factory_output_in_warehouse_product_3 > 0
+						}
+					}
+					multiply_variable = {
+						var = factory_output_product_3_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = factory_output_in_warehouse_product_3
+    				amount = factory_output_product_3_negative
+    				# producer = ROOT
+				}
+				divide_variable = {
+					var = factory_output_product_3
+					value = 100
+				}
+
+				add_to_variable = {
+					more_production_industrial_capacity_factory = factory_output_product_3
+				}
+				add_to_variable = {
+					more_production_industrial_capacity_dockyard = factory_output_product_3
+				}
+				set_variable = {
+					var = factory_output_product_3
+					value = 0
+				}
+				set_variable = {
+					var = factory_output_product_3_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+	on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@construction_speed_in_warehouse_product > 0
+					}
+				}
+				
+				set_variable = {
+					var = construction_speed_product	
+					value = var:num_equipment@construction_speed_in_warehouse_product
+				}
+				set_variable = {
+					var = construction_speed_product_negative
+					value = var:num_equipment@construction_speed_in_warehouse_product
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@construction_speed_in_warehouse_product > 0
+						}
+					}
+					multiply_variable = {
+						var = construction_speed_product_negative
+						value = -1
+					}
+				}
+				
+				add_equipment_to_stockpile = {
+    				type = construction_speed_in_warehouse_product
+    				amount = construction_speed_product_negative
+				}
+
+				divide_variable = {
+					var = construction_speed_product
+					value = 100
+				}
+
+				add_to_variable = {
+					more_production_building_construction_speed_factor = construction_speed_product
+				}
+
+				set_variable = {
+					var = construction_speed_product
+					value = 0
+				}
+				set_variable = {
+					var = construction_speed_product_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+	on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@construction_speed_in_warehouse_product_2 > 0
+					}
+				}
+				
+				set_variable = {
+					var = construction_speed_product_2
+					value = var:num_equipment@construction_speed_in_warehouse_product_2
+				}
+				set_variable = {
+					var = construction_speed_product_2_negative
+					value = var:num_equipment@construction_speed_in_warehouse_product_2
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@construction_speed_in_warehouse_product_2 > 0
+						}
+					}
+					multiply_variable = {
+						var = construction_speed_product_2_negative
+						value = -1
+					}
+				}
+				
+				add_equipment_to_stockpile = {
+    				type = construction_speed_in_warehouse_product_2
+    				amount = construction_speed_product_2_negative
+				}
+				divide_variable = {
+					var = construction_speed_product_2
+					value = 100
+				}
+
+				add_to_variable = {
+					more_production_building_construction_speed_factor = construction_speed_product_2
+				}
+				set_variable = {
+					var = construction_speed_product_2
+					value = 0
+				}
+				set_variable = {
+					var = construction_speed_product_2_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+	on_weekly = { 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@construction_speed_in_warehouse_product_3 > 0
+					}
+				}
+				
+				set_variable = {
+					var = construction_speed_product_3
+					value = var:num_equipment@construction_speed_in_warehouse_product_3
+				}
+				set_variable = {
+					var = construction_speed_product_3_negative
+					value = var:num_equipment@construction_speed_in_warehouse_product_3
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@construction_speed_in_warehouse_product_3 > 0
+						}
+					}
+					multiply_variable = {
+						var = construction_speed_product_3_negative
+						value = -1
+					}
+				}
+				
+				add_equipment_to_stockpile = {
+    				type = construction_speed_in_warehouse_product_3
+    				amount = construction_speed_product_3_negative
+				}
+				divide_variable = {
+					var = construction_speed_product_3
+					value = 100
+				}
+
+				add_to_variable = {
+					more_production_building_construction_speed_factor = construction_speed_product_3
+				}
+				set_variable = {
+					var = construction_speed_product_3
+					value = 0
+				}
+				set_variable = {
+					var = construction_speed_product_3_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+}

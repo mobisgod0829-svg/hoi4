@@ -1,0 +1,66 @@
+technologies = {
+    # Increase Autonomy Technologies
+    increase_autonomy_production_research = {
+        
+        enable_equipments = {
+            increase_autonomy_in_warehouse
+            increase_autonomy_in_warehouse_product
+        }
+        
+        research_cost = -1
+        ai_will_do = { factor = 0 }
+    }
+
+    increase_autonomy_production_2_research = {
+        
+        enable_equipments = {
+            increase_autonomy_in_warehouse_product_2
+        }
+        
+        research_cost = -1
+        ai_will_do = { factor = 0 } 
+    }
+
+    increase_autonomy_production_3_research = {
+        
+        enable_equipments = {
+            increase_autonomy_in_warehouse_product_3
+        }
+
+        research_cost = -1
+        ai_will_do = { factor = 0 } 
+    }
+
+    # Decrease Autonomy Technologies
+    decrease_autonomy_production_research = {
+        
+        enable_equipments = {
+            decrease_autonomy_in_warehouse
+            decrease_autonomy_in_warehouse_product
+        }
+        
+        research_cost = -1
+        ai_will_do = { factor = 0 } 
+    }
+
+    decrease_autonomy_production_2_research = {
+        
+        enable_equipments = {
+            decrease_autonomy_in_warehouse_product_2
+        }
+        
+        research_cost = -1
+        ai_will_do = { factor = 0 } 
+    }
+
+    decrease_autonomy_production_3_research = {
+        
+        enable_equipments = {
+            decrease_autonomy_in_warehouse_product_3
+        }
+
+        research_cost = -1
+        ai_will_do = { factor = 0 } 
+    }
+
+}

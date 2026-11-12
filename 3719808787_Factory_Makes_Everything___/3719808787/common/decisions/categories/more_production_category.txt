@@ -1,0 +1,25 @@
+################
+#### MOD_DEC ####
+################
+
+more_production_decision = {
+	icon = GFX_decision_generic_construction
+	
+	priority = 114514
+
+	allowed = {
+		is_ai = no
+	}
+
+	picture = GFX_decision_cat_picture_gateway_to_europe
+
+	visible = {
+		is_ai = no
+		OR = {
+			has_country_flag = normal_mode
+			has_country_flag = cheat_mode
+		}
+	}
+	
+	visible_when_empty = yes	
+}

@@ -1,0 +1,253 @@
+more_production_decision = {
+
+	research_point_2_decision = {
+		icon = GFX_research_icon
+		cost = 0
+        priority = 114514
+		fire_only_once = yes 
+		visible = {
+			has_tech = research_point_production_research
+            NOT = {
+                has_country_flag = cheat_mode
+            }
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = research_point_2_decision_trigger_tt
+				OR = {
+					has_country_flag = cheat_mode
+					check_variable = {
+						research_point_var > 99
+					}
+				}
+			}
+		}
+
+		complete_effect = {
+			if = {
+				limit = {
+					has_country_flag = normal_mode
+				}
+				add_to_variable = {
+					var = research_point_var
+					value = -100
+				}
+			}
+			set_technology = {
+				research_point_production_2_research = 1
+			}
+		}
+	}
+
+	research_point_3_decision = {
+		icon = GFX_research_icon
+		cost = 0
+        priority = 114514
+		fire_only_once = yes 
+
+		visible = {
+			has_tech = research_point_production_2_research
+            NOT = {
+                has_country_flag = cheat_mode
+            }
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = research_point_3_decision_trigger_tt
+				OR = {
+					has_country_flag = cheat_mode
+					check_variable = {
+						research_point_var > 9999
+					}
+				}
+			}
+		}
+
+		complete_effect = {
+			if = {
+				limit = {
+					has_country_flag = normal_mode
+				}
+				add_to_variable = {
+					var = research_point_var
+					value = -10000
+				}
+			}
+			set_technology = {
+				research_point_production_3_research = 1
+			}
+			add_dynamic_modifier = {
+				modifier = research_speed_dymanic_modifier
+			}
+		}
+	}
+
+	research_slot_decision = {
+		icon = GFX_research_icon
+		cost = 0
+        priority = 114514191981
+		fire_only_once = no 
+
+		visible = {
+			OR = {
+				has_tech = research_point_production_3_research
+				has_country_flag = cheat_mode
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = research_slot_decision_trigger_tt
+				OR = {
+					has_country_flag = cheat_mode
+					check_variable = {
+						research_point_var > 99999
+					}
+				}
+			}
+		}
+
+		complete_effect = {
+			if = {
+				limit = {
+					has_country_flag = normal_mode
+				}
+				add_to_variable = {
+					var = research_point_var
+					value = -10000
+				}
+			}
+			add_research_slot = 1
+		}
+	}
+
+	research_speed_decision = {
+
+		icon = GFX_research_speed_icon
+
+		visible = {
+			OR = {
+				has_dynamic_modifier = {modifier = research_speed_dymanic_modifier}
+				has_country_flag = cheat_mode
+			}
+		}
+		
+		cost = 0
+        priority = 114514191981
+        fire_only_once = no
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = research_speed_decision_trigger_tt
+				OR = {
+					has_country_flag = cheat_mode
+					check_variable = {
+						research_point_var > 999
+					}
+				}
+			}
+		}
+
+		complete_effect = {
+			if = {
+				limit = {
+					has_country_flag = normal_mode
+				}
+
+				set_variable = {
+					var = research_speed
+					value = research_point_var
+				}
+
+				divide_variable = {
+					var = research_speed
+					value = 100000
+				}
+
+				add_to_variable = {
+					more_production_research_speed_factor = research_speed
+				}
+
+				set_variable = {
+					var = research_point_var
+					value = 0
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = cheat_mode
+				}
+				add_to_variable = {
+					more_production_research_speed_factor = 1
+				}
+			}
+		}
+    }
+
+	special_research_speed_decision = {
+
+		icon = GFX_facility_constructions
+
+		visible = {
+			OR = {
+				has_dynamic_modifier = {modifier = research_speed_dymanic_modifier}
+				has_country_flag = cheat_mode
+			}
+		}
+		
+		cost = 0
+        priority = 114514191981
+        fire_only_once = no
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = special_research_speed_decision_trigger_tt
+				OR = {
+					has_country_flag = cheat_mode
+					check_variable = {
+						research_point_var > 999
+					}
+				}
+			}
+		}
+
+		complete_effect = {
+			if = {
+				limit = {
+					has_country_flag = normal_mode
+				}
+
+				set_variable = {
+					var = special_research_speed
+					value = research_point_var
+				}
+
+				divide_variable = {
+					var = special_research_speed
+					value = 100000
+				}
+
+				add_to_variable = {
+					more_production_special_project_speed_factor = special_research_speed
+				}
+
+				set_variable = {
+					var = research_point_var
+					value = 0
+				}
+			}
+
+			if = {
+				limit = {
+					has_country_flag = cheat_mode
+				}
+				add_to_variable = {
+					more_production_special_project_speed_factor = 1
+				}
+			}
+			
+		}
+	}
+}

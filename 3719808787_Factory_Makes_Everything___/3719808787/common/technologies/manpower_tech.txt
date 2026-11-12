@@ -1,0 +1,32 @@
+technologies = {
+	manpower_production_research = {
+		
+		enable_equipments = {
+			man_in_warehouse
+			man_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	manpower_production_2_research = {
+
+		enable_equipments = {
+			man_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	manpower_production_3_research = {
+		
+		enable_equipments = {
+			man_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+}

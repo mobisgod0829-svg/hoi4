@@ -1,0 +1,103 @@
+more_production_decision = {
+
+    operative_slot_research_decision = {
+		icon = GFX_total_operatives
+		cost = 0
+		priority = 30
+		fire_only_once = yes  
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = operative_slot_research_decision_trigger_tt
+				OR = {
+					has_country_flag = cheat_mode
+					check_variable = { research_point_var > 9 }
+				}
+			}
+		}
+
+		complete_effect = {
+			if = {
+				limit = { has_country_flag = normal_mode }
+				add_to_variable = {
+					var = research_point_var
+					value = -10
+				}
+			}
+			set_technology = {
+				operative_slot_production_research = 1
+			}
+            add_dynamic_modifier = {
+                modifier = operative_dymanic_modifier
+            }
+		}
+	}
+
+	operative_slot_research_2_decision = {
+		icon = GFX_total_operatives
+		priority = 20
+		fire_only_once = yes 
+
+		visible = {
+			has_tech = operative_slot_production_research
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = operative_slot_research_2_decision_trigger_tt
+				OR = {
+					has_country_flag = cheat_mode
+					check_variable = { research_point_var > 999 }
+				}
+			}
+		}
+
+		complete_effect = {
+			if = {
+				limit = { has_country_flag = normal_mode }
+				add_to_variable = {
+					var = research_point_var
+					value = -1000
+				}
+			}
+			set_technology = {
+				operative_slot_production_2_research = 1
+			}
+		}
+	}
+
+	operative_slot_research_3_decision = {
+		icon = GFX_total_operatives
+		cost = 0
+		priority = 10
+
+		fire_only_once = yes
+
+		visible = {
+			has_tech = operative_slot_production_2_research
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = operative_slot_research_3_decision_trigger_tt
+				OR = {
+					has_country_flag = cheat_mode
+					check_variable = { research_point_var > 99999 }
+				}
+			}
+		}
+
+		complete_effect = {
+			if = {
+				limit = { has_country_flag = normal_mode }
+				add_to_variable = {
+					var = research_point_var
+					value = -100000
+				}
+			}
+			set_technology = {
+				operative_slot_production_3_research = 1
+			}
+		}
+	}
+}

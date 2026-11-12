@@ -1,0 +1,41 @@
+more_production_decision = {
+
+
+	## TODO: Next Patch Update
+    
+#	non_agreesion_pact_decision = {
+#		icon = mission_icon
+#
+#		visible = {
+#		    always = yes
+#		}
+#
+#		available = { 
+#			always = yes
+#		}
+#
+#		ai_will_do = {
+#			base = 0
+#		}
+#
+#        state_target = yes
+#
+#        on_map_mode = map_only #map only to not clog the decision ui with a huge list.
+#
+#		target_array = global.states
+#
+#		target_trigger = {
+#			FROM = {
+#                OWNER = {
+#					is_neighbor_of = ROOT
+#				}
+#                is_capital = yes
+#            }
+#		}
+#
+#		complete_effect = {
+#            
+#		}
+#	}
+
+}

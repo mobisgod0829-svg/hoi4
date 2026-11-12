@@ -1,0 +1,32 @@
+technologies = {
+	research_point_production_research = {
+		
+		enable_equipments = {
+			research_point_in_warehouse
+			research_point_in_warehouse_product
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+	
+	research_point_production_2_research = {
+
+		enable_equipments = {
+			research_point_in_warehouse_product_2
+		}
+		
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+
+	research_point_production_3_research = {
+		
+		enable_equipments = {
+			research_point_in_warehouse_product_3
+		}
+
+		research_cost = -1
+		ai_will_do = { factor = 0 } 
+	}
+}

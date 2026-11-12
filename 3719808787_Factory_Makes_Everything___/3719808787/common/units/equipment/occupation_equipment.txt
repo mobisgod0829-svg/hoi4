@@ -1,0 +1,151 @@
+equipments = {
+
+    # Compliance Equipment
+	compliance_equipment_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_compliance
+		is_buildable = no
+
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		lend_lease_cost = 2
+		
+		build_cost_ic = 2000
+		resources = {
+			steel = 1
+		}
+	}
+
+	compliance_equipment_in_warehouse_product = {
+		year = 1936
+		archetype = compliance_equipment_in_warehouse
+		priority = 10	
+	}
+
+	compliance_equipment_in_warehouse_product_2 = {
+		year = 1938
+		archetype = compliance_equipment_in_warehouse
+		parent = compliance_equipment_in_warehouse_product
+
+		build_cost_ic = 500
+
+		priority = 20	
+	}
+
+	compliance_equipment_in_warehouse_product_3 = {
+		year = 1940
+		archetype = compliance_equipment_in_warehouse
+		parent = compliance_equipment_in_warehouse_product_2
+
+		build_cost_ic = 80
+
+		priority = 30
+	}
+
+    # Resistance Equipment
+	resistance_equipment_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_resistance
+		is_buildable = no
+
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		lend_lease_cost = 2
+		
+		build_cost_ic = 200
+		resources = {
+			steel = 1
+			aluminium = 1
+		}
+	}
+
+	resistance_equipment_in_warehouse_product = {
+		year = 1936
+		archetype = resistance_equipment_in_warehouse
+		priority = 10	
+	}
+
+	resistance_equipment_in_warehouse_product_2 = {
+		year = 1938
+		archetype = resistance_equipment_in_warehouse
+		parent = resistance_equipment_in_warehouse_product
+
+		build_cost_ic = 80
+
+		priority = 20	
+	}
+
+	resistance_equipment_in_warehouse_product_3 = {
+		year = 1940
+		archetype = resistance_equipment_in_warehouse
+		parent = resistance_equipment_in_warehouse_product_2
+
+		build_cost_ic = 8
+
+		priority = 30
+	}
+
+    # Coring Equipment
+	coring_equipment_in_warehouse = {
+		year = 1936
+	
+		is_archetype = yes
+		
+		picture = archetype_coring
+		is_buildable = no
+
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		lend_lease_cost = 3
+		
+		build_cost_ic = 8000
+		resources = {
+			steel = 1
+			tungsten = 1
+		}
+	}
+
+	coring_equipment_in_warehouse_product = {
+		year = 1936
+		archetype = coring_equipment_in_warehouse
+		priority = 10	
+	}
+
+	coring_equipment_in_warehouse_product_2 = {
+		year = 1938
+		archetype = coring_equipment_in_warehouse
+		parent = coring_equipment_in_warehouse_product
+
+		build_cost_ic = 2000
+
+		priority = 20	
+	}
+
+	coring_equipment_in_warehouse_product_3 = {
+		year = 1940
+		archetype = coring_equipment_in_warehouse
+		parent = coring_equipment_in_warehouse_product_2
+
+		build_cost_ic = 200
+
+		priority = 30
+	}
+}

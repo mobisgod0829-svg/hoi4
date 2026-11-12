@@ -1,0 +1,496 @@
+on_actions = {
+
+    on_weekly = { # Political Power I tech
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@pp_in_warehouse_product > 0
+					}
+				}
+				
+				set_variable = {
+					var = political_power_product
+					value = var:num_equipment@pp_in_warehouse_product
+				}
+				set_variable = {
+					var = political_power_product_negative
+					value = var:num_equipment@pp_in_warehouse_product
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@pp_in_warehouse_product > 0
+						}
+					}
+					multiply_variable = {
+						var = political_power_product_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = pp_in_warehouse_product
+    				amount = political_power_product_negative
+    				# producer = ROOT
+				}
+				add_political_power = political_power_product
+				set_variable = {
+					var = political_power_product
+					value = 0
+				}
+				set_variable = {
+					var = political_power_product_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+on_weekly = { # Political Power II tech
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@pp_in_warehouse_product_2 > 0
+					}
+				}
+				
+				set_variable = {
+					var = political_power_product_2
+					value = var:num_equipment@pp_in_warehouse_product_2
+				}
+				set_variable = {
+					var = political_power_product_2_negative
+					value = var:num_equipment@pp_in_warehouse_product_2
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@pp_in_warehouse_product_2 > 0
+						}
+					}
+					multiply_variable = {
+						var = political_power_product_2_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = pp_in_warehouse_product_2
+    				amount = political_power_product_2_negative
+    				# producer = ROOT
+				}
+				add_political_power = political_power_product_2
+				set_variable = {
+					var = political_power_product_2
+					value = 0
+				}
+				set_variable = {
+					var = political_power_product_2_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+	on_weekly = { # Political Power III tech
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@pp_in_warehouse_product_3 > 0
+					}
+				}
+				
+				set_variable = {
+					var = political_power_product_3
+					value = var:num_equipment@pp_in_warehouse_product_3
+				}
+				set_variable = {
+					var = political_power_product_3_negative
+					value = var:num_equipment@pp_in_warehouse_product_3
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@pp_in_warehouse_product_3 > 0
+						}
+					}
+					multiply_variable = {
+						var = political_power_product_3_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = pp_in_warehouse_product_3
+    				amount = political_power_product_3_negative
+    				# producer = ROOT
+				}
+				add_political_power = political_power_product_3
+				set_variable = {
+					var = political_power_product_3
+					value = 0
+				}
+				set_variable = {
+					var = political_power_product_3_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+    # stability and war support
+
+	on_weekly = { # stability tech
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@stability_in_warehouse_product > 0
+					}
+				}
+				
+				set_variable = {
+					var = stability_product
+					value = var:num_equipment@stability_in_warehouse_product
+				}
+				set_variable = {
+					var = stability_product_negative
+					value = var:num_equipment@stability_in_warehouse_product
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@stability_in_warehouse_product > 0
+						}
+					}
+					multiply_variable = {
+						var = stability_product_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = stability_in_warehouse_product
+    				amount = stability_product_negative
+    				# producer = ROOT
+				}
+
+				divide_variable = { stability_product = 100}
+				add_stability = stability_product
+
+				set_variable = {
+					var = stability_product
+					value = 0
+				}
+				set_variable = {
+					var = stability_product_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+	on_weekly = { # stability tech II 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@stability_in_warehouse_product_2 > 0
+					}
+				}
+				
+				set_variable = {
+					var = stability_product_2
+					value = var:num_equipment@stability_in_warehouse_product_2
+				}
+				set_variable = {
+					var = stability_product_2_negative
+					value = var:num_equipment@stability_in_warehouse_product_2
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@stability_in_warehouse_product_2 > 0
+						}
+					}
+					multiply_variable = {
+						var = stability_product_2_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = stability_in_warehouse_product_2
+    				amount = stability_product_2_negative
+    				# producer = ROOT
+				}
+
+				divide_variable = { stability_product_2 = 100}
+				add_stability = stability_product_2
+
+				set_variable = {
+					var = stability_product_2
+					value = 0
+				}
+				set_variable = {
+					var = stability_product_2_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+
+	on_weekly = { # stability tech III
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@stability_in_warehouse_product_3 > 0
+					}
+				}
+				
+				set_variable = {
+					var = stability_product_3
+					value = var:num_equipment@stability_in_warehouse_product_3
+				}
+				set_variable = {
+					var = stability_product_3_negative
+					value = var:num_equipment@stability_in_warehouse_product_3
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@stability_in_warehouse_product_3 > 0
+						}
+					}
+					multiply_variable = {
+						var = stability_product_3_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = stability_in_warehouse_product_3
+    				amount = stability_product_3_negative
+    				# producer = ROOT
+				}
+
+				divide_variable = { stability_product_3 = 100}
+				add_stability = stability_product_3
+
+				set_variable = {
+					var = stability_product_3
+					value = 0
+				}
+				set_variable = {
+					var = stability_product_3_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+	on_weekly = {  # war support
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@warsupport_in_warehouse_product > 0
+					}
+				}
+				
+				set_variable = {
+					var = warsupport_product
+					value = var:num_equipment@warsupport_in_warehouse_product
+				}
+				set_variable = {
+					var = warsupport_product_negative
+					value = var:num_equipment@warsupport_in_warehouse_product
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@warsupport_in_warehouse_product > 0
+						}
+					}
+					multiply_variable = {
+						var = warsupport_product_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = warsupport_in_warehouse_product
+    				amount = warsupport_product_negative
+    				# producer = ROOT
+				}
+
+				divide_variable = { warsupport_product = 100}
+				add_war_support = warsupport_product
+				
+				set_variable = {
+					var = warsupport_product
+					value = 0
+				}
+				set_variable = {
+					var = warsupport_product_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+	on_weekly = { # war support tech II 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@warsupport_in_warehouse_product_2 > 0
+					}
+				}
+				
+				set_variable = {
+					var = warsupport_product_2
+					value = var:num_equipment@warsupport_in_warehouse_product_2
+				}
+				set_variable = {
+					var = warsupport_product_2_negative
+					value = var:num_equipment@warsupport_in_warehouse_product_2
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@warsupport_in_warehouse_product_2 > 0
+						}
+					}
+					multiply_variable = {
+						var = warsupport_product_2_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = warsupport_in_warehouse_product_2
+    				amount = warsupport_product_2_negative
+    				# producer = ROOT
+				}
+
+				divide_variable = { warsupport_product_2 = 100}
+				add_war_support = warsupport_product_2
+				
+				set_variable = {
+					var = warsupport_product_2
+					value = 0
+				}
+				set_variable = {
+					var = warsupport_product_2_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+	on_weekly = {  # war support tech III 
+		
+		effect = {
+			if = {
+				limit = {
+					
+					check_variable = {
+						var:num_equipment@warsupport_in_warehouse_product_3 > 0
+					}
+				}
+				
+				set_variable = {
+					var = warsupport_product_3
+					value = var:num_equipment@warsupport_in_warehouse_product_3
+				}
+				set_variable = {
+					var = warsupport_product_3_negative
+					value = var:num_equipment@warsupport_in_warehouse_product_3
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var:num_equipment@warsupport_in_warehouse_product_3 > 0
+						}
+					}
+					multiply_variable = {
+						var = warsupport_product_3_negative
+						value = -1
+					}
+				}
+				
+				
+				########################################################
+
+				add_equipment_to_stockpile = {
+    				type = warsupport_in_warehouse_product_3
+    				amount = warsupport_product_3_negative
+    				# producer = ROOT
+				}
+
+				divide_variable = { warsupport_product_3 = 100}
+				add_war_support = warsupport_product_3
+				
+				set_variable = {
+					var = warsupport_product_3
+					value = 0
+				}
+				set_variable = {
+					var = warsupport_product_3_negative
+					value = 0
+				}
+			}
+		}
+	}
+
+
+
+
+
+}

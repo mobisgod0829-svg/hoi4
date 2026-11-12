@@ -1,0 +1,369 @@
+on_actions = {
+
+    # compliance production level 1
+    on_daily = { 
+        effect = {
+            if = {
+                limit = {
+                    check_variable = {
+                        var:num_equipment@compliance_equipment_in_warehouse_product > 0
+                    }
+                    has_country_flag = automate_occupation_enabled
+                }
+
+                ########################################################
+
+                if = {
+                    limit = {
+                        any_state = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            compliance < 70
+                        }
+                    }
+
+                    random_state = {
+                        limit = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            compliance < 70
+                        }
+                        add_compliance = 75
+                    }
+
+                    add_equipment_to_stockpile = {
+                        type = compliance_equipment_in_warehouse_product
+                        amount = -1
+                    }
+                }
+            }
+        }
+    }
+
+    # compliance production level 2
+    on_daily = { 
+        effect = {
+            if = {
+                limit = {
+                    check_variable = {
+                        var:num_equipment@compliance_equipment_in_warehouse_product_2 > 0
+                    }
+                    has_country_flag = automate_occupation_enabled
+                }
+
+                ########################################################
+
+                if = {
+                    limit = {
+                        any_state = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            compliance < 70
+                        }
+                    }
+
+                    random_state = {
+                        limit = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            compliance < 70
+                        }
+                        add_compliance = 75
+                    }
+
+                    add_equipment_to_stockpile = {
+                        type = compliance_equipment_in_warehouse_product_2
+                        amount = -1
+                    }
+                }
+            }
+        }
+    }
+
+    # compliance production level 3
+    on_daily = { 
+        effect = {
+            if = {
+                limit = {
+                    check_variable = {
+                        var:num_equipment@compliance_equipment_in_warehouse_product_3 > 0
+                    }
+                    has_country_flag = automate_occupation_enabled
+                }
+
+                ########################################################
+
+                if = {
+                    limit = {
+                        any_state = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            compliance < 70
+                        }
+                    }
+
+                    random_state = {
+                        limit = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            compliance < 70
+                        }
+                        add_compliance = 75
+                    }
+
+                    add_equipment_to_stockpile = {
+                        type = compliance_equipment_in_warehouse_product_3
+                        amount = -1
+                    }
+                }
+            }
+        }
+    }
+
+    # resistance production level 1
+    on_daily = { 
+        effect = {
+            if = {
+                limit = {
+                    check_variable = {
+                        var:num_equipment@resistance_equipment_in_warehouse_product > 0
+                    }
+                    has_country_flag = automate_occupation_enabled
+                }
+
+                ########################################################
+
+                if = {
+                    limit = {
+                        any_state = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            resistance > 10
+                        }
+                    }
+
+                    random_state = {
+                        limit = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            resistance > 10
+                        }
+                        add_resistance = -100
+                    }
+
+                    add_equipment_to_stockpile = {
+                        type = resistance_equipment_in_warehouse_product
+                        amount = -1
+                    }
+                }
+            }
+        }
+    }
+
+    # resistance production level 2
+    on_daily = { 
+        effect = {
+            if = {
+                limit = {
+                    check_variable = {
+                        var:num_equipment@resistance_equipment_in_warehouse_product_2 > 0
+                    }
+                    has_country_flag = automate_occupation_enabled
+                }
+
+                ########################################################
+
+                if = {
+                    limit = {
+                        any_state = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            resistance > 10
+                        }
+                    }
+
+                    random_state = {
+                        limit = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            resistance > 10
+                        }
+                        add_resistance = -100
+                    }
+
+                    add_equipment_to_stockpile = {
+                        type = resistance_equipment_in_warehouse_product_2
+                        amount = -1
+                    }
+                }
+            }
+        }
+    }
+
+    # resistance production level 3
+    on_daily = { 
+        effect = {
+            if = {
+                limit = {
+                    check_variable = {
+                        var:num_equipment@resistance_equipment_in_warehouse_product_3 > 0
+                    }
+                    has_country_flag = automate_occupation_enabled
+                }
+
+                ########################################################
+
+                if = {
+                    limit = {
+                        any_state = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            resistance > 10
+                        }
+                    }
+
+                    random_state = {
+                        limit = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            resistance > 10
+                        }
+                        add_resistance = -100
+                    }
+
+                    add_equipment_to_stockpile = {
+                        type = resistance_equipment_in_warehouse_product_3
+                        amount = -1
+                    }
+                }
+            }
+        }
+    }
+
+    # coring production level 1
+    on_daily = { 
+        effect = {
+            if = {
+                limit = {
+                    check_variable = {
+                        var:num_equipment@coring_equipment_in_warehouse_product > 0
+                    }
+                    has_country_flag = automate_occupation_enabled
+                }
+
+                ########################################################
+
+                if = {
+                    limit = {
+                        any_state = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            compliance > 70
+                            resistance < 10
+                        }
+                    }
+
+                    random_state = {
+                        limit = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            compliance > 70
+                            resistance < 10
+                        }
+                        add_core_of = ROOT
+                    }
+
+                    add_equipment_to_stockpile = {
+                        type = coring_equipment_in_warehouse_product
+                        amount = -1
+                    }
+                }
+            }
+        }
+    }
+
+    # coring production level 2
+    on_daily = { 
+        effect = {
+            if = {
+                limit = {
+                    check_variable = {
+                        var:num_equipment@coring_equipment_in_warehouse_product_2 > 0
+                    }
+                    has_country_flag = automate_occupation_enabled
+                }
+
+                ########################################################
+
+                if = {
+                    limit = {
+                        any_state = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            compliance > 70
+                            resistance < 10
+                        }
+                    }
+
+                    random_state = {
+                        limit = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            compliance > 70
+                            resistance < 10
+                        }
+                        add_core_of = ROOT
+                    }
+
+                    add_equipment_to_stockpile = {
+                        type = coring_equipment_in_warehouse_product_2
+                        amount = -1
+                    }
+                }
+            }
+        }
+    }
+
+    # coring production level 3
+    on_daily = { 
+        effect = {
+            if = {
+                limit = {
+                    check_variable = {
+                        var:num_equipment@coring_equipment_in_warehouse_product_3 > 0
+                    }
+                    has_country_flag = automate_occupation_enabled
+                }
+
+                ########################################################
+
+                if = {
+                    limit = {
+                        any_state = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            compliance > 70
+                            resistance < 10
+                        }
+                    }
+
+                    random_state = {
+                        limit = {
+                            is_controlled_by = ROOT
+                            Not = { is_core_of = ROOT }
+                            compliance > 70
+                            resistance < 10
+                        }
+                        add_core_of = ROOT
+                    }
+
+                    add_equipment_to_stockpile = {
+                        type = coring_equipment_in_warehouse_product_3
+                        amount = -1
+                    }
+                }
+            }
+        }
+    }
+
+}

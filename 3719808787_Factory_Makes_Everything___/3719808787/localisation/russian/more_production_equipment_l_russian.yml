@@ -1,0 +1,344 @@
+﻿l_russian:
+  # Оборудование для людских ресурсов
+  man_in_warehouse_product: "Синтетический человек I"
+  man_in_warehouse_product_desc: "Синтетическая рабочая сила!"
+  man_in_warehouse_product_2: "Синтетический человек II"
+  man_in_warehouse_product_2_desc: "Более эффективная синтетическая рабочая сила!"
+  man_in_warehouse_product_3: "Синтетический человек III"
+  man_in_warehouse_product_3_desc: "§GФактическое количество людских ресурсов, добавленных в ваш резерв, будет умножено на 100!§!"
+
+  # Оборудование для политической власти
+  pp_in_warehouse_product: "Политическая власть I"
+  pp_in_warehouse_product_desc: "Искусственная политическая власть!"
+  pp_in_warehouse_product_2: "Политическая власть II"
+  pp_in_warehouse_product_2_desc: "Более эффективная искусственная политическая власть!"
+  pp_in_warehouse_product_3: "Политическая власть III"
+  pp_in_warehouse_product_3_desc: "Наиболее эффективная искусственная политическая власть!"
+
+  # Оборудование для стабильности
+  stability_in_warehouse_product: "Стабильность I"
+  stability_in_warehouse_product_desc: "Искусственная стабильность!"
+  stability_in_warehouse_product_2: "Стабильность II"
+  stability_in_warehouse_product_2_desc: "Более эффективная искусственная стабильность!"
+  stability_in_warehouse_product_3: "Стабильность III"
+  stability_in_warehouse_product_3_desc: "Наиболее эффективная искусственная стабильность!"
+
+  # Оборудование для поддержки войны
+  warsupport_in_warehouse_product: "Поддержка войны I"
+  warsupport_in_warehouse_product_desc: "Искусственная поддержка войны!"
+  warsupport_in_warehouse_product_2: "Поддержка войны II"
+  warsupport_in_warehouse_product_2_desc: "Более эффективная искусственная поддержка войны!"
+  warsupport_in_warehouse_product_3: "Поддержка войны III"
+  warsupport_in_warehouse_product_3_desc: "Наиболее эффективная искусственная поддержка войны!"
+
+  # Оборудование для идеологии (одноуровневое)
+  democracy_in_warehouse_product: "Поддержка демократии"
+  democracy_in_warehouse_product_desc: "Искусственная поддержка демократии!"
+  communism_in_warehouse_product: "Поддержка коммунизма"
+  communism_in_warehouse_product_desc: "Искусственная поддержка коммунизма!"
+  neutrality_in_warehouse_product: "Поддержка нейтралитета"
+  neutrality_in_warehouse_product_desc: "Искусственная поддержка нейтралитета!"
+  fascism_in_warehouse_product: "Поддержка фашизма"
+  fascism_in_warehouse_product_desc: "Искусственная поддержка фашизма!"
+
+  # Оборудование для прорыва военной инфраструктуры
+  army_breakthrough_in_warehouse_product: "Прорыв армии I"
+  army_breakthrough_in_warehouse_product_desc: "Искусственный прорыв армии!"
+  army_breakthrough_in_warehouse_product_2: "Прорыв армии II"
+  army_breakthrough_in_warehouse_product_2_desc: "Более эффективный искусственный прорыв армии!"
+  army_breakthrough_in_warehouse_product_3: "Прорыв армии III"
+  army_breakthrough_in_warehouse_product_3_desc: "Наиболее эффективный искусственный прорыв армии!"
+
+  navy_breakthrough_in_warehouse_product: "Прорыв флота I"
+  navy_breakthrough_in_warehouse_product_desc: "Искусственный прорыв флота!"
+  navy_breakthrough_in_warehouse_product_2: "Прорыв флота II"
+  navy_breakthrough_in_warehouse_product_2_desc: "Более эффективный искусственный прорыв флота!"
+  navy_breakthrough_in_warehouse_product_3: "Прорыв флота III"
+  navy_breakthrough_in_warehouse_product_3_desc: "Наиболее эффективный искусственный прорыв флота!"
+
+  air_breakthrough_in_warehouse_product: "Прорыв ВВС I"
+  air_breakthrough_in_warehouse_product_desc: "Искусственный прорыв ВВС!"
+  air_breakthrough_in_warehouse_product_2: "Прорыв ВВС II"
+  air_breakthrough_in_warehouse_product_2_desc: "Более эффективный искусственный прорыв ВВС!"
+  air_breakthrough_in_warehouse_product_3: "Прорыв ВВС III"
+  air_breakthrough_in_warehouse_product_3_desc: "Наиболее эффективный искусственный прорыв ВВС!"
+
+  nuclear_breakthrough_in_warehouse_product: "Прорыв ядерных технологий I"
+  nuclear_breakthrough_in_warehouse_product_desc: "Искусственный прорыв ядерных технологий!"
+  nuclear_breakthrough_in_warehouse_product_2: "Прорыв ядерных технологий II"
+  nuclear_breakthrough_in_warehouse_product_2_desc: "Более эффективный искусственный прорыв ядерных технологий!"
+  nuclear_breakthrough_in_warehouse_product_3: "Прорыв ядерных технологий III"
+  nuclear_breakthrough_in_warehouse_product_3_desc: "Наиболее эффективный искусственный прорыв ядерных технологий!"
+
+  # Опыт армии
+  armyxp_in_warehouse_product: "Опыт армии I"
+  armyxp_in_warehouse_product_desc: "Искусственный опыт армии!"
+  armyxp_in_warehouse_product_2: "Опыт армии II"
+  armyxp_in_warehouse_product_2_desc: "Более эффективный искусственный опыт армии!"
+  armyxp_in_warehouse_product_3: "Опыт армии III"
+  armyxp_in_warehouse_product_3_desc: "Наиболее эффективный искусственный опыт армии!"
+
+  navyxp_in_warehouse_product: "Опыт флота I"
+  navyxp_in_warehouse_product_desc: "Искусственный опыт флота!"
+  navyxp_in_warehouse_product_2: "Опыт флота II"
+  navyxp_in_warehouse_product_2_desc: "Более эффективный искусственный опыт флота!"
+  navyxp_in_warehouse_product_3: "Опыт флота III"
+  navyxp_in_warehouse_product_3_desc: "Наиболее эффективный искусственный опыт флота!"
+
+  airxp_in_warehouse_product: "Опыт ВВС I"
+  airxp_in_warehouse_product_desc: "Искусственный опыт ВВС!"
+  airxp_in_warehouse_product_2: "Опыт ВВС II"
+  airxp_in_warehouse_product_2_desc: "Более эффективный искусственный опыт ВВС!"
+  airxp_in_warehouse_product_3: "Опыт ВВС III"
+  airxp_in_warehouse_product_3_desc: "Наиболее эффективный искусственный опыт ВВС!"
+
+  # Очки командования
+  command_power_in_warehouse_product: "Очки командования I"
+  command_power_in_warehouse_product_desc: "Искусственные очки командования!"
+  command_power_in_warehouse_product_2: "Очки командования II"
+  command_power_in_warehouse_product_2_desc: "Более эффективные искусственные очки командования!"
+  command_power_in_warehouse_product_3: "Очки командования III"
+  command_power_in_warehouse_product_3_desc: "Наиболее эффективные искусственные очки командования!"
+
+  # Напряженность в мире
+  world_tension_increase_in_warehouse_product: "Увеличение напряженности в мире"
+  world_tension_increase_in_warehouse_product_desc: "Мир становится напряженным! Но никто не знает почему!"
+  world_tension_decrease_in_warehouse_product: "Снижение напряженности в мире"
+  world_tension_decrease_in_warehouse_product_desc: "Никто не может объяснить, почему весь мир воюет, но напряженность отрицательная."
+
+  # Оборудование заводов
+  civilian_factory_in_warehouse_product: "Гражданский завод I"
+  civilian_factory_in_warehouse_product_desc: "Кто сказал, что люди не могут строить заводы на Марсе? —Илон Маск"
+  civilian_factory_in_warehouse_product_2: "Гражданский завод II"
+  civilian_factory_in_warehouse_product_2_desc: "Кто сказал, что люди не могут строить заводы на Марсе? —Илон Маск"
+  civilian_factory_in_warehouse_product_3: "Гражданский завод III"
+  civilian_factory_in_warehouse_product_3_desc: "Кто сказал, что люди не могут строить заводы на Марсе? —Илон Маск"
+
+  military_factory_in_warehouse_product: "Военный завод I"
+  military_factory_in_warehouse_product_desc: "Кто сказал, что люди не могут строить заводы на Марсе? —Илон Маск"
+  military_factory_in_warehouse_product_2: "Военный завод II"
+  military_factory_in_warehouse_product_2_desc: "Кто сказал, что люди не могут строить заводы на Марсе? —Илон Маск"
+  military_factory_in_warehouse_product_3: "Военный завод III"
+  military_factory_in_warehouse_product_3_desc: "Кто сказал, что люди не могут строить заводы на Марсе? —Илон Маск"
+
+  naval_dockyard_in_warehouse_product: "Военно-морская верфь I"
+  naval_dockyard_in_warehouse_product_desc: "Кто сказал, что люди не могут строить верфи на Марсе? —Илон Маск"
+  naval_dockyard_in_warehouse_product_2: "Военно-морская верфь II"
+  naval_dockyard_in_warehouse_product_2_desc: "Кто сказал, что люди не могут строить верфи на Марсе? —Илон Маск"
+  naval_dockyard_in_warehouse_product_3: "Военно-морская верфь III"
+  naval_dockyard_in_warehouse_product_3_desc: "Кто сказал, что люди не могут строить верфи на Марсе? —Илон Маск"
+
+  # Ресурсы
+  oil_in_warehouse_product: "Нефть I"
+  oil_in_warehouse_product_desc: "Мы изобрели способ добывать ресурсы голыми руками!"
+  oil_in_warehouse_product_2: "Нефть II"
+  oil_in_warehouse_product_2_desc: "Более эффективный способ добывать ресурсы голыми руками!"
+  oil_in_warehouse_product_3: "Нефть III"
+  oil_in_warehouse_product_3_desc: "Самый эффективный способ добывать ресурсы голыми руками!"
+
+  aluminium_in_warehouse_product: "Алюминий I"
+  aluminium_in_warehouse_product_desc: "Мы изобрели способ добывать ресурсы голыми руками!"
+  aluminium_in_warehouse_product_2: "Алюминий II"
+  aluminium_in_warehouse_product_2_desc: "Более эффективный способ добывать ресурсы голыми руками!"
+  aluminium_in_warehouse_product_3: "Алюминий III"
+  aluminium_in_warehouse_product_3_desc: "Самый эффективный способ добывать ресурсы голыми руками!"
+
+  rubber_in_warehouse_product: "Каучук I"
+  rubber_in_warehouse_product_desc: "Способ добывать каучук голыми руками!"
+  rubber_in_warehouse_product_2: "Каучук II"
+  rubber_in_warehouse_product_2_desc: "Более эффективный способ добывать каучук голыми руками!"
+  rubber_in_warehouse_product_3: "Каучук III"
+  rubber_in_warehouse_product_3_desc: "Самый эффективный способ добывать каучук голыми руками!"
+
+  steel_in_warehouse_product: "Сталь I"
+  steel_in_warehouse_product_desc: "Способ добывать сталь голыми руками!"
+  steel_in_warehouse_product_2: "Сталь II"
+  steel_in_warehouse_product_2_desc: "Более эффективный способ добывать сталь голыми руками!"
+  steel_in_warehouse_product_3: "Сталь III"
+  steel_in_warehouse_product_3_desc: "Самый эффективный способ добывать сталь голыми руками!"
+
+  tungsten_in_warehouse_product: "Вольфрам I"
+  tungsten_in_warehouse_product_desc: "Способ добывать вольфрам голыми руками!"
+  tungsten_in_warehouse_product_2: "Вольфрам II"
+  tungsten_in_warehouse_product_2_desc: "Более эффективный способ добывать вольфрам голыми руками!"
+  tungsten_in_warehouse_product_3: "Вольфрам III"
+  tungsten_in_warehouse_product_3_desc: "Самый эффективный способ добывать вольфрам голыми руками!"
+
+  chromium_in_warehouse_product: "Хром I"
+  chromium_in_warehouse_product_desc: "Способ добывать хром голыми руками!"
+  chromium_in_warehouse_product_2: "Хром II"
+  chromium_in_warehouse_product_2_desc: "Более эффективный способ добывать хром голыми руками!"
+  chromium_in_warehouse_product_3: "Хром III"
+  chromium_in_warehouse_product_3_desc: "Самый эффективный способ добывать хром голыми руками!"
+
+  # Очки исследований
+  research_point_in_warehouse_product: "Очки исследований I"
+  research_point_in_warehouse_product_desc: "Наука — главная производительная сила!"
+  research_point_in_warehouse_product_2: "Очки исследований II"
+  research_point_in_warehouse_product_2_desc: "Более эффективные искусственные очки исследований!"
+  research_point_in_warehouse_product_3: "Очки исследований III"
+  research_point_in_warehouse_product_3_desc: "Наиболее эффективные искусственные очки исследований!"
+
+  # Оборудование для соответствия
+  compliance_equipment_in_warehouse_product: "Оборудование для соответствия I"
+  compliance_equipment_in_warehouse_product_desc: "Искусственное оборудование для соответствия!"
+  compliance_equipment_in_warehouse_product_2: "Оборудование для соответствия II"
+  compliance_equipment_in_warehouse_product_2_desc: "Более эффективное искусственное оборудование для соответствия!"
+  compliance_equipment_in_warehouse_product_3: "Оборудование для соответствия III"
+  compliance_equipment_in_warehouse_product_3_desc: "Наиболее эффективное искусственное оборудование для соответствия!"
+
+  # Оборудование для подавления сопротивления
+  resistance_equipment_in_warehouse_product: "Оборудование для подавления сопротивления I"
+  resistance_equipment_in_warehouse_product_desc: "Искусственное оборудование для подавления сопротивления!"
+  resistance_equipment_in_warehouse_product_2: "Оборудование для подавления сопротивления II"
+  resistance_equipment_in_warehouse_product_2_desc: "Более эффективное искусственное оборудование для подавления сопротивления!"
+  resistance_equipment_in_warehouse_product_3: "Оборудование для подавления сопротивления III"
+  resistance_equipment_in_warehouse_product_3_desc: "Наиболее эффективное искусственное оборудование для подавления сопротивления!"
+
+  # Оборудование для коринга
+  coring_equipment_in_warehouse_product: "Оборудование для коринга I"
+  coring_equipment_in_warehouse_product_desc: "Наконец-то мы можем делать коринг в HOI4!"
+  coring_equipment_in_warehouse_product_2: "Оборудование для коринга II"
+  coring_equipment_in_warehouse_product_2_desc: "Более эффективное оборудование для коринга!"
+  coring_equipment_in_warehouse_product_3: "Оборудование для коринга III"
+  coring_equipment_in_warehouse_product_3_desc: "Наиболее эффективное искусственное оборудование для коринга!"
+
+  # Оборудование производительности заводов
+  factory_output_in_warehouse_product: "Производительность заводов I"
+  factory_output_in_warehouse_product_desc: "Базовое оборудование для производительности заводов!"
+  factory_output_in_warehouse_product_2: "Производительность заводов II"
+  factory_output_in_warehouse_product_2_desc: "Более эффективное оборудование для производительности заводов!"
+  factory_output_in_warehouse_product_3: "Производительность заводов III"
+  factory_output_in_warehouse_product_3_desc: "Наиболее эффективное оборудование для производительности заводов!"
+
+  # Оборудование слота оперативников
+  operative_slot_in_warehouse_product: "Слот оперативника I"
+  operative_slot_in_warehouse_product_desc: "Искусственный слот оперативника!"
+  operative_slot_in_warehouse_product_2: "Слот оперативника II"
+  operative_slot_in_warehouse_product_2_desc: "Более эффективное оборудование для слота оперативника!"
+  operative_slot_in_warehouse_product_3: "Слот оперативника III"
+  operative_slot_in_warehouse_product_3_desc: "Наиболее эффективное оборудование для слота оперативника!"
+
+  # Оборудование для увеличения автономии
+  increase_autonomy_in_warehouse_product: "Увеличение автономии I"
+  increase_autonomy_in_warehouse_product_desc: "Искусственное оборудование для увеличения автономии!"
+  increase_autonomy_in_warehouse_product_2: "Увеличение автономии II"
+  increase_autonomy_in_warehouse_product_2_desc: "Более эффективное искусственное оборудование для увеличения автономии!"
+  increase_autonomy_in_warehouse_product_3: "Увеличение автономии III"
+  increase_autonomy_in_warehouse_product_3_desc: "Наиболее эффективное искусственное оборудование для увеличения автономии!"
+
+  # Оборудование для снижения автономии
+  decrease_autonomy_in_warehouse_product: "Снижение автономии I"
+  decrease_autonomy_in_warehouse_product_desc: "Искусственное оборудование для снижения автономии!"
+  decrease_autonomy_in_warehouse_product_2: "Снижение автономии II"
+  decrease_autonomy_in_warehouse_product_2_desc: "Более эффективное искусственное оборудование для снижения автономии!"
+  decrease_autonomy_in_warehouse_product_3: "Снижение автономии III"
+  decrease_autonomy_in_warehouse_product_3_desc: "Наиболее эффективное искусственное оборудование для снижения автономии!"
+
+  ## Локализация склада (Исправлено и завершено)
+
+  # Людские ресурсы
+  man_in_warehouse: "Синтетическая рабочая сила"
+  man_in_warehouse_desc: "Синтетическая рабочая сила"
+
+  # Политическая власть
+  pp_in_warehouse: "Политическая власть"
+  pp_in_warehouse_desc: "Политическая власть"
+
+  # Стабильность
+  stability_in_warehouse: "Стабильность"
+  stability_in_warehouse_desc: "Стабильность"
+
+  # Поддержка войны
+  warsupport_in_warehouse: "Поддержка войны"
+  warsupport_in_warehouse_desc: "Поддержка войны"
+
+  # Идеология
+  democracy_in_warehouse: "Поддержка демократии"
+  democracy_in_warehouse_desc: "Поддержка демократии"
+  communism_in_warehouse: "Поддержка коммунизма"
+  communism_in_warehouse_desc: "Поддержка коммунизма"
+  neutrality_in_warehouse: "Поддержка нейтралитета"
+  neutrality_in_warehouse_desc: "Поддержка нейтралитета"
+  fascism_in_warehouse: "Поддержка фашизма"
+  fascism_in_warehouse_desc: "Поддержка фашизма"
+
+  # Прорыв военной инфраструктуры
+  army_breakthrough_in_warehouse: "Прорыв армии"
+  army_breakthrough_in_warehouse_desc: "Прорыв армии - активируется при 50%"
+  navy_breakthrough_in_warehouse: "Прорыв флота"
+  navy_breakthrough_in_warehouse_desc: "Прорыв флота - активируется при 50%"
+  air_breakthrough_in_warehouse: "Прорыв ВВС"
+  air_breakthrough_in_warehouse_desc: "Прорыв ВВС - активируется при 50%"
+  nuclear_breakthrough_in_warehouse: "Прорыв ядерных технологий"
+  nuclear_breakthrough_in_warehouse_desc: "Прорыв ядерных технологий - активируется при 50%"
+
+  # Опыт
+  armyxp_in_warehouse: "Опыт армии"
+  armyxp_in_warehouse_desc: "Опыт армии"
+  navyxp_in_warehouse: "Опыт флота"
+  navyxp_in_warehouse_desc: "Опыт флота"
+  airxp_in_warehouse: "Опыт ВВС"
+  airxp_in_warehouse_desc: "Опыт ВВС"
+
+  # Очки командования
+  command_power_in_warehouse: "Очки командования"
+  command_power_in_warehouse_desc: "Очки командования"
+
+  # Напряженность в мире
+  world_tension_increase_in_warehouse: "Увеличение напряженности в мире"
+  world_tension_increase_in_warehouse_desc: "Увеличение напряженности в мире"
+  world_tension_decrease_in_warehouse: "Снижение напряженности в мире"
+  world_tension_decrease_in_warehouse_desc: "Снижение напряженности в мире"
+
+  # Оборудование заводов
+  civilian_factory_in_warehouse: "Гражданский завод"
+  civilian_factory_in_warehouse_desc: "Гражданский завод"
+  military_factory_in_warehouse: "Военный завод"
+  military_factory_in_warehouse_desc: "Военный завод"
+  naval_dockyard_in_warehouse: "Военно-морская верфь"
+  naval_dockyard_in_warehouse_desc: "Военно-морская верфь"
+
+  # Ресурсы
+  oil_in_warehouse: "Нефть"
+  oil_in_warehouse_desc: "Будет производиться в столичном регионе"
+  aluminium_in_warehouse: "Алюминий"
+  aluminium_in_warehouse_desc: "Будет производиться в столичном регионе"
+  rubber_in_warehouse: "Каучук"
+  rubber_in_warehouse_desc: "Будет производиться в столичном регионе"
+  steel_in_warehouse: "Сталь"
+  steel_in_warehouse_desc: "Будет производиться в столичном регионе"
+  tungsten_in_warehouse: "Вольфрам"
+  tungsten_in_warehouse_desc: "Будет производиться в столичном регионе"
+  chromium_in_warehouse: "Хром"
+  chromium_in_warehouse_desc: "Будет производиться в столичном регионе"
+
+  # Очки исследований
+  research_point_in_warehouse: "Очки исследований"
+  research_point_in_warehouse_desc: "Очки исследований"
+
+  # Оборудование для соответствия (комплаенс)
+  compliance_equipment_in_warehouse: "Оборудование для соответствия"
+  compliance_equipment_in_warehouse_desc: "Активируется на неосновных территориях"
+
+  # Оборудование для подавления сопротивления
+  resistance_equipment_in_warehouse: "Оборудование для подавления сопротивления"
+  resistance_equipment_in_warehouse_desc: "Активируется в регионах, где сопротивление выше 10%"
+
+  # Оборудование для создания ядра (коринга)
+  coring_equipment_in_warehouse: "Оборудование для коринга"
+  coring_equipment_in_warehouse_desc: "Активируется в регионах, где соответствие выше 70%, а сопротивление ниже 10%"
+
+  # Слот оперативников
+  operative_slot_in_warehouse: "Слот оперативника"
+  operative_slot_in_warehouse_desc: "Слот оперативника"
+
+  # Оборудование автономии
+  increase_autonomy_in_warehouse: "Увеличение автономии - себя"
+  increase_autonomy_in_warehouse_desc: "Увеличение автономии"
+  decrease_autonomy_in_warehouse: "Снижение автономии - все марионетки"
+  decrease_autonomy_in_warehouse_desc: "Снижение автономии - все марионетки"
+
+  # Производительность заводов
+  factory_output_in_warehouse: "Производительность заводов"
+  factory_output_in_warehouse_desc: "Производительность заводов"
